@@ -1,0 +1,76 @@
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+body{
+	background-image: url("Components/Pic/y.jpg");
+	background-size:fill;
+  animation: backgroundAnimation 600s ease-out infinite;
+  font-family: 'Times New Roman', Times, serif;
+
+
+}
+.pic_info{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+.main_div{
+  background-color: white;
+  width: 75%;
+  margin: 0 auto;
+  border-radius: 8px;
+
+  
+  background: linear-gradient(
+    to top,
+    rgb(255, 255, 255) 50%,
+    #D9EAFC 70%
+  );  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(51, 14, 14, 0.23) 0px 6px 6px;
+}
+
+@keyframes backgroundAnimation{
+
+	0%{background-position: left center;}
+	50%{background-position: right center;}
+	100%{background-position: right center;}
+
+}
+
+.contact_div{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
