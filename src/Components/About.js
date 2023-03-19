@@ -21,9 +21,9 @@ export default function About() {
 
                 </p>
             </div>
-            <div class="center">
+            <div className="center">
 
-                <Link to="/Contact"><button class="name noselect">
+                <Link to="/Contact"><button className="name noselect">
                     Hire me
 
                 </button> </Link>
