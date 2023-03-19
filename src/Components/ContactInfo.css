@@ -1,0 +1,18 @@
+
+.contactinfo {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  
+  }
+  
+  .infocard a,li{
+    text-decoration: none;
+    list-style: none;
+    color: rgb(0, 0, 0);
+    font-weight:bold;
+    
+    
+    margin: 3px;
+  
+  }
