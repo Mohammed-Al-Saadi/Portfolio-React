@@ -71,6 +71,11 @@ input:checked + label:after {
  .dark .container_h h3{
    color: white;
  }
+ .dark #contact button[type="submit"]{
+   background-color: #3c8b4d;
+   color: white;
+
+ }
   
 @media (max-width: 990px) {
   input:checked {
