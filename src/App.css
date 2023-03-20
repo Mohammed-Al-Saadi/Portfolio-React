@@ -30,8 +30,6 @@ body{
   width: 75%;
   margin: 0 auto;
   border-radius: 8px;
-
-  
   background: linear-gradient(
     to top,
     rgb(255, 255, 255) 50%,
@@ -51,12 +49,14 @@ body{
   display: flex;
   flex-wrap: wrap;
 }
-@media (max-width: 600){
-  .main_div{
+@media (max-width: 990px){
+  .main_div  {
+width: 100%;  
+  
   }
+
     
-    
-    }
+  }
 
 
 

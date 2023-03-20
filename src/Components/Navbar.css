@@ -101,6 +101,7 @@ input[type="checkbox"]{
 
   }
 
+
 .container{
   justify-content: space-between;
   
@@ -123,12 +124,12 @@ width: 100%;
 
 
   .nav-elements.active {
-    width: 72%;
+    width: 98%;
     border-radius: 20px;
     display: flex;
     justify-content: center;
     background-color: #D3E4F5;
-    margin-right: 14%;
+    margin-right: 1%;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(51, 14, 14, 0.23) 0px 6px 6px;
   }
   .nav-elements.active a{
@@ -198,6 +199,7 @@ width: 100%;
 
 
 }
+
   
 }
 @media (max-width: 355px){
@@ -209,4 +211,5 @@ width: 100%;
 
     
   }
+  
 
