@@ -31,7 +31,7 @@ input[type="checkbox"]{
 }
 .nav-elements li:hover::after {
 
-  opacity: 1;
+  opacity: 0;
 
 
 }
@@ -206,6 +206,7 @@ width: 100%;
   
   
   }
+
     
   }
 

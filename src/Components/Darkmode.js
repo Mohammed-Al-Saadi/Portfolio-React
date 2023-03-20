@@ -23,7 +23,7 @@ export default function Darkmode() {
     return (
         <div className="theme">
 
-            <input onClick={handleClick} type="checkbox" id="switch" /><label className="toggle" for="switch"></label>
+            <input onClick={handleClick} type="checkbox" id="switch" /><label className="toggle" htmlFor="switch"></label>
 
         </div>
     );

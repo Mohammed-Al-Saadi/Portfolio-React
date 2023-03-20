@@ -1,6 +1,7 @@
 import React from "react";
 import './Card.css';
 import {  GiLobArrow } from "react-icons/gi"
+import { skills } from "./data";
 
 
 
@@ -13,7 +14,7 @@ export default function Card({ body, tittle, src }) {
 
     return (
         <div className="flip-card flex-wrap ">
-            <div className="flip-card-inner ">
+            <div className="flip-card-inner " >
                 <div className="flip-card-front" >
                     <div className="card_pic">
                        <img src={src} alt="pic"/>
@@ -24,7 +25,7 @@ export default function Card({ body, tittle, src }) {
                 </div>
                
                 <div className="flip-card-back">
-                    <h1>{body}</h1>
+                    <h1 >{body} </h1>
                 </div>
             </div>
         </div>

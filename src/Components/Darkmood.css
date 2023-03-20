@@ -46,13 +46,15 @@ input:checked + label:after {
 
 .dark {
     background-image: url("./Pic/sky.jpg");
+
     background-size:fill;
     animation: backgroundAnimation 400s ease-out infinite;
   }
   
   .dark .main_div{
     background-image: url("./Pic/sky.jpg");
-  
+
+
   }
   .dark .colz a{
 

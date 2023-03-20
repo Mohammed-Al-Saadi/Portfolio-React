@@ -60,8 +60,8 @@ export default function Navbar() {
 
 
 
-          <label className="size"  >
-            <input type="checkbox" onClick={handleShowNavbar} id="check" />
+          <label className="size" >
+            <input type="checkbox" onClick={handleShowNavbar} id="check"  />
             <span ></span>
             <span ></span>
             <span ></span>
