@@ -46,7 +46,7 @@ export default function ContactUs() {
                     <input placeholder="Your name" name="user_name" type="text" />
                     <input placeholder="Your Email Address" type="email" name="user_email" />
                     <textarea placeholder="Type your message here...." name="message"  ></textarea>
-                    <button type="submit" onClick={notify} >submit</button>
+                    <button type="submit" onClick={notify} >Submit</button>
 
                 </form>
             </div>
