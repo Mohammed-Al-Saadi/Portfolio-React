@@ -49,7 +49,7 @@ input:checked + label:after {
     rgb(255, 255, 255) 40%,
     rgb(199, 235, 255) 80%
   );
-  
+padding-bottom: 40px;  
 }
 
 
