@@ -40,6 +40,13 @@ input:checked + label:after {
 .dark {
 
   background:#334056;
+}
+:root body{
+  margin: 0px 0px;
+
+
+}
+ :root .dark{
   margin: 0px 0px;
 }
  :root{
@@ -50,6 +57,10 @@ input:checked + label:after {
     rgb(199, 235, 255) 80%
   );
 padding-bottom: 40px;  
+
+
+
+
 }
 
 

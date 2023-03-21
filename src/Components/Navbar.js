@@ -72,10 +72,10 @@ export default function Navbar() {
         <div  className={`nav-elements  ${showNavbar && 'active'}`}  >
           <ul >
             <li>
-              <Link onClick={() => { document.getElementById("close-button").click() }} to="/">Home</Link>
+              <Link  to="/">Home</Link>
             </li>
             <li>
-              <Link onClick={() => { document.getElementById("close-button").click() }} to="/Contact">Contact me</Link>
+              <Link  to="/Contact">Contact me</Link>
             </li>
             <li>
               <Link onClick={onButtonClick}>Resume <HiOutlineArrowCircleDown/> </Link>
