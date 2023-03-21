@@ -43,27 +43,17 @@ input:checked + label:after {
 }
 :root body{
   margin: 0px 0px;
-
-
 }
- :root .dark{
-  margin: 0px 0px;
-}
- :root{
+
+ body{
   background: linear-gradient(
     to top,
    
     rgb(255, 255, 255) 40%,
     rgb(199, 235, 255) 80%
   );
-
-
-
-
+  height: 100vh;
 }
-
-
-  
 
   .dark .colz a{
 
