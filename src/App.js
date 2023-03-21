@@ -16,7 +16,6 @@ function App() {
 
     <>
 
-      <div className="main_div">
         <Navbar />
 
         <Routes>
@@ -31,7 +30,6 @@ function App() {
 
         <Footer />
 
-      </div>
 
     </>
 

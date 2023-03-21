@@ -37,18 +37,19 @@ input:checked + label:after {
   transform: translateX(-100%);
 }
 
-.dark .main_div {
+.dark {
 
   background:#334056;
+  margin: 0px 0px;
 }
- .main_div{
+ :root{
   background: linear-gradient(
     to top,
    
     rgb(255, 255, 255) 40%,
     rgb(199, 235, 255) 80%
   );
-  margin: -10px 1px;
+  
 }
 
 
