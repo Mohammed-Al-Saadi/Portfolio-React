@@ -11,9 +11,9 @@ import education from './Pic/education.png'
 
 
 export const skills = [{
-  id: 1,
+
   img:frontend,
-  tittle: 'Front-end',
+  tittle: 'Front end',
   body: ['HTML',
   'CSS',
   'Java',
@@ -22,10 +22,11 @@ export const skills = [{
 
 
 },
+
 {
-id: 2,
+
 img:backend,
-tittle: 'Back-end',
+tittle: 'Back end',
 body: ['PHP',
 'MySQL',
 'RestAPI',
@@ -34,7 +35,7 @@ body: ['PHP',
 }
 ,
 {
-id: 3,
+
 img:otherskills,
 tittle: 'Other skills',
 body: ['OOP',
@@ -47,7 +48,7 @@ body: ['OOP',
  ]
 },
 {
-  id: 4,
+  
   img:education,
   tittle: 'Education',
   body: ['Häme University of applied sciences(Computer Applications) Second year',

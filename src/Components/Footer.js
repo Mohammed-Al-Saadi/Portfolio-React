@@ -14,16 +14,16 @@ export default function Footer() {
 
                 <div className="colz">
                     <a href='https://www.facebook.com/profile.php?id=100001946923572'>
-                    <i><GrFacebook size={22}/></i>
+                    <i><GrFacebook size={20}/></i>
                     </a>
                     <a href='https://www.instagram.com/mohammed.ali9o/?next=%2F'>
-                    <i><GrInstagram size={22}/></i>
+                    <i><GrInstagram size={20}/></i>
                     </a>
                     <a href='https://www.linkedin.com/in/mohammed-al-saadi-08a502264/'>
-                    <i><BsLinkedin size={22}/></i>
+                    <i><BsLinkedin size={20}/></i>
                     </a>
                     <a href='https://github.com/Mohammed-Al-Saadi'>
-                        <i><AiFillGithub size={22}/></i>
+                        <i><AiFillGithub size={20}/></i>
                     </a>
 
                 </div>

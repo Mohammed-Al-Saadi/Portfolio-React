@@ -13,7 +13,7 @@ export default function About() {
                     Hello, I'm Mohammed Al-Saadi
                 </h1>
                 <p>
-                    I'm studying my second year of Computer Applications in HAMK
+                    I'm studying my second year of Computer Applications at HAMK
                     , from where I aim to become a Full-stack developer.
                     I am self-guided and responsible - which helps me to grasp new concepts efficiently,
                     but I also understand the importance of team work and flexibility.

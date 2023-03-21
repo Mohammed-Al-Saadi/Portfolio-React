@@ -56,7 +56,9 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  margin-bottom: 250px;
 }
+
 
 #contact textarea {
   height: 100px;
@@ -65,6 +67,7 @@
   border-radius: 4px;
 
 }
+
 
 #contact button[type="submit"] {
   cursor: pointer;

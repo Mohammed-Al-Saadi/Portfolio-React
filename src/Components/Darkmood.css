@@ -12,29 +12,22 @@ input[type=checkbox]{
   background: grey;
   display: block;
   border-radius: 100px;
+  position: absolute;  
+  bottom: 1px;
 }
-.darkmood{
-    margin-top: 6.5px;
-}
+
 
 
 label:after {
   content: '';
   position: absolute;
-  top: 0px;
   left: 0px;
   width: 15px;
   height: 15px;
-  background: #fff;
+  background: rgb(24, 19, 19);
   border-radius: 90px;
 }
-.dark .nav-elements li::after {
 
-
-    background-color: rgb(255, 255, 255);
-
-  
-  }
 input:checked + label {
   background: #0094199c;
 }
@@ -44,18 +37,23 @@ input:checked + label:after {
   transform: translateX(-100%);
 }
 
-.dark {
-    background-image: url("./Pic/sky.jpg");
+.dark .main_div {
 
-    background-size:fill;
-    animation: backgroundAnimation 400s ease-out infinite;
-  }
+  background:#334056;
+}
+ .main_div{
+  background: linear-gradient(
+    to top,
+   
+    rgb(255, 255, 255) 40%,
+    rgb(199, 235, 255) 80%
+  );
+  margin: -10px -10px;
+}
+
+
   
-  .dark .main_div{
-    background-image: url("./Pic/sky.jpg");
 
-
-  }
   .dark .colz a{
 
     color: rgb(255, 255, 255);
@@ -72,7 +70,7 @@ input:checked + label:after {
    color: white;
  }
  .dark #contact button[type="submit"]{
-   background-color: #3c8b4d;
+   background-color: #368046;
    color: white;
 
  }
@@ -83,10 +81,11 @@ input:checked + label:after {
   }
 
     input:checked + label:after {
-        left: calc(30% - 5px);
+        left: calc(100% - 0px);
     }
    label:after{
-      background:rgb(93, 179, 35);
+      background:#368046;
+      
       
 
     }

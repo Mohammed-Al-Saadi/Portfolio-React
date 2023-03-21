@@ -54,7 +54,7 @@ export default function Navbar() {
     <nav className="navbar"  ref={menuRef} >
       <div className="container">
         <div className="logo">
-          <Link to="/"><p>Mohammed Al-Saadi, student at HAMK</p></Link>
+          <Link to="/"><p>Mohammed Al-Saadi</p></Link>
         </div>
         <div  className="menu-icon" >
 
@@ -81,6 +81,8 @@ export default function Navbar() {
               <Link onClick={onButtonClick}>Resume <HiOutlineArrowCircleDown/> </Link>
             </li>
             <li className="darkmood"><Darkmode /> </li>
+
+            
 
 
           </ul>
