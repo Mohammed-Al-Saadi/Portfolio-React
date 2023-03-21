@@ -37,7 +37,8 @@ input:checked + label:after {
   transform: translateX(-100%);
 }
 
-.dark {
+
+ .dark {
 
   background:#334056;
 }
@@ -46,9 +47,7 @@ input:checked + label:after {
 
 
 }
- :root .dark{
-  margin: 0px 0px;
-}
+
  :root{
   background: linear-gradient(
     to top,
@@ -56,7 +55,6 @@ input:checked + label:after {
     rgb(255, 255, 255) 40%,
     rgb(199, 235, 255) 80%
   );
-padding-bottom: 40px;  
 
 
 
