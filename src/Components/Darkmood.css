@@ -39,14 +39,16 @@ input:checked + label:after {
 
 .dark {
 
-  background:#334056;
+  background: rgb(0,4,40);
+  background: linear-gradient(90deg, rgba(0,4,40,1) 0%, rgba(0,78,146,1) 100%);
 }
 :root body{
   margin: 0px 0px;
 }
 
  body{
-
+  background: rgb(225,227,255);
+background: linear-gradient(90deg, rgba(225,227,255,1) 0%, rgba(243,249,255,1) 100%);
 }
 
   .dark .colz a{
