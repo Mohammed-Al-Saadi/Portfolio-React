@@ -47,6 +47,10 @@ input:checked + label:after {
   margin: 0px 0px;
 }
 
+.dark .navbar svg{
+  color:rgb(6, 122, 21);;
+}
+
  body{
 background: linear-gradient(90deg, rgba(225,227,255,1) 0%, rgba(243,249,255,1) 100%);
 }
@@ -80,12 +84,7 @@ background: linear-gradient(90deg, rgba(225,227,255,1) 0%, rgba(243,249,255,1) 1
     input:checked + label:after {
         left: calc(100% - 0px);
     }
-   label:after{
-      background:#6fce83;
-      
-      
 
-    }
  label.size::after{
    display: none;
  }

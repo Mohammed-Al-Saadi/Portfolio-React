@@ -1,6 +1,6 @@
 import  { useEffect, useState, useRef } from 'react'
 import { Link } from "react-router-dom";
-import { HiOutlineArrowCircleDown } from "react-icons/hi"
+import { MdDownloading } from "react-icons/md"
 import React from 'react';
 import './Navbar.css';
 import Darkmode from "./Darkmode";
@@ -78,7 +78,7 @@ export default function Navbar() {
               <Link  to="/Contact">Contact me</Link>
             </li>
             <li>
-              <Link onClick={onButtonClick}>Resume <HiOutlineArrowCircleDown/> </Link>
+              <Link onClick={onButtonClick}>Resume <MdDownloading/> </Link>
             </li>
             <li className="darkmood"><Darkmode /> </li>
 
