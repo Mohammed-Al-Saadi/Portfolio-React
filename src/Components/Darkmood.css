@@ -46,13 +46,7 @@ input:checked + label:after {
 }
 
  body{
-  background: linear-gradient(
-    to top,
-   
-    rgb(255, 255, 255) 40%,
-    rgb(199, 235, 255) 80%
-  );
-  height: 100vh;
+
 }
 
   .dark .colz a{

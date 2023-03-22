@@ -1,18 +1,34 @@
+.infocard li a{
+	font-weight: 500;
+	font-size: 24px;
+}
+svg{
+position: relative;
+top: 3px;
+ font-size: 22px;
+}
+.infocard{
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;  
+padding: 10px;
+margin-top: 80px;
 
-.contactinfo {
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-  
   }
-  
+
+
   .infocard a,li{
     text-decoration: none;
     list-style: none;
     color: rgb(0, 0, 0);
-    font-weight:bold;
+    margin-bottom: 5px;
     
-    
-    margin: 3px;
-  
+      
+  }
+  @media screen and (max-width:550px){
+    .infocard li a{
+      font-size: 14px;
+    }
+    svg{
+     
+       font-size: 18px;
+      }
   }
