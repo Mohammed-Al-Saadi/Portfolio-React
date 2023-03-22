@@ -9,7 +9,6 @@ import ContactInfo from './Components/ContactInfo';
 import { Route, Routes } from "react-router-dom";
 import Picture from './Components/Picture';
 import CardData from './Components/CardData';
-import Darkmode from './Components/Darkmode';
 
 function App() {
 
