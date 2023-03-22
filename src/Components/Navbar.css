@@ -136,8 +136,8 @@ width: 100%;
     border-radius: 20px;
     display: flex;
     justify-content: center;
-    background-color: rgb(199, 235, 255);
-    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(51, 14, 14, 0.23) 0px 6px 6px;
+    background: linear-gradient(90deg, rgba(225,227,255,1) 0%, rgba(243,249,255,1) 100%);
+    box-shadow: rgba(128, 113, 113, 0.19) 0px 10px 20px, rgba(51, 14, 14, 0.23) 0px 6px 6px;
   }
   .nav-elements.active a{
     font-size: 18px;

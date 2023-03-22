@@ -9,7 +9,7 @@ input[type=checkbox]{
   text-indent: -9999px;
   width: 30px;
   height: 15px;
-  background: grey;
+  background: rgb(187, 187, 187);
   display: block;
   border-radius: 100px;
   position: absolute;  
@@ -24,22 +24,23 @@ label:after {
   left: 0px;
   width: 15px;
   height: 15px;
-  background: rgb(24, 19, 19);
+  background: rgb(1, 39, 119);
   border-radius: 90px;
 }
 
+
 input:checked + label {
-  background: #0094199c;
+  background: #1616169c;
 }
 
 input:checked + label:after {
   left: calc(100% - 0px);
   transform: translateX(-100%);
+  background-color: rgb(6, 122, 21);
 }
 
 .dark {
 
-  background: rgb(0,4,40);
   background: linear-gradient(90deg, rgba(0,4,40,1) 0%, rgba(0,78,146,1) 100%);
 }
 :root body{
@@ -47,7 +48,6 @@ input:checked + label:after {
 }
 
  body{
-  background: rgb(225,227,255);
 background: linear-gradient(90deg, rgba(225,227,255,1) 0%, rgba(243,249,255,1) 100%);
 }
 
@@ -81,7 +81,7 @@ background: linear-gradient(90deg, rgba(225,227,255,1) 0%, rgba(243,249,255,1) 1
         left: calc(100% - 0px);
     }
    label:after{
-      background:#368046;
+      background:#6fce83;
       
       
 
@@ -98,16 +98,17 @@ background: linear-gradient(90deg, rgba(225,227,255,1) 0%, rgba(243,249,255,1) 1
       background: rgb(207, 207, 207);
     }
     .dark .nav-elements.active{
-      background:#334056;
+      background: linear-gradient(90deg, rgba(0,4,40,1) 0%, rgba(0,78,146,1) 100%);
   
     }
 
 }
 
+
 .dark #contact input[type="text"],
 .dark #contact input[type="email"],
 .dark #contact textarea {
-background-color:#334056 ;
+  background: linear-gradient(90deg, rgb(1, 6, 51) 0%, rgba(0,78,146,1) 100%);
 }
 .dark ::placeholder{
   color: rgb(255, 255, 255);
