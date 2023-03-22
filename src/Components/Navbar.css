@@ -4,6 +4,7 @@
   padding: 0 140px;
   display: flex;
   justify-content:space-between;
+  align-items: center;
 }
 .navbar{
   box-shadow: rgba(0, 0, 0, 0.15) 5.95px 1.95px 7.6px;
