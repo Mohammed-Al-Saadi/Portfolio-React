@@ -24,7 +24,7 @@ label:after {
   left: 0px;
   width: 15px;
   height: 15px;
-  background: rgb(1, 39, 119);
+  background: rgb(77, 103, 160);
   border-radius: 90px;
 }
 
@@ -42,6 +42,7 @@ input:checked + label:after {
 .dark {
 
   background: linear-gradient(90deg, rgba(0,4,40,1) 0%, rgba(0,78,146,1) 100%);
+  
 }
 :root body{
   margin: 0px 0px;

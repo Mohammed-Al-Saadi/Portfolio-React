@@ -4,16 +4,15 @@
   padding: 0 140px;
   display: flex;
   justify-content:space-between;
-  align-items:center;
 }
 .navbar{
   box-shadow: rgba(0, 0, 0, 0.15) 5.95px 1.95px 7.6px;
 }
 
 .nav-elements li {
-  position: relative;
+position: relative;
 display: flex;
-align-items: center;
+align-items:flex-end;
 }
 .nav-elements li::after {
 
@@ -59,8 +58,6 @@ align-items: center;
 .nav-elements ul {
   display: flex;
   align-content: center;
-  align-items: flex-end;
-  margin-right: 50px;
 }
 
 .nav-elements ul li:not(:last-child) {
