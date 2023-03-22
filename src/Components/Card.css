@@ -62,6 +62,7 @@
   .flip-card-front {
     color: rgb(0, 0, 0);
     font-size: 13px;
+    
 
   }
   .flip-card-front h1 {
@@ -79,7 +80,6 @@
     transform: rotateY(180deg);
     text-align: left;
     font-size: 10px;
-    background-color: white;
 
   }
   .cardh1 h1{
@@ -104,12 +104,12 @@
 }
 .dark .flip-card-back li {
   color: rgb(255, 255, 255);
+
 }
 
 /* Style the back side */
 .dark .flip-card-back {
   color: rgb(255, 255, 255);
-  background-color: rgb(1, 33, 63);
 
 
 }
