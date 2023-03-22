@@ -84,12 +84,12 @@
   padding: 5px;
   font-size: 15px;
   border-radius: 4px;
-  background-color: rgb(157, 207, 255);
+  background-color: #70d486;
   
 }
 
 #contact button[type="submit"]:hover {
-  background: #dcfadd;
+  background: #a7dda7;
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
   transition: background-color 0.3s ease-in-out;
