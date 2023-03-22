@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -17,24 +17,25 @@ export default function ContactUs() {
             draggable: true,
             progress: undefined,
             theme: "light",
-            });
+        });
     }
-    
+
     const sendEmail = (e) => {
         e.preventDefault();
-        //dealay time
-        setTimeout(function(){
-            window.location.reload();
-         }, 1000);
         //emailjs config id, service
 
         emailjs.sendForm('service_zy1oqvf', 'template_rbmt8va', form.current, 'YwJIiLEPe-Xm3FKSC')
             .then((result) => {
                 console.log(result.text);
+
+                //refresh contact form after submit
+                form.current.reset();
+
             }, (error) => {
                 console.log(error.text);
             });
     };
+ 
 
     return (
 
@@ -51,7 +52,7 @@ export default function ContactUs() {
                 </form>
             </div>
             <ToastContainer
-           
+
             />
         </div>
 
