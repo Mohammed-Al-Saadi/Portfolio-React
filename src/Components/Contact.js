@@ -4,7 +4,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import './Contact.css';
 import { ImUserTie, ImPhone, ImLocation2 } from "react-icons/im";
-import { IoIosMail } from "react-icons/io";
+import { MdEmail } from "react-icons/md";
 import { Link } from 'react-router-dom';
 
 
@@ -51,7 +51,7 @@ export default function ContactUs() {
                         <li><ImUserTie /><Link to=""> Mohammed Al-Saadi</Link></li><hr></hr>
                         <li><ImPhone /><Link to=""> +358 465566774</Link></li><hr></hr>
                         <li><ImLocation2 /><Link to=""> Finland, Tampere</Link></li><hr></hr>
-                        <li><IoIosMail /><Link to=""> al-saadi.mohammed@outlook.com</Link></li><hr></hr>
+                        <li><MdEmail /> <Link to=""> al-saadi.mohammed@outlook.com</Link></li><hr></hr>
 
                     </ul>
                 </div>
