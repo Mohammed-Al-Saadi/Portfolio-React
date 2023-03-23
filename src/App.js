@@ -24,7 +24,7 @@ function App() {
             <CardData />
           </div>
           </div>} />
-          <Route path="/contact" element={<div className="contact_div"><ContactInfo /><Contact /></div>} />
+          <Route path="/contact" element={<div className="contact_div"><Contact /></div>} />
           <Route path="/link" element={<Download />}  />
 
         </Routes>

@@ -47,15 +47,21 @@ input:checked + label:after {
 :root body{
   margin: 0px 0px;
 }
-
-.dark .navbar svg{
-  color:rgb(6, 122, 21);;
+body{
+  background: rgb(139,195,255);
+background: linear-gradient(100deg, rgba(139,195,255,1) 0%, rgba(195,223,255,1) 21%, rgba(255,255,255,1) 72%);
 }
 
- body{
-background: linear-gradient(90deg, rgba(225,227,255,1) 0%, rgba(243,249,255,1) 100%);
-}
 
+
+.dark .contact_div .container{
+  background-color: #1a3275;
+
+}
+.dark .contactinfo{
+  background-color: rgba(216, 0, 0, 0.596);
+
+}
   .dark .colz a{
 
     color: rgb(255, 255, 255);
@@ -64,8 +70,11 @@ background: linear-gradient(90deg, rgba(225,227,255,1) 0%, rgba(243,249,255,1) 1
   .dark .rights p{
     color: white;
   }
+  .dark .infocard ul a{
+    color: white;
+  }
   
- .dark .infocard a{
+ .dark .infocard li{
    color: white;
  }
  .dark .container_h h3{
@@ -103,12 +112,23 @@ background: linear-gradient(90deg, rgba(225,227,255,1) 0%, rgba(243,249,255,1) 1
     }
 
 }
-
+.dark hr{
+  background-color: white;
+  height: 3px;
+}
+.dark #verticle-line{
+  background-color: white;
+}
+.dark #contact textarea {
+  border-color: white;
+}
 
 .dark #contact input[type="text"],
 .dark #contact input[type="email"],
 .dark #contact textarea {
-  background: linear-gradient(90deg, rgb(1, 6, 51) 0%, rgba(0,78,146,1) 100%);
+  background: #1a3275;
+  ;
+  color: white;
 }
 .dark ::placeholder{
   color: rgb(255, 255, 255);
