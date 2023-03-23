@@ -149,10 +149,15 @@ hr{
   
   .contact_div .container{
   display: block;
+  margin-bottom: 20px;
  
     
   
   }
+  .contact_div{
+margin-top: 20px; 
+ }
+  
 
   
   }
@@ -198,7 +203,9 @@ hr{
         font-size: 18px;
       }
       .contactheader a{
-font-weight: 800;      }
+      font-weight: 800;    
+      }
+   
   
   
       svg{
