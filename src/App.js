@@ -5,7 +5,6 @@ import Footer from './Components/Footer';
 import About from './Components/About';
 import Contact from './Components/Contact';
 import Download from './Components/Download';
-import ContactInfo from './Components/ContactInfo';
 import { Route, Routes } from "react-router-dom";
 import Picture from './Components/Picture';
 import CardData from './Components/CardData';

@@ -1,10 +1,12 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import './Contact.css';
 import { ImUserTie, ImPhone, ImLocation2 } from "react-icons/im";
 import { IoIosMail } from "react-icons/io";
+import { Link } from 'react-router-dom';
+
 
 export default function ContactUs() {
     const form = useRef();
@@ -45,11 +47,11 @@ export default function ContactUs() {
             <div className="contactinfo">
                 <div className="infocard">
                     <ul>
-                        <li><a className="contactheader" href=""> Contact information</a></li><hr></hr>
-                        <li><ImUserTie /><a href="ImUserTie"> Mohammed Al-Saadi</a></li><hr></hr>
-                        <li><ImPhone /><a href="ImPhone"> +358 465566774</a></li><hr></hr>
-                        <li><ImLocation2 /><a href="ImLocation2"> Finland, Tampere</a></li><hr></hr>
-                        <li><IoIosMail /><a href="IoIosMail"> al-saadi.mohammed@outlook.com</a></li><hr></hr>
+                        <li className="contactheader"><Link to=""> Contact information</Link></li><hr></hr>
+                        <li><ImUserTie /><Link to=""> Mohammed Al-Saadi</Link></li><hr></hr>
+                        <li><ImPhone /><Link to=""> +358 465566774</Link></li><hr></hr>
+                        <li><ImLocation2 /><Link to=""> Finland, Tampere</Link></li><hr></hr>
+                        <li><IoIosMail /><Link to=""> al-saadi.mohammed@outlook.com</Link></li><hr></hr>
 
                     </ul>
                 </div>
