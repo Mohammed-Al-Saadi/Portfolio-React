@@ -26,10 +26,6 @@ hr{
   width: 100%;
   height: 4px;
   background-color: black;
-  
-  
-
-
 }
 .contactinfo li  {
   display: flex;
@@ -149,7 +145,7 @@ hr{
   
   .contact_div .container{
   display: block;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
  
     
   
@@ -161,7 +157,7 @@ margin-top: 20px;
 
   
   }
-  .infocard li {
+  .contactinfo li {
     font-weight: 500;
     font-size: 22px;
   }
@@ -181,7 +177,7 @@ margin-top: 20px;
   
   
   
-  .infocard {
+  .contactinfo {
       font-size: 30px;
     }
     .contactheader a {
@@ -191,27 +187,35 @@ margin-top: 20px;
     }
   
   
-    .contactinfo .infocard a,li{
+    .contactinfo  a,li{
       text-decoration: none;
       list-style: none;
       color: rgb(0, 0, 0);
       align-items: center;
      
     }
+  
     @media screen and (max-width:550px){
-      .infocard li a{
+      .contactinfo li a{
         font-size: 18px;
       }
       .contactheader a{
-      font-weight: 800;    
+      font-weight: 800;  
+      
+      
       }
-   
-  
-  
       svg{
        
          font-size: 18px;
         }
+    }
+
+    @media screen and (max-width:373px){
+      .contactinfo  a{
+
+        box-sizing: 200px;
+        overflow:scroll;
+      }
     }
     @media screen and (max-width:1030px){
   

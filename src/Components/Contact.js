@@ -45,16 +45,14 @@ export default function ContactUs() {
 
         <div className="container">
             <div className="contactinfo">
-                <div className="infocard">
                     <ul>
                         <li className="contactheader"><Link to=""> Contact information</Link></li><hr></hr>
                         <li><ImUserTie /><Link to=""> Mohammed Al-Saadi</Link></li><hr></hr>
                         <li><ImPhone /><Link to=""> +358 465566774</Link></li><hr></hr>
                         <li><ImLocation2 /><Link to=""> Finland, Tampere</Link></li><hr></hr>
-                        <li><MdEmail /> <Link to=""> al-saadi.mohammed@outlook.com</Link></li><hr></hr>
+                        <li className="emailbox"><MdEmail /><Link to=""> al-saadi.mohammed@outlook.com</Link></li><hr></hr>
 
                     </ul>
-                </div>
 
             </div>
             <div id="verticle-line"></div>

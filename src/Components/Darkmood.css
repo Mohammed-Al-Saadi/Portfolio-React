@@ -70,11 +70,11 @@ background: linear-gradient(100deg, rgba(139,195,255,1) 0%, rgba(195,223,255,1) 
   .dark .rights p{
     color: white;
   }
-  .dark .infocard ul a{
+  .dark .contactinfo ul a{
     color: white;
   }
   
- .dark .infocard li{
+ .dark .contactinfo li{
    color: white;
  }
  .dark .container_h h3{
@@ -133,4 +133,10 @@ background: linear-gradient(100deg, rgba(139,195,255,1) 0%, rgba(195,223,255,1) 
 .dark ::placeholder{
   color: rgb(255, 255, 255);
 
+}
+@media (max-width: 550px){
+  .infocard{
+    display: flex;
+    justify-content: flex-start;
+  }
 }
