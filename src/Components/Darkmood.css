@@ -15,7 +15,9 @@ input[type=checkbox]{
   position: absolute;  
   bottom: 3px;
 }
+.dark .contact_div .container{
 
+  box-shadow: rgba(255, 255, 255, 0.07) 0px 1px 2px, rgba(255, 255, 255, 0.07) 0px 2px 4px, rgba(255, 255, 255, 0.07) 0px 4px 8px, rgba(255, 255, 255, 0.07) 0px 8px 16px, rgba(255, 255, 255, 0.07) 0px 16px 32px, rgba(255, 255, 255, 0.07) 0px 32px 64px;}
 
 
 label:after {
@@ -55,11 +57,11 @@ background: linear-gradient(100deg, rgba(139,195,255,1) 0%, rgba(195,223,255,1) 
 
 
 .dark .contact_div .container{
-  background-color: #1a3275;
-
+  background-color:#1a327559;
+ 
 }
 .dark .contactinfo{
-  background-color: rgba(216, 0, 0, 0.596);
+  background-color: #12224efb;
 
 }
   .dark .colz a{
@@ -80,6 +82,7 @@ background: linear-gradient(100deg, rgba(139,195,255,1) 0%, rgba(195,223,255,1) 
  .dark .container_h h3{
    color: white;
  }
+
  .dark #contact button[type="submit"]{
    background-color: #368046;
    color: white;
@@ -126,7 +129,7 @@ background: linear-gradient(100deg, rgba(139,195,255,1) 0%, rgba(195,223,255,1) 
 .dark #contact input[type="text"],
 .dark #contact input[type="email"],
 .dark #contact textarea {
-  background: #1a3275;
+  background: #1a327507;
   ;
   color: white;
 }
