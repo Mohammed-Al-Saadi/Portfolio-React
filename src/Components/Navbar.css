@@ -10,6 +10,11 @@
   box-shadow: rgba(0, 0, 0, 0.15) 5.95px 1.95px 7.6px;
 }
 
+.logo img{
+  height: 50px;
+  width: 200px;
+
+}
 
 .nav-elements li {
   position: relative;
@@ -174,7 +179,7 @@ width: 100%;
   
   
   }
- 
+
    
    
    span:nth-of-type(1){

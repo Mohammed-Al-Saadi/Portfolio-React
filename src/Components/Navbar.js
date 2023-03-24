@@ -70,7 +70,7 @@ export default function Navbar() {
 
         </div>
         <div  className={`nav-elements  ${showNavbar && 'active'}`}  >
-          <ul >
+          <ul onClick={(()=>{setShowNavbar(false)})}>
             <li>
               <Link  to="/">Home</Link>
             </li>
