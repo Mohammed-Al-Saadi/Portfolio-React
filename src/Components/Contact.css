@@ -184,7 +184,8 @@ margin-top: 20px;
       font-family:'Times New Roman', Times, serif;
       font-size: 24px;
       font-weight: 500;
-    }
+      display: flex;
+}
   
   
     .contactinfo  a,li{
@@ -213,7 +214,6 @@ margin-top: 20px;
     @media screen and (max-width:373px){
       .contactinfo  a{
 
-        box-sizing: 200px;
         overflow:scroll;
       }
     }
@@ -221,9 +221,9 @@ margin-top: 20px;
   
       .contactinfo{
         border-radius: 20px 20px 0px 0px;
-        padding-bottom: 1px;
+        padding-bottom: 10px;
       
       }
-    
+
       
     }

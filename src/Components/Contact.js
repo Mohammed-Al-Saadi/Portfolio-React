@@ -7,6 +7,8 @@ import { ImUserTie, ImPhone, ImLocation2 } from "react-icons/im";
 import { MdEmail } from "react-icons/md";
 import { Link } from 'react-router-dom';
 
+import { RiContactsFill } from "react-icons/ri";
+
 
 export default function ContactUs() {
     const form = useRef();
@@ -45,12 +47,11 @@ export default function ContactUs() {
 
         <div className="container">
             <div className="contactinfo">
-                    <ul>
-                        <li className="contactheader"><Link to=""> Contact information</Link></li><hr></hr>
-                        <li><ImUserTie /><Link to=""> Mohammed Al-Saadi</Link></li><hr></hr>
-                        <li><ImPhone /><Link to=""> +358 465566774</Link></li><hr></hr>
-                        <li><ImLocation2 /><Link to=""> Finland, Tampere</Link></li><hr></hr>
-                        <li className="emailbox"><MdEmail /><Link to=""> al-saadi.mohammed@outlook.com</Link></li><hr></hr>
+                    <ul >
+                        <li className="contactheader"><Link to=""><RiContactsFill /> &nbsp;Contact information</Link></li><hr></hr>
+                        <li className="contactheader"><Link to=""> <ImUserTie /> &nbsp;Mohammed Al-Saadi</Link></li><hr></hr>
+                        <li className="contactheader"><Link to=""><ImPhone /> &nbsp;+358 465566774</Link></li><hr></hr>
+                        <li className="contactheader"><Link to=""><MdEmail /> &nbsp;al-saadi.mohammed@outlook.com</Link></li><hr></hr>
 
                     </ul>
 
