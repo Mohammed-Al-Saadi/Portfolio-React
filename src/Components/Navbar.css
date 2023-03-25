@@ -10,11 +10,17 @@
   box-shadow: rgba(0, 0, 0, 0.15) 5.95px 1.95px 7.6px;
 }
 
-.logo img{
-  height: 50px;
-  width: 200px;
+.logo img {
+  height:60px;
+  width: 200%;
+  mix-blend-mode:difference  ;
+  filter: contrast(1);
+  
+  
+  
 
 }
+
 
 .nav-elements li {
   position: relative;
