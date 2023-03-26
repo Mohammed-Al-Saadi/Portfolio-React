@@ -4,6 +4,7 @@ import { MdDownloading } from "react-icons/md"
 import React from 'react';
 import './Navbar.css';
 import Darkmode from "./Darkmode";
+import CircleType from 'circletype';
 
 
 
@@ -54,7 +55,8 @@ export default function Navbar() {
     <nav className="navbar"  ref={menuRef} >
       <div className="container">
         <div className="logo">
-          <Link to="/"><p>Mohammed Al-Saadi</p></Link>
+          <Link to="/"  ><p id="demo1">Mohammed Al-Saadi</p></Link>
+       
         </div>
         <div  className="menu-icon" >
 
