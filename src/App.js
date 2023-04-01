@@ -1,36 +1,34 @@
 import './App.css';
 import React from 'react';
-import Navbar from './Components/Navbar';
-import Footer from './Components/Footer';
-import About from './Components/About';
-import Contact from './Components/Contact';
-import Download from './Components/Download';
+import Pages from './Components/Pages';
 import { Route, Routes } from "react-router-dom";
-import Picture from './Components/Picture';
-import CardData from './Components/CardData';
+import Download from './Components/Download';
+import ContactUs from './Components/Contact';
+import Footer from './Components/Footer';
+import Navbar from './Components/Navbar';
+import Slider from './Components/Slider';
+
+
+
+
 
 function App() {
 
   return (
 
     <>
-
-        <Navbar />
-
-
-        <Routes>
-          <Route path="/" element={<div><div className='pic_info'><Picture /><About /></div><div className="card-home ">
-            <CardData />
-          </div>
-          </div>} />
-          <Route path="/contact" element={<div className="contact_div"><Contact /></div>} />
-          <Route path="/link" element={<Download />}  />
-
-        </Routes>
-
-        <Footer />
+     
+     <Navbar />
+                <Routes>
+                    <Route path="/" element={<div><div className='skills'><Pages /></div></div>} />
+                    <Route path="/contact"  element={<div className="contact_div"><ContactUs /><Footer /></div>} />
+                    <Route path="/link" element={<Download />} />
+                </Routes>
 
 
+                
+
+                <Footer />
     </>
 
   );

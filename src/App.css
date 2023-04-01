@@ -22,8 +22,14 @@ box-sizing:border-box ;
   justify-content: space-evenly;
 }
 
+.skills{
 
+	
+	
+}
+.skills_main{
 
+}
 
 @keyframes backgroundAnimation{
 
@@ -40,6 +46,7 @@ flex-direction: column;
 
 
 }
+
 @media (max-width: 990px){
   .main_div  {
 width: 100%;  
