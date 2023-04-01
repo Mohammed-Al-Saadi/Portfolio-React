@@ -112,15 +112,9 @@
 }
 
 /* Style the back side */
-.dark .flip-card-back {
-  color: rgb(255, 255, 255);
-  background: linear-gradient(90deg, rgb(7, 15, 85) 0%, rgba(0,78,146,1) 100%);
 
-
-
-}
 .more {
-  color: rgb(64, 131, 84);
+  color: rgb(33, 112, 63);
 }
 
   @media screen and (max-width:550px) {

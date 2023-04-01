@@ -3,12 +3,12 @@
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
     border-radius: 3px;
     display: flex;
-    background-color: #fff;
     gap: 10px;
     
 
     
 }
+
 .skills_main{
   width: 40%;
 
@@ -29,6 +29,7 @@
 .card_active p{
     font-size: 22px;
     margin-top: 80px;
+    color: black;
 }
 
 
@@ -40,12 +41,15 @@
 }
 
 .nav_buttons svg{
-    color: rgb(92, 170, 147);
+    color: rgb(33, 112, 63);
 }
 
 
 .card_active {
 margin-top: 28px;
+margin-left: 30px;
+
+
 
 }
 

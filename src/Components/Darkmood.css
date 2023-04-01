@@ -43,8 +43,7 @@ input:checked + label:after {
 
 .dark {
 
-  background: linear-gradient(90deg, rgba(0,4,40,1) 0%, rgb(22, 95, 158) 100%);
-  
+background-color: #09122c;  
 }
 .dark .navbar .container {
   background-color:unset;
@@ -57,14 +56,38 @@ body{
   background-color: rgb(255, 255, 255);
 }
 
-.dark  .flip-card-front, .flip-card-back {
+.dark  .flip-card-front {
 
   box-shadow: rgba(255, 255, 255, 0.12) 0px 2px 4px 0px, rgba(255, 255, 255, 0.32) 0px 2px 16px 0px;  
 
+background-color: #050a1ffa;
+}
+
+.dark .flip-card-back
+{
+
+  box-shadow: rgba(255, 255, 255, 0.12) 0px 2px 4px 0px, rgba(255, 255, 255, 0.32) 0px 2px 16px 0px;  
+
+background-color: #050a1ffa;
+}
+
+
+.dark .nav{
+  background-color: #050a1ffa;
+  box-shadow: rgba(255, 255, 255, 0.12) 0px 2px 4px 0px, rgba(255, 255, 255, 0.32) 0px 2px 16px 0px;  
+}
+.dark .card_active{
+  color: white;
 
 }
-.dark .nav{
-  box-shadow: rgba(255, 255, 255, 0.12) 0px 2px 4px 0px, rgba(255, 255, 255, 0.32) 0px 2px 16px 0px;  
+.dark .card_active p{
+color: white;
+}
+
+
+.dark .nav_buttons button{
+  background-color: #08112c;
+  color: white;
 
 }
 .dark    .html-div{
@@ -72,7 +95,7 @@ body{
 }
 .dark .main-slides{
   box-shadow: rgba(255, 255, 255, 0.12) 0px 2px 4px 0px, rgba(255, 255, 255, 0.32) 0px 2px 16px 0px;  
-background-color:rgba(14, 36, 109, 0.979);
+background-color:#050a1ffa;
 color: white;
   
 }
