@@ -57,8 +57,25 @@ body{
   background-color: rgb(255, 255, 255);
 }
 
+.dark  .flip-card-front, .flip-card-back {
+
+  box-shadow: rgba(255, 255, 255, 0.12) 0px 2px 4px 0px, rgba(255, 255, 255, 0.32) 0px 2px 16px 0px;  
 
 
+}
+.dark .nav{
+  box-shadow: rgba(255, 255, 255, 0.12) 0px 2px 4px 0px, rgba(255, 255, 255, 0.32) 0px 2px 16px 0px;  
+
+}
+.dark    .html-div{
+  background-color: unset;
+}
+.dark .main-slides{
+  box-shadow: rgba(255, 255, 255, 0.12) 0px 2px 4px 0px, rgba(255, 255, 255, 0.32) 0px 2px 16px 0px;  
+background-color:rgba(14, 36, 109, 0.979);
+color: white;
+  
+}
 .dark .contact_div .container{
   background-color:#1a327559;
  
