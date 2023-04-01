@@ -55,7 +55,7 @@ export default function Navbar() {
     <nav className="navbar" ref={menuRef} >
       <div className="container">
         <div className="logo">
-          <Link to="/"  ><p id="demo1">Mohammed Al-Saadi</p></Link>
+          <NavLink to="/"  ><p id="demo1">Mohammed Al-Saadi</p></NavLink>
 
         </div>
         <div className="menu-icon" >
