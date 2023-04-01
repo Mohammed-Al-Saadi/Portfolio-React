@@ -102,12 +102,16 @@ align-items: center;
 
       color: rgb(255, 255, 255);
     }  
-    
 
 @media (max-width: 990px) {
   .menu-icon {
     display: block;
     cursor: pointer;
+  }
+  .navbar .container {
+    justify-content: space-between;
+    padding: 0 10px;
+
   }
   .pic_info{
    flex-direction: column;
@@ -210,6 +214,10 @@ width: 100%;
     margin-top: 10px;
 
   }
+  .navbar .container {
+    padding: 0px 3px;
+
+  }
   
 }
 
@@ -224,7 +232,4 @@ width: 100%;
   }
   
 }
-
-
-  
 
