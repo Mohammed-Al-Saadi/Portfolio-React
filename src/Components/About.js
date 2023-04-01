@@ -19,7 +19,7 @@ export default function About() {
                     , from where I aim to become a Full-stack developer.
                     I am self-guided and responsible - which helps me to grasp new concepts efficiently,
                     but I also understand the importance of team work and flexibility.
-                    Please feel free to read more about my current areas of expertise from the cards below
+                    
 
                 </p>
             </div>

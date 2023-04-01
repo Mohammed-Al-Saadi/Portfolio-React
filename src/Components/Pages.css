@@ -57,7 +57,7 @@
         flex-direction: column;
     }
     .html-div{
-        background-color: rgba(144, 205, 241, 0.829);
+        background:rgba(177, 184, 176, 0.452);
         padding-bottom: 10px;
   
         width:100%;
@@ -85,7 +85,6 @@
      .html2-div .profile-container{
         display: block;
         margin-bottom: 150px;
-        padding-top: 0px;
         
 
     }

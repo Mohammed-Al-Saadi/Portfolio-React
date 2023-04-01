@@ -5,7 +5,7 @@
   display: flex;
   justify-content:space-around ;
   align-items:center;
-  background-color: rgba(204, 97, 97, 0.747);
+  background-color: rgba(177, 184, 176, 0.712);
 
 }
  .navbar {
@@ -53,7 +53,7 @@ align-items: center;
 }
 
 .nav-elements a.active{
-  color: rgb(255, 255, 255);
+  color: rgb(253, 253, 253);
 }
 
 
@@ -139,7 +139,7 @@ width: 100%;
     border-radius: 20px;
     display: flex;
     justify-content: center;
-    background-color: rgb(144, 205, 241);
+    background-color: rgb(177, 184, 176);
 
     box-shadow: rgba(128, 113, 113, 0.19) 0px 10px 20px, rgba(51, 14, 14, 0.23) 0px 6px 6px;
   }
@@ -215,7 +215,7 @@ width: 100%;
 
   }
   .navbar .container {
-    padding: 0px 3px;
+    padding: 0px 0px;
 
   }
   

@@ -48,7 +48,9 @@
   /* Do an horizontal flip when you move the mouse over the flip box container */
   .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
-  }
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;  }
+
+  
   
   /* Position the front and back side */
   .flip-card-front, .flip-card-back {

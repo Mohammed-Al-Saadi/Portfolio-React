@@ -3,16 +3,14 @@
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
     border-radius: 3px;
     display: flex;
-    flex-direction: row;
     background-color: #fff;
-    justify-content: flex-start;
-    gap: 15px;
+    gap: 10px;
     
 
     
 }
 .skills_main{
-  width: 50%;
+  width: 40%;
 
 }
 .button-17{
@@ -47,9 +45,7 @@
 
 
 .card_active {
-margin-top: 28px;  
-
-
+margin-top: 28px;
 
 }
 
@@ -127,6 +123,10 @@ margin-top: 28px;
         
         
         
+    }
+    .skills_main{
+      width: 50%;
+    
     }
     .nav{
    
