@@ -1,10 +1,12 @@
 
 
 .navbar .container {
-  padding: 0 140px;
+ 
   display: flex;
-  justify-content:space-between;
+  justify-content:space-around ;
   align-items:center;
+  background-color: rgba(204, 97, 97, 0.747);
+
 }
  .navbar {
   box-shadow: rgba(0, 0, 0, 0.15) 5.95px 1.95px 7.6px;
@@ -15,7 +17,7 @@
 
 .nav-elements li {
   position: relative;
-display: flex;
+  display: flex;
 align-items: center;
 }
 .nav-elements li::after {
@@ -50,7 +52,9 @@ align-items: center;
 
 }
 
-
+.nav-elements a.active{
+  background-color: aqua;
+}
 
 
 .menu-icon {
@@ -111,14 +115,6 @@ align-items: center;
 
   }
 
-
-.navbar .container{
-  justify-content: space-between;
-  padding: 0 10px;
-  
-}
-  
- 
 .AboutMe-Info{
 width: 100%;
 }

@@ -2,19 +2,15 @@
 
  
   
-import frontend from './Pic/frontend.jpg'
-import backend from './Pic/backend.png'
-import otherskills from './Pic/otherskills.jpg'
-import education from './Pic/education.png'
+
 
 
 
 
 export const skills = [{
-
-  img:frontend,
-  tittle: 'Frontend',
-  body: ['HTML',
+id:1,
+  
+body: ['HTML',
   'CSS',
   'Java',
   'JavaScripts',
@@ -24,9 +20,8 @@ export const skills = [{
 },
 
 {
+id:2,
 
-img:backend,
-tittle: 'Backend',
 body: ['PHP',
 'MySQL',
 'RestAPI',
@@ -35,9 +30,8 @@ body: ['PHP',
 }
 ,
 {
+id:3,
 
-img:otherskills,
-tittle: 'Other skills',
 body: ['OOP',
 'Docker',
 'Robot framework',
@@ -48,10 +42,9 @@ body: ['OOP',
  ]
 },
 {
-  
-  img:education,
-  tittle: 'Education',
-  body: ['Häme University of applied sciences(Computer Applications) Second year',
+
+id:4,
+body: ['Häme University of applied sciences(Computer Applications) Second year',
   'Al-Yarmouk University CollegeBachelor of Computer EngineeringCompleted in 2014',
   
    ]

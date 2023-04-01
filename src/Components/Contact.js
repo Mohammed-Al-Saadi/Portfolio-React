@@ -3,11 +3,13 @@ import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import './Contact.css';
-import { ImUserTie, ImPhone, ImLocation2 } from "react-icons/im";
+import { ImUserTie, ImPhone } from "react-icons/im";
 import { MdEmail } from "react-icons/md";
 import { Link } from 'react-router-dom';
 
+
 import { RiContactsFill } from "react-icons/ri";
+import Footer from './Footer';
 
 
 export default function ContactUs() {
@@ -44,9 +46,9 @@ export default function ContactUs() {
 
 
     return (
-
-        <div className="container">
-            <div className="contactinfo">
+        <div className="main-container">
+            <div className="container">
+                <div className="contactinfo">
                     <ul >
                         <li className="contactheader"><Link to=""><RiContactsFill /> &nbsp;Contact information</Link></li><hr></hr>
                         <li className="contactheader"><Link to=""> <ImUserTie /> &nbsp;Mohammed Al-Saadi</Link></li><hr></hr>
@@ -55,25 +57,31 @@ export default function ContactUs() {
 
                     </ul>
 
+                </div>
+                <div id="verticle-line"></div>
+
+                <div className="container_h">
+
+                    <form id="contact" ref={form} onSubmit={sendEmail} >
+                        <h3> Contact Me</h3>
+                        <hr></hr>
+
+                        <input placeholder="Your name..." name="user_name" type="text" />
+                        <input placeholder="Your Email Address..." type="email" name="user_email" />
+                        <textarea placeholder="Type your message here...." name="message"  ></textarea>
+                        <button type="submit" onClick={notify} >Submit</button>
+
+                    </form>
+                </div>
+
+                <ToastContainer />
+                
             </div>
-            <div id="verticle-line"></div>
+            <Footer />
 
-            <div className="container_h">
-
-                <form id="contact" ref={form} onSubmit={sendEmail} >
-                    <h3> Contact Me</h3>
-                    <hr></hr>
-
-                    <input placeholder="Your name..." name="user_name" type="text" />
-                    <input placeholder="Your Email Address..." type="email" name="user_email" />
-                    <textarea placeholder="Type your message here...." name="message"  ></textarea>
-                    <button type="submit" onClick={notify} >Submit</button>
-
-                </form>
-            </div>
-            <ToastContainer />
 
         </div>
+
 
 
 

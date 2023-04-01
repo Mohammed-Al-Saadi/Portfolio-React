@@ -1,11 +1,9 @@
-import  { useEffect, useState, useRef } from 'react'
-import { Link } from "react-router-dom";
+import { useEffect, useState, useRef } from 'react'
+import { Link, NavLink } from "react-router-dom";
 import { MdDownloading } from "react-icons/md"
 import React from 'react';
 import './Navbar.css';
 import Darkmode from "./Darkmode";
-import CircleType from 'circletype';
-
 
 
 
@@ -22,18 +20,18 @@ export default function Navbar() {
   }
   //click anywhere to leave menu
   let menuRef = useRef();
-  useEffect(()=>{
-    let handler =(e)=>{
-      if(!menuRef.current.contains(e.target)){
-      setShowNavbar(false)
+  useEffect(() => {
+    let handler = (e) => {
+      if (!menuRef.current.contains(e.target)) {
+        setShowNavbar(false)
       }
-    } 
-    document.addEventListener("mousedown",handler)
+    }
+    document.addEventListener("mousedown", handler)
   })
 
 
 
-//pdf Download
+  //pdf Download
   const onButtonClick = () => {
     fetch('resume_mohammed.pdf').then(response => {
       response.blob().then(blob => {
@@ -51,45 +49,47 @@ export default function Navbar() {
   }
 
 
+
+
   return (
-    <nav className="navbar"  ref={menuRef} >
+    <nav className="navbar" ref={menuRef} >
       <div className="container">
         <div className="logo">
           <Link to="/"  ><p id="demo1">Mohammed Al-Saadi</p></Link>
-       
+
         </div>
-        <div  className="menu-icon" >
+        <div className="menu-icon" >
 
 
 
           <label className="size" >
-            <input type="checkbox" onClick={handleShowNavbar} id="check"  />
+            <input type="checkbox" onClick={handleShowNavbar} id="check" />
             <span ></span>
             <span ></span>
             <span ></span>
-            
+
           </label>
 
         </div>
-        <div  className={`nav-elements  ${showNavbar && 'active'}`}  >
-          <ul onClick={(()=>{setShowNavbar(false)})}>
+        <div className={`nav-elements  ${showNavbar && 'active'}`}  >
+          <ul onClick={(() => { setShowNavbar(false) })}>
             <li>
-              <Link  to="/">Home</Link>
+              <NavLink to="/">Home</NavLink>
             </li>
             <li>
-              <Link  to="/Contact">Contact me</Link>
+            <NavLink  to="/Contact">Contact me</NavLink>
             </li>
-            <li>
-              <Link onClick={onButtonClick}>Resume <MdDownloading/> </Link>
+            <li onClick={onButtonClick}>
+            <Link>Resume <MdDownloading/> </Link>
             </li>
-            <li className="darkmood"><Darkmode /> </li>
+            <li className="darkmood"><Darkmode /></li>
 
-            
+
 
 
           </ul>
         </div>
-        </div>
+      </div>
     </nav>
   )
 }
