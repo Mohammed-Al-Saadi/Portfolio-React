@@ -57,6 +57,7 @@ margin-top: 28px;
 .card_active svg{
     color: rgb(33, 112, 63);
     position: relative;
+    top: 3px;
     
 
 }
