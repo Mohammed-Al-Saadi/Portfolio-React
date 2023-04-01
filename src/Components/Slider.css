@@ -50,13 +50,13 @@ margin-bottom: 100px;
 @media (max-width: 550px) {
 
  img {
-    height: 100px;
+    height: 130px;
 }
 .main-slides{
     width: 98%;
 }
 .carousel-root{
-    height: 130px;
+    height: 150px;
 }
 h1{
     font-size: 18px;
