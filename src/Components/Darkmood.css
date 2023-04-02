@@ -77,7 +77,10 @@ background-color: #050a1ffa;
 
 background-color: #050a1ffa;
 }
+.dark .nav-elements.active {
+  box-shadow: rgba(255, 255, 255, 0.12) 0px 2px 4px 0px, rgba(255, 255, 255, 0.32) 0px 2px 16px 0px;  
 
+}
 
 .dark .nav{
   background-color: #050a1ffa;
