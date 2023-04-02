@@ -10,7 +10,8 @@ import { BsCheckCircle } from "react-icons/bs"
 
 export default function Card() {
 
-
+const educ =["Häme University of applied sciences(Computer Applications) Second year"
+,"Al-Yarmouk University College Bachelor of Computer Engineering Completed in 2014"]
 
 
 
@@ -27,12 +28,9 @@ export default function Card() {
                 </div>
 
                 <div className="flip-card-back">
-                    
-                        <li>< BsCheckCircle/> Häme University of applied sciences(Computer Applications) Second year</li>
-                        <li>< BsCheckCircle/> Al-Yarmouk University CollegeBachelor of Computer EngineeringCompleted in 2014</li>
-                    
+                    {educ.map((obj, index)=>{return <div className="education-render" key={index}><div>< BsCheckCircle/></div><div>{obj}</div></div>})}
                 </div>
             </div>
         </div>
     )
-}
+} 

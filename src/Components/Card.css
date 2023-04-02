@@ -44,6 +44,8 @@
 
 
   }
+
+
   
   /* Do an horizontal flip when you move the mouse over the flip box container */
   .flip-card:hover .flip-card-inner {
@@ -84,19 +86,28 @@
     color: rgb(0, 0, 0);
     transform: rotateY(180deg);
     text-align: start;
-    font-size: 24px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 
+  }
+
+  .education-render{
+    display: flex;
+    gap: 5px;
+    
+  }
+  .education-render svg{
+    color:  rgb(33, 112, 63);
+    font-size: 27px;
+    
   }
   .cardh1 h1{
     margin-top:8px;
   }
 
-.flip-card-back h1{
 
- 
-}
-
-  
   .card_icon svg{
     color: rgb(0, 133, 88);
     font-size: 22px; 
@@ -122,6 +133,9 @@
       width: 100%;
       margin: 0 auto;
       margin-top: 40px;
+    }
+    .flip-card-back{
+
     }
     
   }

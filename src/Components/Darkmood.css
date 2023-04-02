@@ -9,7 +9,7 @@ input[type=checkbox]{
   text-indent: -9999px;
   width: 30px;
   height: 15px;
-  background: rgb(187, 187, 187);
+  background: rgb(231, 228, 228);
   display: block;
   border-radius: 100px;
   position: absolute;  
@@ -32,7 +32,7 @@ label:after {
 
 
 input:checked + label {
-  background: #1616169c;
+  background: #ffffff;
 }
 
 input:checked + label:after {
@@ -100,11 +100,12 @@ color: white;
   
 }
 .dark .contact_div .container{
-  background-color:#1a327559;
+  background-color: #050a1fbe;
  
 }
+
 .dark .contactinfo{
-  background-color: #12224efb;
+  background-color:  #050a1ffa;
 
 }
   .dark .colz a{
@@ -145,7 +146,7 @@ color: white;
    display: none;
  }
     input:checked + label {
-      background: #000000ce;
+      background: #000000;
     }
  
   
@@ -153,7 +154,7 @@ color: white;
       background: rgb(207, 207, 207);
     }
     .dark .nav-elements.active{
-      background: linear-gradient(90deg, rgba(0,4,40,1) 0%, rgba(0,78,146,1) 100%);
+      background: #050a1ffa;
   
     }
 
