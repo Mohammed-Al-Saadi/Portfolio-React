@@ -9,8 +9,11 @@
 
 }
  .navbar {
-  box-shadow: rgba(0, 0, 0, 0.15) 5.95px 1.95px 7.6px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 4px 0px, rgba(0, 0, 0, 0.32) 0px 2px 16px 0px; 
+
 }
+
+
 
 
 
