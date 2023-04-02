@@ -27,9 +27,10 @@
 
 }
 .card_active p{
-    font-size: 22px;
+    font-size: 24px;
     margin-top: 80px;
     color: black;
+    font-weight: 500;
 }
 
 
@@ -167,6 +168,7 @@ margin-left: 30px;
     font-size:18px;
    
   }
+
   .nav_active{
     margin: 0px;
   }
@@ -208,7 +210,6 @@ margin-left: 30px;
     .card_active {
  
 width: 100%;  
-margin-left: 40px;
 
 }
 

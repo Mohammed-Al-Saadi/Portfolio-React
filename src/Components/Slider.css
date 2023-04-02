@@ -14,16 +14,17 @@
 .carousel-root{
     height: 230px;
 }
-h1{
-    font-size: 24px;
-}
+
 .thumbs{
     display: none;
 }
 
 .main-slides {
 background-color: #d8d8d8;
-margin-bottom: 100px;
+}
+.main-slides h1{
+    font-size: 28px;
+    font-weight: 500;
 }
 .main-slides .carousel-slider .control-dots {
     position: absolute;
@@ -58,7 +59,7 @@ margin-bottom: 100px;
 .carousel-root{
     height: 140px;
 }
-h1{
-    font-size: 18px;
+.main-slides h1{
+    font-size: 24px;
 }
 }

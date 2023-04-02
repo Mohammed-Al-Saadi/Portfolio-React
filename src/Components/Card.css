@@ -68,14 +68,17 @@
   /* Style the front side (fallback if image is missing) */
   .flip-card-front {
     color: rgb(0, 0, 0);
-    font-size: 13px;
+    background-color: #d8d8d8;
+
     
 
   }
   .flip-card-front h1 {
     display: flex;
     justify-content: space-evenly;
+    font-size: 28px;
     font-weight: 500;
+
 
 
   }
@@ -90,6 +93,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    background-color: #d8d8d8;
+
 
   }
 
@@ -135,8 +140,11 @@
       margin: 0 auto;
       margin-top: 40px;
     }
-    .flip-card-back{
-
+    .flip-card-front h1 {
+  font-size: 26px;
+  
+  
+  
     }
     
   }
