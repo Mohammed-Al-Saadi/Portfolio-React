@@ -40,7 +40,8 @@
     
     
 
-    
+    border-radius: 8px;
+
     
 
 
@@ -96,6 +97,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     background-color: #d8d8d8;
+
 
 
   }
