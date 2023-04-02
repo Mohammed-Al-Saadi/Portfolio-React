@@ -1,0 +1,202 @@
+input[type=checkbox]{
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+.toggle {
+  cursor: pointer;
+  text-indent: -9999px;
+  width: 30px;
+  height: 15px;
+  background: rgb(231, 228, 228);
+  display: block;
+  border-radius: 100px;
+  position: absolute;  
+  bottom: 3px;
+}
+.dark .contact_div .container{
+
+  box-shadow: rgba(255, 255, 255, 0.07) 0px 1px 2px, rgba(255, 255, 255, 0.07) 0px 2px 4px, rgba(255, 255, 255, 0.07) 0px 4px 8px, rgba(255, 255, 255, 0.07) 0px 8px 16px, rgba(255, 255, 255, 0.07) 0px 16px 32px, rgba(255, 255, 255, 0.07) 0px 32px 64px;}
+
+
+label:after {
+  content: '';
+  position: absolute;
+  left: 0px;
+  width: 15px;
+  height: 15px;
+  background: rgb(77, 103, 160);
+  border-radius: 90px;
+}
+
+
+input:checked + label {
+  background: #ffffff;
+}
+
+input:checked + label:after {
+  left: calc(100% - 0px);
+  transform: translateX(-100%);
+  background-color: rgb(6, 122, 21);
+}
+
+.dark {
+
+background-color: #09122c;  
+}
+.dark .navbar .container {
+  background-color:unset;
+}
+:root body{
+  margin: 0px 0px;
+
+}
+body{
+  background-color: rgb(255, 255, 255);
+}
+
+.dark  .flip-card-front {
+
+  box-shadow: rgba(255, 255, 255, 0.12) 0px 2px 4px 0px, rgba(255, 255, 255, 0.32) 0px 2px 16px 0px;  
+background-color: #050a1ffa;
+}
+.dark .education-render{
+  color: white;
+}
+.dark .navbar {
+  box-shadow: rgba(255, 255, 255, 0.12) 0px 2px 4px 0px, rgba(255, 255, 255, 0.32) 0px 2px 16px 0px;
+  }
+
+
+.dark .flip-card-back
+
+{
+
+  box-shadow: rgba(255, 255, 255, 0.12) 0px 2px 4px 0px, rgba(255, 255, 255, 0.32) 0px 2px 16px 0px;  
+
+background-color: #050a1ffa;
+}
+.dark .nav-elements.active {
+  box-shadow: rgba(255, 255, 255, 0.12) 0px 2px 4px 0px, rgba(255, 255, 255, 0.32) 0px 2px 16px 0px;  
+
+}
+.dark .nav-elements a.active{
+  color: rgb(51, 173, 102);
+}
+
+.dark .nav{
+  background-color: #050a1ffa;
+  box-shadow: rgba(255, 255, 255, 0.12) 0px 2px 4px 0px, rgba(255, 255, 255, 0.32) 0px 2px 16px 0px;  
+}
+.dark .card_active{
+  color: white;
+
+}
+.dark .card_active p{
+color: white;
+}
+
+
+.dark .nav_buttons button{
+  background-color: #08112c;
+  color: white;
+
+}
+.dark    .html-div{
+  background-color: unset;
+}
+.dark .main-slides{
+  box-shadow: rgba(255, 255, 255, 0.12) 0px 2px 4px 0px, rgba(255, 255, 255, 0.32) 0px 2px 16px 0px;  
+background-color:#050a1ffa;
+color: white;
+  
+}
+.dark .contact_div .container{
+  background-color: #050a1fbe;
+ 
+}
+
+.dark .contactinfo{
+  background-color:  #050a1ffa;
+
+}
+  .dark .colz a{
+
+    color: rgb(255, 255, 255);
+    
+  }
+  .dark .rights p{
+    color: white;
+  }
+  .dark .contactinfo ul a{
+    color: white;
+  }
+  
+ .dark .contactinfo li{
+   color: white;
+ }
+ .dark .container_h h3{
+   color: white;
+ }
+
+ .dark #contact button[type="submit"]{
+   background-color: #368046;
+   color: white;
+
+ }
+  
+@media (max-width: 990px) {
+  input:checked {
+    display: none;
+  }
+
+    input:checked + label:after {
+        left: calc(100% - 0px);
+    }
+
+ label.size::after{
+   display: none;
+ }
+    input:checked + label {
+      background: #000000;
+    }
+ 
+  
+    .toggle{
+      background: rgb(207, 207, 207);
+    }
+    .dark .nav-elements.active{
+      background: #050a1ffa;
+  
+    }
+
+}
+.dark hr{
+  background-color: white;
+  height: 3px;
+}
+.dark #verticle-line{
+  background-color: white;
+}
+.dark #contact textarea {
+  border-color: white;
+}
+
+.dark #contact input[type="text"],
+.dark #contact input[type="email"],
+.dark #contact textarea {
+  background: #1a327507;
+  ;
+  color: white;
+}
+.dark ::placeholder{
+  color: rgb(255, 255, 255);
+
+}
+@media (max-width: 550px){
+  .infocard{
+    display: flex;
+    justify-content: flex-start;
+  }
+}

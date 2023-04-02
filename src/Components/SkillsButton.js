@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import SkillsCard from './SkillsCard'
-import './SkillsButton.css'
+import './css/SkillsButton.css'
 import { skills } from './data'
 import { GiClick } from "react-icons/gi"
 

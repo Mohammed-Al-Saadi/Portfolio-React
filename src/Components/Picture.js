@@ -1,6 +1,6 @@
 import React from "react";
-import img from './Pic/a.jpg';
-import './Picture.css';
+import img from './Pic/profile.jpg';
+import './css/Picture.css';
 
 export default function Picture() {
 

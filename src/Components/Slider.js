@@ -1,6 +1,5 @@
 import React from 'react';
-import './Slider.css'
-import education from './Pic/education.png'
+import './css/Slider.css'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import CC1 from './Pic/CC1.png'
