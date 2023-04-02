@@ -96,12 +96,13 @@
   .education-render{
     display: flex;
     gap: 5px;
+    margin-left: 5px;
+
     
   }
   .education-render svg{
     color:  rgb(33, 112, 63);
     font-size: 27px;
-    
   }
   .cardh1 h1{
     margin-top:8px;
