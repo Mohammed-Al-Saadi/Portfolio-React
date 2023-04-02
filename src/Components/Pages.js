@@ -1,11 +1,10 @@
 import About from './About'
-import './Pages.css'
+import './css/Pages.css'
 import Picture from './Picture'
 import Card from '../Components/Card';
 import SkillsButton from '../Components/SkillsButton';
 import Footer from './Footer';
 import Slider from './Slider';
-import Navbar from './Navbar';
 
 
 

@@ -2,7 +2,7 @@ import React from 'react'
 import {   BsLinkedin } from "react-icons/bs"
 import {   GrInstagram,GrFacebook } from "react-icons/gr"
 import {   AiFillGithub } from "react-icons/ai"
-import './Footer.css'
+import './css/Footer.css'
 
 
 export default function Footer() {

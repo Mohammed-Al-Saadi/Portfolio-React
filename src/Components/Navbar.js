@@ -2,7 +2,7 @@ import { useEffect, useState, useRef } from 'react'
 import { Link, NavLink } from "react-router-dom";
 import { MdDownloading } from "react-icons/md"
 import React from 'react';
-import './Navbar.css';
+import './css/Navbar.css';
 import Darkmode from "./Darkmode";
 
 
