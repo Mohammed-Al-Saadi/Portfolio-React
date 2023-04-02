@@ -19,6 +19,17 @@
     text-shadow: 0px 0px 0px;
     color: rgb(11, 10, 112);
 }
+.main-slides .carousel .control-prev.control-arrow:before {
+    border-right: 8px solid #000;
+}
+.main-slides .carousel .control-next.control-arrow:before {
+    border-left: 8px solid rgb(14, 1, 1);
+}
+.main-slides .thumbs-wrapper{
+    display: none;
+}
+
+
 
 .thumbs{
     display: none;
