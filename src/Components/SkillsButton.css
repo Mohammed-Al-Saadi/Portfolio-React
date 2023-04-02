@@ -4,9 +4,16 @@
     border-radius: 3px;
     display: flex;
     gap: 10px;
+    border-radius: 8px;
     
 
     
+}
+.bt2{
+  border-radius: 0px 0px 0px 8px;
+}
+.bt1{
+  border-radius: 8px 0px 0px 0px;
 }
 
 .skills_main{

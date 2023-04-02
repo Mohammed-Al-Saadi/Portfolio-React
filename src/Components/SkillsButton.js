@@ -23,9 +23,9 @@ export default function SkillsButton() {
                 <nav className="nav_buttons">
 
 
-                    <button className="button-17"  onClick={() => setActive("Frontend")}> Frontend<GiClick /></button>
+                    <button className="button-17 bt1"  onClick={() => setActive("Frontend")}> Frontend<GiClick /></button>
                     <button className="button-17"  onClick={() => setActive("Backend")}> Backend<GiClick /></button>
-                    <button className="button-17"  onClick={() => setActive("Other Skills")}>Other skills <GiClick /></button>
+                    <button className="button-17 bt2"  onClick={() => setActive("Other Skills")}>Other skills <GiClick /></button>
 
 
 
