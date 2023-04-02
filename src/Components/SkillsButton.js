@@ -17,15 +17,15 @@ export default function SkillsButton() {
 
     return (
         <div className="skills_main">
-                            
+
 
             <div className="nav">
                 <nav className="nav_buttons">
 
 
-                    <button className="button-17 bt1"  onClick={() => setActive("Frontend")}> Frontend<GiClick /></button>
-                    <button className="button-17"  onClick={() => setActive("Backend")}> Backend<GiClick /></button>
-                    <button className="button-17 bt2"  onClick={() => setActive("Other Skills")}>Other skills <GiClick /></button>
+                    <button className="button-17 bt1" onClick={() => setActive("Frontend")}> Frontend<GiClick /></button>
+                    <button className="button-17" onClick={() => setActive("Backend")}> Backend<GiClick /></button>
+                    <button className="button-17 bt2" onClick={() => setActive("Other Skills")}>Other skills <GiClick /></button>
 
 
 
@@ -33,7 +33,7 @@ export default function SkillsButton() {
 
                 <div className="card_active">
 
-                     {active === "message" && <p className="skills-main-page">Skills && Technology's</p>}
+                    {active === "message" && <p className="skills-main-page">Skills && Technology's</p>}
 
 
 

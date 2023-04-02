@@ -15,11 +15,9 @@
     height: 230px;
 }
 .main-slides .carousel .carousel-status {
-
-    padding: 5px;
-    font-size: 10px;
-    text-shadow: 0px 0px 0px rgba(15, 12, 12, 0.9);
-    color: #6a1285;
+ 
+    text-shadow: 0px 0px 0px;
+    color: rgb(11, 10, 112);
 }
 
 .thumbs{
