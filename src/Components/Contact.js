@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import './Contact.css';
+import './css/Contact.css';
 import { ImUserTie, ImPhone } from "react-icons/im";
 import { MdEmail } from "react-icons/md";
 import { Link } from 'react-router-dom';

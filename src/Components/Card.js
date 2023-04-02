@@ -1,5 +1,5 @@
 import React from "react";
-import './Card.css';
+import './css/Card.css';
 import { GiLobArrow } from "react-icons/gi"
 import edu from './Pic/edu.jpg'
 import { BsCheckCircle } from "react-icons/bs"
