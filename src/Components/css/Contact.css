@@ -16,7 +16,8 @@
 
 .main-container  .profile-container {
   display: block;
-  margin-top: 100px;
+  margin-top: 150px;
+  margin-bottom: 190px;
 
 }
 #verticle-line{
@@ -234,6 +235,7 @@ margin-top: 20px;
       }
       .main-container  .profile-container {
         margin-top: 0px;
+        margin-bottom: 0px;
       
       }
       
