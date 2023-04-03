@@ -3,8 +3,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
-    padding-top: 20px;
+    margin-top: 20px;
+
+
 
 
 }
@@ -17,19 +18,18 @@
 .html2-div {
     width: 70%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
     flex-wrap: wrap;
+    align-items: center;
 
 }
 
 .html2-2component{
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     width: 90%;
-    gap: 40px;
+
+
     
 }
 .html-div
@@ -40,9 +40,7 @@
 }
 
 .main-html-div{
-    height: 90vh;
     display: flex;
-
 
 }
        .AboutMe-Info{
@@ -65,6 +63,7 @@
         display: flex;
     }
     .html2-div{
+        justify-content: center;
         margin-top: 30px;
      
         width: 100%;
@@ -110,6 +109,7 @@
     .html2-2component{
        
         width: 90%;
+        gap: 30px;
         
         
     }
@@ -141,11 +141,27 @@
     {
         padding-top: 20px;
   
-        justify-content: unset;
     
        
     
     }
 
 
-} 
+
+
+
+}
+@media screen and (max-width:1400px) {
+
+    .html2-2component
+    {
+  
+       gap: 30px;
+    
+    }
+
+
+
+
+
+}
