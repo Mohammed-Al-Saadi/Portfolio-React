@@ -15,10 +15,11 @@ export default function About() {
                     Hello, I'm Mohammed Al-Saadi
                 </h1>
                 <p>
-                    I am a second-year student at HAMK majoring in a degree program in Computer Applications.
-                    I aim to become a Full-Stack Developer with an in-depth expertise on everything related to web and app development.
-                    I am a dedicated, organized and methodical individual with great interpersonal skills.
-                    I have developed good planning & organisational set of skills and am confident working independently or as part of a team.
+                    I am a second-year student at HAMK majoring in a degree programing of
+                    Computer Applications. I aim to become a Full-Stack Developer with
+                    an in-depth expertise on everything related to web and app development.
+                    I am a dedicated, organized and systematic individual with great people skills.
+                    I have developed a flexible set of planning skills and I’m confident working independently or as part of a team.
 
 
                 </p>
