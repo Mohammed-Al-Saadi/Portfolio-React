@@ -9,7 +9,7 @@ export default function About() {
       <div className="Header">
         <h1>Hello, I'm Mohammed Al-Saadi</h1>
         <p>
-          I am a second-year student at HAMK majoring in a degree programing of
+          I am a third-year student at HAMK majoring in a degree programing of
           Computer Applications. I aim to become a Full-Stack Developer with an
           in-depth expertise on everything related to web and app development. I
           am a dedicated, organized and systematic individual with great people
