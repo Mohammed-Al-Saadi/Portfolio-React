@@ -20,7 +20,6 @@ export default function Pages() {
           <Card />
           <SkillsButton />
         </div>
-
         <Slider />
         <Footer />
       </div>
