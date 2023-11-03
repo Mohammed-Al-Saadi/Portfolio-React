@@ -5,6 +5,7 @@ import Card from "../Components/Card";
 import SkillsButton from "../Components/SkillsButton";
 import Footer from "./Footer";
 import Slider from "./Slider";
+import { Link } from "react-router-dom";
 
 export default function Pages() {
   return (
@@ -13,6 +14,9 @@ export default function Pages() {
         <Picture />
         <About />
         <Footer />
+        <li>
+          <Link to="https://www.google.com/contact"></Link>
+        </li>
       </div>
 
       <div className="html2-div">
