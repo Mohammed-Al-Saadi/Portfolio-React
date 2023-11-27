@@ -29,7 +29,7 @@ export default function Footer() {
               <AiFillGithub size={20} />
             </i>
           </a>
-          <a href="https://github.com/Mohammed-Al-Saadi"></a>
+          <a href="https://github.com/Mohammed-Al-Saadi"> </a>
         </div>
         <div className="rights">
           <p>Mohammed Al-Saadi © 2023 </p>

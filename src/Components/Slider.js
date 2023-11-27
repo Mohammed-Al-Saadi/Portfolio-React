@@ -10,6 +10,7 @@ import CC5 from "./Pic/CC5.png";
 import CC6 from "./Pic/CC6.png";
 import CC7 from "./Pic/CC7.png";
 import CC8 from "./Pic/CC8.png";
+import CC9 from "./Pic/CC9.png";
 
 export default function Slider() {
   return (
@@ -41,6 +42,9 @@ export default function Slider() {
           </div>
           <div>
             <img className="slides" alt="" src={CC8} />
+          </div>
+          <div>
+            <img className="slides" alt="" src={CC9} />
           </div>
         </Carousel>
       </div>
