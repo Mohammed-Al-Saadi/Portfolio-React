@@ -1,5 +1,5 @@
 import v from "../../assets/ff.mp4";
-//import v2 from "../../assets/f2.mp4";
+import v2 from "../../assets/f2.mp4";
 import Buba from "../../assets/buba.mp4";
 import Omar from "../../assets/omar.mp4";
 import v3 from "../../assets/f3.mp4";
@@ -15,7 +15,7 @@ export const projects = [
       "Kalibro is a robust website audit and optimization platform developed for Calevala Interactive, empowering businesses to enhance their websites through in-depth performance analysis, security checks (e.g., SQL injection), server diagnostics, IP location tracking, and color scheme evaluation. It offers advanced user management with roles, admin features, and account viewing, all within a streamlined business dashboard supporting both free and paid subscription models. Built with Flask and React, Kalibro is actively evolving, with more features planned for future releases.",
   },
   {
-    videoUrl: v,
+    videoUrl: v2,
     imageUrl: require("../../assets/dash.png"),
     shortTitle: "Booking System",
     title: "Barber Booking System – Web App (Hobby projects)",
