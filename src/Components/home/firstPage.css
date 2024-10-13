@@ -1,0 +1,75 @@
+.first-page {
+  display: flex;
+  height: 70vh; /* Adjust the height as needed */
+  width: 100%;
+  position: relative;
+  padding-top: 3rem;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.left-half {
+  width: 100%; /* Left half is for the image */
+  background: linear-gradient(
+      to right,
+      rgba(71, 71, 71, 0.098) 20%,
+      rgb(255, 255, 255) 100%
+    ),
+    url("../../assets/profile.png"); /* Add your image path here */
+  background-size: contain; /* Ensures the image covers the entire background */
+  background-position: left; /* Moves the image to the left */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%); /* Full rectangle */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: rgb(88, 88, 88); /* Fallback background color */
+  position: relative;
+  left: -2rem; /* Adjust positioning if needed */
+}
+.right-half {
+  position: absolute;
+  left: 60%;
+}
+
+@media (max-width: 768px) {
+  .first-page {
+    padding-top: unset;
+  }
+}
+/* Responsive Design */
+@media (max-width: 682px) {
+  .right-half {
+    position: absolute;
+    right: 0rem;
+    bottom: 2rem;
+    left: unset;
+  }
+  .first-page {
+    padding-top: unset;
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 443px) {
+  .right-half {
+    position: absolute;
+    right: 0rem;
+    bottom: 2rem;
+    left: unset;
+  }
+
+  .left-half {
+    position: relative;
+    background: unset, url("../../assets/profile.png");
+    background-color: rgb(88, 88, 88); /* Fallback background color */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Moves the image to the left */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%); /* Full rectangle */
+  }
+}

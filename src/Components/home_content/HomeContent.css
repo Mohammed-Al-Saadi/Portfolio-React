@@ -1,0 +1,80 @@
+.Header h2 .highlight {
+  color: #000000; /* Text color */
+  text-shadow:
+    1px -1px 0 #ffffff,
+    /* Top-left shadow */ 1px -1px 0 #000,
+    /* Top-right shadow */ -1px 1px 0 #000,
+    /* Bottom-left shadow */ 1px 1px 0 #000; /* Bottom-right shadow */
+}
+
+.Header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.Header h3 {
+  margin-top: 10px;
+  font-size: 22px;
+  color: #000000;
+  opacity: 0; /* Start invisible */
+  transform: translateY(20px); /* Start slightly below */
+  animation: fadeInUp 1.5s ease-in-out forwards;
+  animation-delay: 0.3s; /* Delay to make the entrance smoother */
+}
+.contact-link {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 16px;
+  background-color: #696a6c;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.Header label {
+  font-weight: bold;
+  font-size: 20px;
+  color: #000000;
+  padding-top: 0.3rem;
+}
+.contact-link:hover {
+  background-color: #3a3a3a;
+}
+.contact-link {
+  cursor: pointer;
+  display: flex;
+  gap: 0.3rem;
+  justify-content: center;
+  align-items: center;
+}
+.contact-link-insta {
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 1rem;
+}
+/* Keyframes for fadeInUp animation */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px); /* Starting position */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); /* Final position */
+  }
+}
+
+/* Keyframes for fadeInDown animation */
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px); /* Start above */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); /* Final position */
+  }
+}
