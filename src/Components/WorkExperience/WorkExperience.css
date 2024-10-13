@@ -32,10 +32,11 @@
   padding: 20px;
   margin-bottom: 15px;
   width: 19rem;
-  height: 20vh;
+  height: fit-content;
   background-color: #fff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
-  position: relative;
+  display: flex;
+  flex-direction: column;
 
   transition:
     transform 0.3s ease,
@@ -75,8 +76,6 @@
     background-color 0.3s ease,
     box-shadow 0.3s ease;
   font-weight: bold;
-  position: absolute;
-  bottom: 1rem;
 }
 
 .read-more-button:hover {
