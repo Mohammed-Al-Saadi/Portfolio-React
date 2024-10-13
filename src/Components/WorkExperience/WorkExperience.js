@@ -20,7 +20,7 @@ const WorkExperience = () => {
         "Spent 5 months as an IT Specialist trainee at Baqubah Municipality, diving into technical support, network management, and system optimization. This experience built a solid foundation in IT and sparked a real passion for tackling tech challenges head-on.",
     },
     {
-      title: "Application Developer Trainee",
+      title: "App Developer Trainee",
       company: "Calevala",
       year: "2023",
       duration: "5 months",
