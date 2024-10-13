@@ -32,8 +32,11 @@
   padding: 20px;
   margin-bottom: 15px;
   width: 19rem;
+  height: 25vh;
   background-color: #fff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  position: relative;
+
   transition:
     transform 0.3s ease,
     box-shadow 0.3s ease;
@@ -62,7 +65,7 @@
 /* Read more button */
 .read-more-button {
   margin-top: 1rem;
-  background-color: #676767;
+  background-color: #6b6b6b;
   color: #fff;
   border: none;
   padding: 10px 15px;
@@ -72,6 +75,8 @@
     background-color 0.3s ease,
     box-shadow 0.3s ease;
   font-weight: bold;
+  position: absolute;
+  bottom: 1rem;
 }
 
 .read-more-button:hover {
@@ -125,6 +130,7 @@
   position: absolute;
   right: 0rem;
   top: 0rem;
+
   cursor: pointer;
   font-size: 1.5rem;
   color: #aaa;
