@@ -2,11 +2,11 @@ import v from "../../assets/ff.mp4";
 import v2 from "../../assets/f2.mp4";
 import Buba from "../../assets/buba.mp4";
 import Omar from "../../assets/omar.mp4";
-import v3 from "../../assets/f3.mp4";
+//import v3 from "../../assets/f3.mp4";
 
 export const projects = [
   {
-    videoUrl: v3,
+    videoUrl: v,
     imageUrl: require("../../assets/card_kalibro.png"),
     shortTitle: "Kalibro - Audit Tool",
     title: "Kalibro - Audit Tool for Calevala Interactive OY",
