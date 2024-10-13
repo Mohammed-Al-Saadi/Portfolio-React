@@ -1,12 +1,12 @@
-import v from "../../assets/ff.mp4";
-import v2 from "../../assets/f2.mp4";
+import MobileApp from "../../assets/mobileApp.mp4";
 import Buba from "../../assets/buba.mp4";
 import Omar from "../../assets/omar.mp4";
-import v3 from "../../assets/f3.mp4";
+import Kalibro from "../../assets/kalibro.mp4";
+import Booking from "../../assets/booking.mp4";
 
 export const projects = [
   {
-    videoUrl: v3,
+    videoUrl: Kalibro,
     imageUrl: require("../../assets/card_kalibro.png"),
     shortTitle: "Kalibro - Audit Tool",
     title: "Kalibro - Audit Tool for Calevala Interactive OY",
@@ -15,7 +15,7 @@ export const projects = [
       "Kalibro is a robust website audit and optimization platform developed for Calevala Interactive, empowering businesses to enhance their websites through in-depth performance analysis, security checks (e.g., SQL injection), server diagnostics, IP location tracking, and color scheme evaluation. It offers advanced user management with roles, admin features, and account viewing, all within a streamlined business dashboard supporting both free and paid subscription models. Built with Flask and React, Kalibro is actively evolving, with more features planned for future releases.",
   },
   {
-    videoUrl: v2,
+    videoUrl: Booking,
     imageUrl: require("../../assets/dash.png"),
     shortTitle: "Booking System",
     title: "Barber Booking System – Web App (Hobby projects)",
@@ -25,7 +25,7 @@ export const projects = [
       "This full-stack web application, developed with Flask, React, and PostgreSQL, provides a comprehensive booking platform for barbershops. Users can choose from various services, select barbers, and book appointments. The business dashboard enables barbers to manage bookings, set their opening hours, breaks, and mark custom schedules like days off or adjusted working hours. The system is designed to allow certain services to be performed by specific barbers, offering flexible management for both customers and barbers.",
   },
   {
-    videoUrl: v,
+    videoUrl: MobileApp,
     imageUrl: require("../../assets/mobile_app.png"),
     shortTitle: "Mobile App",
 
@@ -56,7 +56,7 @@ export const projects = [
       "The static website for Omar Parturi was created using React JS, providing a seamless user experience. It features essential information such as contact details, location, and a comprehensive list of services. With a clean, modern design, the site ensures easy navigation, allowing visitors to quickly find the details they need.",
   },
   {
-    videoUrl: v2,
+    videoUrl: "Mohammed",
     imageUrl: require("../../assets/pf.png"),
     shortTitle: "Static Portfolio",
     title: "Responsive Static Website - Portfolio",
