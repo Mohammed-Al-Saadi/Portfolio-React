@@ -3,6 +3,7 @@ import Buba from "../../assets/buba.mp4";
 import Omar from "../../assets/omar.mp4";
 import Kalibro from "../../assets/kalibro.mp4";
 import Booking from "../../assets/booking.mp4";
+import Portfolio from "../../assets/portfolio.mp4";
 
 export const projects = [
   {
@@ -56,7 +57,7 @@ export const projects = [
       "The static website for Omar Parturi was created using React JS, providing a seamless user experience. It features essential information such as contact details, location, and a comprehensive list of services. With a clean, modern design, the site ensures easy navigation, allowing visitors to quickly find the details they need.",
   },
   {
-    videoUrl: "Mohammed",
+    videoUrl: Portfolio,
     imageUrl: require("../../assets/pf.png"),
     shortTitle: "Static Portfolio",
     title: "Responsive Static Website - Portfolio",
