@@ -116,6 +116,12 @@
     display: none;
   }
 }
+@media (max-width: 350px) {
+  #contact input,
+  #contact textarea {
+    min-width: 15rem;
+  }
+}
 
 .main-container h4 {
   max-width: 43rem;

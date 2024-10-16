@@ -24,3 +24,29 @@
   font-size: 1.111rem;
   letter-spacing: 0.3px;
 }
+.videoplayer_description {
+  margin-bottom: 20px;
+}
+.tech-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 10px 0;
+  padding-bottom: 1rem;
+  padding-top: 0.5rem;
+}
+
+.tech-badge {
+  background-color: #39393997;
+  color: #fbfbfb;
+  padding: 5px 10px;
+  border-radius: 0.4rem;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.tech-badge:hover {
+  background-color: #c3c3c397;
+  color: #232323;
+  font-weight: bold;
+}

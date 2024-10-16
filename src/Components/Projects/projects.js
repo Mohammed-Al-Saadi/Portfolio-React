@@ -61,6 +61,7 @@ const Projects = () => {
               videoUrl={selectedProject.videoUrl}
               text={selectedProject.fullText}
               p={selectedProject.title}
+              tech={selectedProject.tech}
             />
           </div>
         )}

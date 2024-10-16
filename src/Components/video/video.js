@@ -1,10 +1,18 @@
 import React from "react";
 import "./video.css";
 
-const VideoPlayer = ({ videoUrl, imgUrl, text, p }) => {
+const VideoPlayer = ({ videoUrl, imgUrl, text, p, tech }) => {
   return (
     <div className="description">
       <div className="videoplayer_description">
+        <h4>Technologies Used:</h4>
+        <div className="tech-container">
+          {tech.map((item, index) => (
+            <span key={index} className="tech-badge">
+              {item}
+            </span>
+          ))}
+        </div>
         <label>{text}</label>
       </div>
       {videoUrl ? (
