@@ -163,6 +163,6 @@
 
 @media (max-width: 770px) {
   .work-experience-card {
-    min-width: 20rem;
+    width: 100%;
   }
 }
