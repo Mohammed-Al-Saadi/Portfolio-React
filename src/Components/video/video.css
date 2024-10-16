@@ -68,3 +68,9 @@
   color: rgb(255, 255, 255);
   background-color: #6a6969;
 }
+@media (max-width: 450px) {
+  .mm {
+    max-height: 400px;
+    min-width: 100%;
+  }
+}
