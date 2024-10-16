@@ -19,6 +19,8 @@ export const projects = [
       "JWT",
     ],
     imageUrl: require("../../assets/card_kalibro.png"),
+    link: "https://www.kalibro.io",
+
     shortTitle: "Kalibro - Audit Tool",
     title: "Kalibro - Audit Tool for Calevala Interactive OY",
     content: "Kalibro is a robust website audit and optimization platform...",
@@ -29,6 +31,7 @@ export const projects = [
     videoUrl: Booking,
     tech: ["Python", "Flask", "React", "PostgreSQL", "JWT", "CSS"],
     imageUrl: require("../../assets/dash.png"),
+
     shortTitle: "Booking System",
     title: "Barber Booking System – Web App (Hobby projects)",
     content:
@@ -40,6 +43,7 @@ export const projects = [
     videoUrl: MobileApp,
     tech: ["React Native", "Node.js", "CSS", "Express", "MongoDB", "JWT"],
     imageUrl: require("../../assets/mobile_app.png"),
+
     shortTitle: "Mobile App",
     title: "Horizon – Mobile Flight Search Engine (Hobby projects)",
     content:
@@ -51,6 +55,8 @@ export const projects = [
     videoUrl: Buba,
     tech: ["React JS", "CSS", "Javascript"],
     imageUrl: require("../../assets/card_buba.png"),
+    link: "https://bubasalon.com",
+
     shortTitle: "Static Website",
     title: "Responsive static website - Buba Salon",
     content:
@@ -62,6 +68,8 @@ export const projects = [
     videoUrl: Omar,
     tech: ["React JS", "CSS", "Javascript"],
     imageUrl: require("../../assets/card_omar.png"),
+    link: "https://www.omarparturi.fi/",
+
     shortTitle: "Static Website",
     title: "Responsive static website - Omar Parturi",
     content: "The static website for Omar Parturi provides a seamless user....",
@@ -72,6 +80,8 @@ export const projects = [
     videoUrl: Portfolio,
     tech: ["React JS", "CSS", "Javascript"],
     imageUrl: require("../../assets/pf.png"),
+    link: "https://mohammed-portfolio-app.netlify.app",
+
     shortTitle: "Static Portfolio",
     title: "Responsive Static Website - Portfolio",
     content: "Developed a responsive static website for my portfolio...",

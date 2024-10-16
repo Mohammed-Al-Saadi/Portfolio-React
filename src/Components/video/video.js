@@ -1,7 +1,7 @@
 import React from "react";
 import "./video.css";
 
-const VideoPlayer = ({ videoUrl, imgUrl, text, p, tech }) => {
+const VideoPlayer = ({ videoUrl, imgUrl, text, tech, link }) => {
   return (
     <div className="description">
       <div className="videoplayer_description">
@@ -13,6 +13,18 @@ const VideoPlayer = ({ videoUrl, imgUrl, text, p, tech }) => {
             </span>
           ))}
         </div>
+        {link && (
+          <div className="link-container">
+            <a
+              href={link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="project-link"
+            >
+              View Project
+            </a>
+          </div>
+        )}
         <label>{text}</label>
       </div>
       {videoUrl ? (

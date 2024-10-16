@@ -62,6 +62,7 @@ const Projects = () => {
               text={selectedProject.fullText}
               p={selectedProject.title}
               tech={selectedProject.tech}
+              link={selectedProject.link}
             />
           </div>
         )}

@@ -32,7 +32,7 @@
   flex-wrap: wrap;
   gap: 10px;
   margin: 10px 0;
-  padding-bottom: 1rem;
+  padding-bottom: 0.5rem;
   padding-top: 0.5rem;
 }
 
@@ -49,4 +49,22 @@
   background-color: #c3c3c397;
   color: #232323;
   font-weight: bold;
+}
+.link-container {
+  padding-bottom: 0.8rem;
+}
+.link-container a {
+  text-decoration: none;
+  color: rgb(99, 99, 99);
+  font-weight: bold;
+  font-size: 14px;
+  background-color: #e3e3e3d8;
+  padding: 5px 10px;
+  border-radius: 0.4rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.link-container a:hover {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  background-color: #6a6969;
 }
