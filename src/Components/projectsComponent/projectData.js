@@ -43,7 +43,7 @@ export const projects = [
     videoUrl: MobileApp,
     tech: ["React Native", "Node.js", "CSS", "Express", "MongoDB", "JWT"],
     imageUrl: require("../../assets/images/mobile_app.png"),
-
+    gitlink: "https://github.com/Mohammed-Al-Saadi/react-native-moblie-app",
     shortTitle: "Mobile App",
     title: "Horizon – Mobile Flight Search Engine (Hobby projects)",
     content:
@@ -80,7 +80,7 @@ export const projects = [
     videoUrl: Portfolio,
     tech: ["React JS", "CSS", "Javascript"],
     imageUrl: require("../../assets/images/card_portfolio.png"),
-    link: "https://github.com/Mohammed-Al-Saadi/Portfolio-React",
+    gitlink: "https://github.com/Mohammed-Al-Saadi/Portfolio-React",
 
     shortTitle: "Static Portfolio",
     title: "Responsive Static Website - Portfolio",

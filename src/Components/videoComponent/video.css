@@ -84,3 +84,24 @@
     min-width: 100%;
   }
 }
+.project-links-container {
+  display: flex;
+  gap: 0.5rem;
+  padding-bottom: 0.8rem;
+}
+
+.project-link {
+  text-decoration: none;
+  color: rgb(99, 99, 99);
+  font-weight: bold;
+  font-size: 14px;
+  background-color: #e3e3e3d8;
+  padding: 5px 10px;
+  border-radius: 0.4rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.project-link:hover {
+  color: rgb(255, 255, 255);
+  background-color: #6a6969;
+}
