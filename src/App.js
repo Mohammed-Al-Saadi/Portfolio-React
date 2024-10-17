@@ -1,34 +1,24 @@
 import "./App.css";
 import React from "react";
-import Sidebar from "./Components/sideBar/sideBar";
-import FirstPage from "./Components/home/firstPage.js";
-import Projects from "./Components/Projects/projects.js";
-import ContactUs from "./Components/Contact/Contact.js";
-import About from "./Components/About/About.js";
+import Sidebar from "./Components/sideBarComponent/sideBar.js";
+import FirstPage from "./sections/home/home.js";
+import Projects from "./Components/projectsComponent/projects.js";
+import ContactUs from "./Components/contactComponent/Contact.js";
+import About from "./sections/About/About.js";
 import { motion } from "framer-motion";
-import { useInView } from "react-intersection-observer";
-import { leftVariant, rightVariant } from "./animations"; // Import animation variants
+import { leftVariant, rightVariant } from "./animation/animations";
+import { useRepeatedInView } from "./animation/hook.js";
 
 function App() {
-  // InView hooks with `triggerOnce: false` for repeated animation on each scroll
-  const [aboutRef, aboutInView] = useInView({
-    triggerOnce: false,
-    threshold: 0.1,
-  });
-  const [projectsRef, projectsInView] = useInView({
-    triggerOnce: false,
-    threshold: 0.1,
-  });
-
-  const [contactRef, contactInView] = useInView({
-    triggerOnce: false,
-    threshold: 0.1,
-  });
+  // Custom hook with `triggerOnce: false` for repeated animation on each scroll
+  const [aboutRef, aboutInView] = useRepeatedInView(0.1);
+  const [projectsRef, projectsInView] = useRepeatedInView(0.1);
+  const [contactRef, contactInView] = useRepeatedInView(0.1);
 
   return (
     <div className="app-container">
       <div className="fixed">
-        <Sidebar /> {/* Sidebar is always visible */}
+        <Sidebar />
       </div>
       <div className="content">
         {/* Home Section */}

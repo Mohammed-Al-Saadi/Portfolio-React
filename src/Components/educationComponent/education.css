@@ -1,0 +1,41 @@
+/* Updated CSS with improved class names */
+.education-card-container {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0;
+  color: rgb(99, 99, 99);
+}
+
+.education-card-image-hame {
+  width: 90px;
+}
+
+.education-card-image-yarmouk {
+  width: 30px;
+}
+
+.education-item {
+  display: flex;
+  gap: 0.3rem;
+  padding-bottom: 0.4rem;
+}
+
+.education-completion-year {
+  display: flex;
+  gap: 0.3rem;
+  align-items: center;
+}
+
+.education-card-content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.education-images-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}

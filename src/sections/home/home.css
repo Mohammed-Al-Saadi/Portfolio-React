@@ -1,0 +1,77 @@
+/* Improved Class Names */
+.home-first-page {
+  display: flex;
+  height: 70vh;
+  width: 100%;
+  position: relative;
+  padding-top: 3rem;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.home-left-section {
+  width: 100%;
+  background: linear-gradient(
+      to right,
+      rgba(71, 71, 71, 0.098) 20%,
+      rgb(255, 255, 255) 100%
+    ),
+    url("../../assets/images/profile.png");
+  background-size: contain;
+  background-position: left;
+  background-repeat: no-repeat;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: rgb(88, 88, 88);
+  position: relative;
+  left: -2rem;
+}
+
+.home-right-section {
+  position: absolute;
+  left: 60%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .home-first-page {
+    padding-top: unset;
+  }
+}
+
+@media (max-width: 682px) {
+  .home-right-section {
+    position: absolute;
+    right: 0rem;
+    bottom: 2rem;
+    left: unset;
+  }
+  .home-first-page {
+    padding-top: unset;
+  }
+}
+
+@media (max-width: 443px) {
+  .home-right-section {
+    position: absolute;
+    right: 0rem;
+    bottom: 2rem;
+    left: unset;
+  }
+
+  .home-left-section {
+    position: relative;
+    background: unset, url("../../assets/images/profile.png");
+    background-color: rgb(88, 88, 88);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+}

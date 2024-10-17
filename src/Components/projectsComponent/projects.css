@@ -1,0 +1,103 @@
+/* projects.css */
+
+.project-modal-overlay-fullscreen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000; 
+  height: 100vh;
+  opacity: 0;
+  animation: fadeIn 0.3s forwards;
+}
+
+.project-modal-fullscreen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: white;
+  padding: 20px;
+  overflow-y: auto;
+  z-index: 1001;
+  transform: translateY(100%);
+  opacity: 0;
+  animation: slideUpFadeIn 0.5s forwards;
+}
+
+.project-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1.3rem;
+  justify-content: space-around;
+}
+
+.project-modal-fullscreen h2 {
+  text-align: center;
+  margin-top: 0;
+}
+
+.project-modal-fullscreen .close {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  position: relative;
+  right: -1rem;
+  top: -1rem;
+  cursor: pointer;
+}
+
+.projects-container h4 {
+  max-width: 43rem;
+  font-size: 1rem;
+  letter-spacing: 0.3px;
+  margin: 0 auto;
+  text-align: center;
+  color: rgb(99, 99, 99);
+  padding-top: 1rem;
+  padding-bottom: 4rem;
+}
+
+.projects-container h1 {
+  text-align: center;
+  font-weight: bold;
+  padding: 0.5rem;
+}
+
+.projects-container {
+  padding: 1rem 4rem;
+}
+
+/* Fade-in animation for the overlay */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Slide-up and fade-in animation for the modal */
+@keyframes slideUpFadeIn {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@media (max-width: 643px) {
+  .projects-container {
+    padding: 1rem 0.2rem;
+  }
+}
