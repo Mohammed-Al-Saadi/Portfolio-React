@@ -80,7 +80,7 @@ export const projects = [
     videoUrl: Portfolio,
     tech: ["React JS", "CSS", "Javascript"],
     imageUrl: require("../../assets/images/card_portfolio.png"),
-    link: "https://mohammed-portfolio-app.netlify.app",
+    link: "https://github.com/Mohammed-Al-Saadi/Portfolio-React",
 
     shortTitle: "Static Portfolio",
     title: "Responsive Static Website - Portfolio",
