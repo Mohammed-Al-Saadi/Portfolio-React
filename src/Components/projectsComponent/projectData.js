@@ -20,6 +20,7 @@ export const projects = [
       "Redux",
       "Stripe",
       "WebSockets",
+      "Google Analytics",
     ],
     imageUrl: require("../../assets/images/card_kalibro.png"),
     links: [
@@ -116,7 +117,7 @@ export const projects = [
   },
   {
     videoUrl: Portfolio,
-    tech: ["React JS", "CSS", "Javascript", "EmailJS"],
+    tech: ["React JS", "CSS", "Javascript", "EmailJS", "Google Analytics"],
     imageUrl: require("../../assets/images/card_portfolio.png"),
     links: [
       {
