@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Modal from "react-modal";
 import "./WorkExperience.css";
 import { IoClose } from "react-icons/io5";
-import workExperienceData from "./workExperienceData.json"; // Import the JSON data
+import workExperienceData from "./workExperienceData.json"; 
 
 Modal.setAppElement("#root");
 
@@ -20,12 +20,17 @@ const WorkExperience = () => {
     setSelectedExperience(null);
   };
 
+  // Sort work experience data by year in descending order (newest first)
+  const sortedWorkExperienceData = [...workExperienceData].sort((a, b) => {
+    return parseInt(b.year) - parseInt(a.year);
+  });
+
   return (
     <div className="work-experience-main">
       <label className="skills-main-page">Work Experience</label>
 
       <div className="work-experience-container">
-        {workExperienceData.map((exp, index) => (
+        {sortedWorkExperienceData.map((exp, index) => (
           <div key={index} className="work-experience-card">
             <h3>{exp.title}</h3>
             <p className="italic">
