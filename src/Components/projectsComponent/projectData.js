@@ -17,10 +17,17 @@ export const projects = [
       "Github Actions",
       "PostgreSQL",
       "JWT",
+      "Redux",
+      "Stripe",
+      "WebSockets",
     ],
     imageUrl: require("../../assets/images/card_kalibro.png"),
-    link: "https://www.kalibro.io",
-
+    links: [
+      {
+        label: "View Project",
+        url: "https://www.kalibro.io",
+      },
+    ],
     shortTitle: "Kalibro - Audit Tool",
     title: "Kalibro - Audit Tool for Calevala Interactive OY",
     content: "Kalibro is a robust website audit and optimization platform...",
@@ -29,9 +36,18 @@ export const projects = [
   },
   {
     videoUrl: Booking,
-    tech: ["Python", "Flask", "React", "PostgreSQL", "JWT", "CSS"],
+    tech: ["Python", "Flask", "React", "PostgreSQL", "JWT", "CSS", "Redux"],
     imageUrl: require("../../assets/images/card_booking.png"),
-
+    links: [
+      {
+        label: "Frontend Code",
+        url: "https://github.com/Mohammed-Al-Saadi/Barber_Booking_client",
+      },
+      {
+        label: "Backend Code",
+        url: "https://github.com/Mohammed-Al-Saadi/Barber_Booking_server",
+      },
+    ],
     shortTitle: "Booking System",
     title: "Barber Booking System – Web App (Hobby projects)",
     content:
@@ -41,9 +57,23 @@ export const projects = [
   },
   {
     videoUrl: MobileApp,
-    tech: ["React Native", "Node.js", "CSS", "Express", "MongoDB", "JWT"],
+    tech: [
+      "React Native",
+      "Node.js",
+      "CSS",
+      "Express",
+      "MongoDB",
+      "JWT",
+      "Redux",
+    ],
     imageUrl: require("../../assets/images/mobile_app.png"),
-    gitlink: "https://github.com/Mohammed-Al-Saadi/react-native-moblie-app",
+
+    links: [
+      {
+        label: "GitHub Repo",
+        url: "https://github.com/Mohammed-Al-Saadi/react-native-moblie-app",
+      },
+    ],
     shortTitle: "Mobile App",
     title: "Horizon – Mobile Flight Search Engine (Hobby projects)",
     content:
@@ -55,8 +85,12 @@ export const projects = [
     videoUrl: Buba,
     tech: ["React JS", "CSS", "Javascript"],
     imageUrl: require("../../assets/images/card_buba.png"),
-    link: "https://bubasalon.com",
-
+    links: [
+      {
+        label: "View Project",
+        url: "https://bubasalon.com",
+      },
+    ],
     shortTitle: "Static Website",
     title: "Responsive static website - Buba Salon",
     content:
@@ -66,10 +100,14 @@ export const projects = [
   },
   {
     videoUrl: Omar,
-    tech: ["React JS", "CSS", "Javascript"],
+    tech: ["React JS", "CSS", "Javascript", "EmailJS"],
     imageUrl: require("../../assets/images/card_omar.png"),
-    link: "https://www.omarparturi.fi/",
-
+    links: [
+      {
+        label: "View Project",
+        url: "https://www.omarparturi.fi/",
+      },
+    ],
     shortTitle: "Static Website",
     title: "Responsive static website - Omar Parturi",
     content: "The static website for Omar Parturi provides a seamless user....",
@@ -78,10 +116,14 @@ export const projects = [
   },
   {
     videoUrl: Portfolio,
-    tech: ["React JS", "CSS", "Javascript"],
+    tech: ["React JS", "CSS", "Javascript", "EmailJS"],
     imageUrl: require("../../assets/images/card_portfolio.png"),
-    gitlink: "https://github.com/Mohammed-Al-Saadi/Portfolio-React",
-
+    links: [
+      {
+        label: "GitHub Repo",
+        url: "https://github.com/Mohammed-Al-Saadi/Portfolio-React",
+      },
+    ],
     shortTitle: "Static Portfolio",
     title: "Responsive Static Website - Portfolio",
     content: "Developed a responsive static website for my portfolio...",
