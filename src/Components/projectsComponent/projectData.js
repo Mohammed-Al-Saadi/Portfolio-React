@@ -4,6 +4,7 @@ import Omar from "../../assets/video/omar.mp4";
 import Kalibro from "../../assets/video/kalibro.mp4";
 import Booking from "../../assets/video/booking.mp4";
 import Portfolio from "../../assets/video/portfolio.mp4";
+import VkTesting from "../../assets/video/vk_testing.mp4";
 
 export const projects = [
   {
@@ -50,7 +51,7 @@ export const projects = [
       },
     ],
     shortTitle: "Booking System",
-    title: "Barber Booking System – Web App (Hobby projects)",
+    title: "Barber Booking System – Web App (Hobby project)",
     content:
       "This full-stack web application,  provides a comprehensive booking...",
     fullText:
@@ -76,7 +77,7 @@ export const projects = [
       },
     ],
     shortTitle: "Mobile App",
-    title: "Horizon – Mobile Flight Search Engine (Hobby projects)",
+    title: "Horizon – Mobile Flight Search Engine (Hobby project)",
     content:
       "Horizon is a full-stack mobile app built using React Native and Node.js...",
     fullText:
@@ -130,5 +131,25 @@ export const projects = [
     content: "Developed a responsive static website for my portfolio...",
     fullText:
       "This responsive portfolio website, provides a comprehensive overview of my professional journey, including my skills, experience, and a selection of my key projects. Designed with a clean, modern layout, the site allows for easy navigation and offers visitors an engaging experience. It also features essential information, such as my contact details and links to my social profiles, making it easy to connect and learn more about my work.",
+  },
+  {
+    videoUrl: VkTesting,
+    tech: ["Robot Framework", "Selenium"],
+    imageUrl: require("../../assets/images/testing.png"),
+    links: [
+      {
+        label: "GitHub Repo",
+        url: "https://github.com/Mohammed-Al-Saadi/ROBOT-FRAMEWORK/blob/main/UI%20test%20project%20RF/software_testing_project-final.robot",
+      },
+      {
+        label: "Other RF Projects",
+        url: "https://github.com/Mohammed-Al-Saadi/ROBOT-FRAMEWORK",
+      },
+    ],
+    shortTitle: "Automated Testing",
+    title: "Testing Verkkokauppa.com (Hobby project)",
+    content: "This project is an automation testing suite for Verkkokauppa.com",
+    fullText:
+      "This project is an automation testing suite for Verkkokauppa.com, built using Robot Framework with SeleniumLibrary. It automates key user interactions such as account creation, login, product search, filtering, and adding items to the cart or favorites. The tests also validate product page elements, category icons, and sorting features. The suite ensures smooth functionality across the website by simulating real user workflows. It utilizes Selenium WebDriver for browser automation and Chrome for executing tests.",
   },
 ];
