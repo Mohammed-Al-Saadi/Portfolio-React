@@ -1,13 +1,7 @@
 import React from "react";
 import "./video.css";
 
-const VideoPlayer = ({ 
-  videoUrl, 
-  imgUrl, 
-  text, 
-  tech, 
-  links 
-}) => {
+const VideoPlayer = ({ videoUrl, imgUrl, text, tech, links }) => {
   return (
     <div className="video-description-container">
       <div className="video-description">
@@ -21,34 +15,39 @@ const VideoPlayer = ({
         </div>
 
         <div className="project-links-container">
-          {links && links.map(({ label, url }, index) => (
-            <a
-              key={index}
-              href={url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="project-link"
-            >
-              {label}
-            </a>
-          ))}
+          {links &&
+            links.map(({ label, url }, index) => (
+              <a
+                key={index}
+                href={url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="project-link"
+              >
+                {label}
+              </a>
+            ))}
         </div>
 
         <label className="video-description-text">{text}</label>
       </div>
 
-      {videoUrl ? (
-        <video className="video-content" width="300" controls>
-          <source src={videoUrl} type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-      ) : (
-        <img
-          className="video-content"
-          src={imgUrl}
-          alt="description"
-          width="300"
-        />
+      {(videoUrl || imgUrl) && (
+        <div>
+          {videoUrl ? (
+            <video className="video-content" width="300" controls>
+              <source src={videoUrl} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          ) : (
+            <img
+              className="video-content"
+              src={imgUrl}
+              alt="description"
+              width="300"
+            />
+          )}
+        </div>
       )}
     </div>
   );

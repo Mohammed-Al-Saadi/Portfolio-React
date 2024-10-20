@@ -152,4 +152,20 @@ export const projects = [
     fullText:
       "This project is an automation testing suite for Verkkokauppa.com, built using Robot Framework with SeleniumLibrary. It automates key user interactions such as account creation, login, product search, filtering, and adding items to the cart or favorites. The tests also validate product page elements, category icons, and sorting features. The suite ensures smooth functionality across the website by simulating real user workflows. It utilizes Selenium WebDriver for browser automation and Chrome for executing tests.",
   },
+  {
+    tech: ["Node.js", "PostgreSQL", "JWT", "Nodemailer", "Bcrypt"],
+    imageUrl: require("../../assets/images/node.png"),
+    links: [
+      {
+        label: "GitHub Repo",
+        url: "https://github.com/Mohammed-Al-Saadi/Clinic/tree/main/server",
+      },
+    ],
+    shortTitle: "User Management System",
+    title: "User Management System (Hobby project)",
+    content:
+      "This project implements a user management system with role-based access...",
+    fullText:
+      "This User Management System project is built with Node.js and PostgreSQL, featuring user registration, login, and profile management. It includes role-based access control (RBAC) for admin features such as updating user roles and deactivating accounts. Authentication is handled using JSON Web Tokens (JWT), and email notifications are sent via Nodemailer for password resets. The system ensures security with bcrypt password hashing and supports both access and refresh tokens for session management.",
+  },
 ];
