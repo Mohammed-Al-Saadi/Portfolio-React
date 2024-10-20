@@ -37,6 +37,21 @@ export const projects = [
       "Kalibro is a robust website audit and optimization platform developed for Calevala Interactive, empowering businesses to enhance their websites through in-depth performance analysis, security checks (e.g., SQL injection), server diagnostics, IP location tracking, and color scheme evaluation. It offers advanced user management with roles, admin features, and account viewing, all within a streamlined business dashboard supporting both free and paid subscription models. Kalibro is actively evolving, with more features planned for future releases.",
   },
   {
+    tech: ["K6"],
+    imageUrl: require("../../assets/images/thesis.png"),
+    links: [
+      {
+        label: "Thesis",
+        url: "https://www.theseus.fi/handle/10024/862076",
+      },
+    ],
+    shortTitle: "Performance Testing with K6",
+    title: "Enhancing API reliability in Kalibro.io (Calevala Ltd)",
+    content: "This thesis focuses on executing performance testing for...",
+    fullText:
+      "This thesis focuses on executing performance testing for the Kalibro.io tool, developed by Calevala Interactive Ltd., using the K6 performance testing tool. The study covers various tests, including load, stress, spike, and soak, to ensure system stability under different user loads. The testing results highlighted solid performance, with recommendations for further optimization in HTTP duration times. The thesis serves as a practical guide for implementing K6-based performance testing.",
+  },
+  {
     videoUrl: Booking,
     tech: ["Python", "Flask", "React", "PostgreSQL", "JWT", "CSS", "Redux"],
     imageUrl: require("../../assets/images/card_booking.png"),
