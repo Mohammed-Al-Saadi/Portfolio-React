@@ -14,6 +14,16 @@
   width: 30px;
 }
 
+.education-gpa {
+  font-size: 16px;
+  margin-top: 5px;
+  color: rgb(99, 99, 99);
+  padding-bottom: 0.5rem;
+  display: flex;
+  justify-items: center;
+  gap: 0.3rem;
+}
+
 .education-item {
   display: flex;
   gap: 0.3rem;
