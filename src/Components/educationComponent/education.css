@@ -23,7 +23,22 @@
   justify-items: center;
   gap: 0.3rem;
 }
-
+.education-card-body p {
+  cursor: pointer;
+  padding: 0.5rem;
+  margin-top: 0.6rem;
+  font-weight: 600;
+  width: fit-content;
+  color: rgb(78, 78, 78);
+  border-radius: 0.4rem;
+  background-color: rgba(211, 211, 211, 0.627);
+  font-size: 14px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.education-card-body p:hover {
+  color: rgb(78, 78, 78);
+  background-color: rgb(211, 211, 211);
+}
 .education-item {
   display: flex;
   gap: 0.3rem;

@@ -6,6 +6,11 @@ import { EducationData } from "./educationData.js";
 import { FaUserGraduate } from "react-icons/fa6";
 
 export default function Education() {
+  // Function to handle opening the certificate
+  const handleOpenCertificate = (certificateUrl) => {
+    window.open(certificateUrl, "_blank");
+  };
+
   return (
     <div className="education-card-container">
       <div className="education-card-content">
@@ -20,13 +25,16 @@ export default function Education() {
               {/* Completion year */}
               <div className="education-completion-year">
                 <FaUserGraduate size={18} color="black" className="icon" />
-                <span>Completed in {item.completed}</span>
-              </div>
-              {/* GPA */}
-              <div className="education-gpa">
+                <span>{item.completed}</span>
                 <BsCheckCircle size={18} color="green" className="icon" />
                 <span>GPA {item.gpa}</span>
               </div>
+              {/* Button to open the certificate */}
+              {item.certificate && (
+                <p onClick={() => handleOpenCertificate(item.certificate)}>
+                  View Certificate
+                </p>
+              )}
             </div>
           </div>
         ))}
