@@ -12,6 +12,8 @@ export const EducationData = [
     gpa: "4.3/5",
     logoClassName: "education-card-image-hame",
     certificate: hameUniversityImage2,
+    uniLink:
+      "https://www.hamk.fi/?gad_source=1&gclid=Cj0KCQjwmt24BhDPARIsAJFYKk3wBQnOaxvjXvBwj9mtMpwg1piXEbLmFqoT96HnpVKxnA-hsl_I6n8aApWqEALw_wcB",
   },
   {
     name: "Al-Yarmouk University College (Computer Engineering)",
@@ -20,5 +22,6 @@ export const EducationData = [
     gpa: "61/100",
     logoClassName: "education-card-image-yarmouk",
     certificate: yarmoukUniversityImage2,
+    uniLink: "https://al-yarmok.edu.iq/en/",
   },
 ];

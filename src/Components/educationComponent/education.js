@@ -29,7 +29,7 @@ export default function Education() {
                 <BsCheckCircle size={18} color="green" className="icon" />
                 <span>GPA {item.gpa}</span>
               </div>
-              {/* Button to open the certificate */}
+              {/* Text to open the certificate */}
               {item.certificate && (
                 <p onClick={() => handleOpenCertificate(item.certificate)}>
                   View Certificate
@@ -39,15 +39,21 @@ export default function Education() {
           </div>
         ))}
 
-        {/* Display the images after all education items */}
+        {/* Display the images after all education items with links */}
         <div className="education-images-section">
           {EducationData.map((item, index) => (
-            <img
+            <a
+              href={item.uniLink}
+              target="_blank"
+              rel="noopener noreferrer"
               key={index}
-              className={item.logoClassName}
-              src={item.image}
-              alt={item.name}
-            />
+            >
+              <img
+                className={item.logoClassName}
+                src={item.image}
+                alt={item.name}
+              />
+            </a>
           ))}
         </div>
       </div>
