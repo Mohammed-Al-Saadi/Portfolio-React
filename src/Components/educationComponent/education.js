@@ -7,9 +7,9 @@ import { FaUserGraduate } from "react-icons/fa6";
 
 export default function Education() {
   // Function to handle opening the certificate
-  const handleOpenCertificate = (certificateUrl) => {
-    window.open(certificateUrl, "_blank");
-  };
+  // const handleOpenCertificate = (certificateUrl) => {
+  //   window.open(certificateUrl, "_blank");
+  // };
 
   return (
     <div className="education-card-container">
@@ -30,11 +30,11 @@ export default function Education() {
                 <span>GPA {item.gpa}</span>
               </div>
               {/* Text to open the certificate */}
-              {item.certificate && (
+              {/* {item.certificate && (
                 <p onClick={() => handleOpenCertificate(item.certificate)}>
                   View Certificate
                 </p>
-              )}
+              )} */}
             </div>
           </div>
         ))}
