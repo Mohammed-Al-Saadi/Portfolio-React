@@ -90,7 +90,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.75);
+  background-color: rgba(0, 0, 0, 0.925);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -123,6 +123,11 @@
   line-height: 1.6;
   padding: 0.5rem 0;
 }
+body.modal-open {
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+}
 
 /* Close button */
 .close {
@@ -131,13 +136,35 @@
   top: 0.4rem;
 
   cursor: pointer;
-  font-size: 1.5rem;
-  color: #aaa;
+  color: rgba(0, 0, 0, 0.652);
   transition: color 0.3s ease;
+  background-color: rgb(214, 214, 214);
+  border-radius: 50%;
 }
 .experience-modal-content {
   max-height: 80vh;
+  overflow-y: auto; /* Only vertical scroll */
+  overflow-x: hidden;
 }
+
+/* Optional: always show scrollbar in WebKit browsers */
+.experience-modal-content::-webkit-scrollbar {
+  width: 4px;
+}
+
+.experience-modal-content::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.experience-modal-content::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+.experience-modal-content::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
 .close:hover {
   color: #333;
 }

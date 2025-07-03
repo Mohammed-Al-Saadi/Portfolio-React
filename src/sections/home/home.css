@@ -69,7 +69,7 @@
     background: unset, url("../../assets/images/profile.webp");
     background-color: rgb(88, 88, 88);
     background-size: cover;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
   }

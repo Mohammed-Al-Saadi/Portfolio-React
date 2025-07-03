@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Modal from "react-modal";
 import "./WorkExperience.css";
 import { IoClose } from "react-icons/io5";
@@ -24,6 +24,17 @@ const WorkExperience = () => {
   const sortedWorkExperienceData = [...workExperienceData].sort((a, b) => {
     return parseInt(b.year) - parseInt(a.year);
   });
+  useEffect(() => {
+    if (isModalOpen) {
+      document.body.classList.add("modal-open");
+    } else {
+      document.body.classList.remove("modal-open");
+    }
+
+    return () => {
+      document.body.classList.remove("modal-open");
+    };
+  }, [isModalOpen]);
 
   return (
     <div className="work-experience-main">

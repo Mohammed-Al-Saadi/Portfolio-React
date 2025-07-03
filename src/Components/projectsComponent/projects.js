@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import ReactModal from "react-modal";
 import "./projects.css";
 import VideoPlayer from "../videoComponent/video";
@@ -21,7 +21,17 @@ const Projects = () => {
     setModalIsOpen(false);
     setSelectedProject(null);
   };
+  useEffect(() => {
+    if (modalIsOpen) {
+      document.body.classList.add("modal-open");
+    } else {
+      document.body.classList.remove("modal-open");
+    }
 
+    return () => {
+      document.body.classList.remove("modal-open");
+    };
+  }, [modalIsOpen]);
   return (
     <div className="projects-container">
       <h1>PROJECTS</h1>
