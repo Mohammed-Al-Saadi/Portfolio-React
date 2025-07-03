@@ -132,7 +132,6 @@ export const projects = [
       "The static website for Omar Parturi provides a seamless user experience. It features essential information such as contact details, location, and a comprehensive list of services. With a clean, modern design, the site ensures easy navigation, allowing visitors to quickly find the details they need.",
   },
   {
-    videoUrl: Portfolio,
     tech: ["React JS", "CSS", "Javascript", "EmailJS", "Google Analytics"],
     imageUrl: require("../../assets/images/card_portfolio.png"),
     links: [
