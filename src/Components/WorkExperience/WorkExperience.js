@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Modal from "react-modal";
 import "./WorkExperience.css";
 import { IoClose } from "react-icons/io5";
-import workExperienceData from "./workExperienceData.json"; 
+import workExperienceData from "./workExperienceData.json";
 
 Modal.setAppElement("#root");
 
@@ -59,14 +59,19 @@ const WorkExperience = () => {
                   className="work-experience-close-button"
                 ></IoClose>
               </div>
-
-              <h3>{selectedExperience.title}</h3>
-
+              <h3>{selectedExperience.title}</h3>{" "}
+              <div className="title-underline" />
               <p>
                 <strong>{selectedExperience.company}</strong> -{" "}
                 {selectedExperience.year} ({selectedExperience.duration})
               </p>
-              <p>{selectedExperience.description}</p>
+              <p>
+                {selectedExperience.description
+                  .split("\n")
+                  .map((line, index) => (
+                    <p key={index}>{line}</p>
+                  ))}
+              </p>
             </div>
           )}
         </Modal>

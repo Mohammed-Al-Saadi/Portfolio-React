@@ -112,3 +112,9 @@ body {
 #contact .contact-form button:hover {
   background-color: #0056b3;
 }
+@media (min-width: 1800px) {
+  html {
+    padding: 0rem 10rem;
+    background-color: rgb(39, 39, 39);
+  }
+}

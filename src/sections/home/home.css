@@ -1,7 +1,7 @@
 /* Improved Class Names */
 .home-first-page {
   display: flex;
-  height: 70vh;
+  height: 50vh;
   width: 100%;
   position: relative;
   padding-top: 3rem;
@@ -19,7 +19,7 @@
       rgba(71, 71, 71, 0.098) 20%,
       rgb(255, 255, 255) 100%
     ),
-    url("../../assets/images/profile.png");
+    url("../../assets/images/profile.webp");
   background-size: contain;
   background-position: left;
   background-repeat: no-repeat;
@@ -30,7 +30,6 @@
   height: 100%;
   background-color: rgb(88, 88, 88);
   position: relative;
-  left: -2rem;
 }
 
 .home-right-section {
@@ -67,7 +66,7 @@
 
   .home-left-section {
     position: relative;
-    background: unset, url("../../assets/images/profile.png");
+    background: unset, url("../../assets/images/profile.webp");
     background-color: rgb(88, 88, 88);
     background-size: cover;
     background-position: center;
