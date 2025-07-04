@@ -62,7 +62,7 @@ const Projects = () => {
           <div>
             <div className="close">
               {" "}
-              <IoClose color="black" size={35} onClick={closeModal}></IoClose>
+              <IoClose className="tryout" color="black" size={35} onClick={closeModal}></IoClose>
             </div>
 
             <h2>{selectedProject.title}</h2>

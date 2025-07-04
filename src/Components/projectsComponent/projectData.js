@@ -34,7 +34,7 @@ export const projects = [
     title: "Kalibro - Audit Tool for Calevala Interactive OY",
     content: "Kalibro is a robust website audit and optimization platform...",
     fullText:
-      "Kalibro is a comprehensive website audit and optimization platform developed for Calevala Interactive, empowering businesses to enhance their online presence through deep technical insights and actionable diagnostics. Kalibro performs multi-dimensional audits across areas like SEO, server data, IP geolocation, DNS lookup, SSL validation, and technology stack tracking. It evaluates websites on key pillars including performance, accessibility, best practices, and security, with built-in vulnerability detection such as SQL injection checks. At its core, Kalibro includes a powerful business dashboard and management interface that enables users to monitor technical metrics, manage user roles, view account details, and access insights tailored to their plan. The platform features role-based access control, admin tools, activity logs, notifications, and supports both free and paid subscriptions. Built with Flask, React, and AWS, Kalibro leverages Redux for state management, reusable components for scalability, and WebSockets for real-time updates. It’s an actively evolving system with an expanding roadmap of features aimed at delivering intelligent, actionable feedback for continuous website improvement.",
+      "Kalibro is a website audit and optimization platform developed for Calevala Interactive, empowering businesses to enhance their online presence through deep technical insights and actionable diagnostics. Kalibro performs multi-dimensional audits across areas like SEO, server data, IP geolocation, DNS lookup, SSL validation, and technology stack tracking. It evaluates websites performance, accessibility, best practices, and security. At its core, Kalibro includes a powerful business dashboard and management interface that enables users to monitor technical metrics, manage user roles, view account details, and access insights tailored to their plan. The platform features role-based access control, admin tools, activity logs, notifications, and supports both free and paid subscriptions. Built with Flask, React, and AWS, Kalibro leverages Redux for state management, reusable components for scalability, and WebSockets for real-time updates. It’s an actively evolving system with an expanding roadmap of features aimed at delivering intelligent, actionable feedback for continuous website improvement.",
   },
   {
     tech: ["K6"],
@@ -166,20 +166,20 @@ export const projects = [
     fullText:
       "This project is an automation testing suite for Verkkokauppa.com, built using Robot Framework with SeleniumLibrary. It automates key user interactions such as account creation, login, product search, filtering, and adding items to the cart or favorites. The tests also validate product page elements, category icons, and sorting features. The suite ensures smooth functionality across the website by simulating real user workflows. It utilizes Selenium WebDriver for browser automation and Chrome for executing tests.",
   },
-  {
-    tech: ["Node.js", "PostgreSQL", "JWT", "Nodemailer", "Bcrypt"],
-    imageUrl: require("../../assets/images/node.png"),
-    links: [
-      {
-        label: "GitHub Repo",
-        url: "https://github.com/Mohammed-Al-Saadi/Clinic/tree/main/server",
-      },
-    ],
-    shortTitle: "User Management System",
-    title: "User Management System (Hobby project)",
-    content:
-      "This project implements a user management system with role-based access...",
-    fullText:
-      "This User Management System project is built with Node.js and PostgreSQL, featuring user registration, login, and profile management. It includes role-based access control (RBAC) for admin features such as updating user roles and deactivating accounts. Authentication is handled using JSON Web Tokens (JWT), and email notifications are sent via Nodemailer for password resets. The system ensures security with bcrypt password hashing and supports both access and refresh tokens for session management.",
-  },
+  // {
+  //   tech: ["Node.js", "PostgreSQL", "JWT", "Nodemailer", "Bcrypt"],
+  //   imageUrl: require("../../assets/images/node.png"),
+  //   links: [
+  //     {
+  //       label: "GitHub Repo",
+  //       url: "https://github.com/Mohammed-Al-Saadi/Clinic/tree/main/server",
+  //     },
+  //   ],
+  //   shortTitle: "User Management System",
+  //   title: "User Management System (Hobby project)",
+  //   content:
+  //     "This project implements a user management system with role-based access...",
+  //   fullText:
+  //     "This User Management System project is built with Node.js and PostgreSQL, featuring user registration, login, and profile management. It includes role-based access control (RBAC) for admin features such as updating user roles and deactivating accounts. Authentication is handled using JSON Web Tokens (JWT), and email notifications are sent via Nodemailer for password resets. The system ensures security with bcrypt password hashing and supports both access and refresh tokens for session management.",
+  // },
 ];

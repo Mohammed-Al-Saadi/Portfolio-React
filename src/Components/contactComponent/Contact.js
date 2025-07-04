@@ -38,25 +38,21 @@ export default function ContactUs() {
               <ImUserTie /> &nbsp;Mohammed Al-Saadi
             </Link>
           </div>
-          <hr />
           <div className="contactheader">
             <Link to="">
               <FaAddressBook /> &nbsp;Tampere
             </Link>
           </div>
-          <hr />
           <div className="contactheader">
             <Link to="">
               <ImPhone /> &nbsp;+358 442417876
             </Link>
           </div>
-          <hr />
           <div className="contactheader">
             <Link to="">
               <MdEmail /> &nbsp;al-saadi.mohammed@outlook.com
             </Link>
           </div>
-          <hr />
         </div>
 
         <div className="container_h">
