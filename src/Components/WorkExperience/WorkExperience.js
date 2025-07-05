@@ -60,7 +60,6 @@ const WorkExperience = () => {
           contentLabel="Experience Details"
           className="experience-modal-content"
           overlayClassName="experience-modal-overlay"
-          shouldReturnFocusAfterClose={false}
         >
           {selectedExperience && (
             <div>
