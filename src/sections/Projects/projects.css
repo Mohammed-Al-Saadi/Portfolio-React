@@ -17,8 +17,7 @@
 }
 body.modal-open {
   overflow: hidden;
-  position: fixed;
-  width: 100%;
+
 }
 .project-modal-fullscreen {
   position: fixed;
@@ -120,8 +119,3 @@ body.modal-open {
   }
 }
 
-/* projects.css */
-body.modal-open {
-  overflow: hidden;
-  /* remove this: position: fixed; width: 100%; */
-}
