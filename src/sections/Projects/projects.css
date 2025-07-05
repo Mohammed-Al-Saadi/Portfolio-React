@@ -119,3 +119,9 @@ body.modal-open {
     background-color: rgb(255, 255, 255);
   }
 }
+
+/* projects.css */
+body.modal-open {
+  overflow: hidden;
+  /* remove this: position: fixed; width: 100%; */
+}

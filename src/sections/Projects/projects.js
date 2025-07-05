@@ -57,12 +57,18 @@ const Projects = () => {
         contentLabel="Project Video Modal"
         className="project-modal-fullscreen"
         overlayClassName="project-modal-overlay-fullscreen"
+        shouldReturnFocusAfterClose={false} // ← add this
       >
         {selectedProject && (
           <div>
             <div className="close">
               {" "}
-              <IoClose className="tryout" color="black" size={35} onClick={closeModal}></IoClose>
+              <IoClose
+                className="tryout"
+                color="black"
+                size={35}
+                onClick={closeModal}
+              ></IoClose>
             </div>
 
             <h2>{selectedProject.title}</h2>
