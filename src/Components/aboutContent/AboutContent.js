@@ -5,8 +5,7 @@ import aboutContentData from "./AboutContentData.json";
 export default function AboutContent() {
   return (
     <div className="about_main_content">
-      <label className="skills-main-page">{aboutContentData.label}</label>
-      <p>{aboutContentData.description}</p>
+      <h1 className="skills-main-page">{aboutContentData.label}</h1>
       <Education />
     </div>
   );

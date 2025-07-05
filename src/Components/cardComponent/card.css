@@ -65,3 +65,9 @@
     max-width: 26rem;
   }
 }
+
+@media (max-width: 500px) {
+  .card h2 {
+    font-size: 1.3em;
+  }
+}

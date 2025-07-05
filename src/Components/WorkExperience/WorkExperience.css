@@ -10,7 +10,6 @@
 
 .work-experience-main label {
   font-size: 1.8rem;
-  color: #333;
   font-weight: bold;
   margin-bottom: 1rem;
   text-align: center;
@@ -210,5 +209,11 @@ body.modal-open {
   }
   .work-experience-close-button {
     right: -0.5rem;
+  }
+  .work-experience-main label {
+    font-size: 1.5rem;
+  }
+  .work-experience-card h3 {
+    font-size: 1.3rem;
   }
 }

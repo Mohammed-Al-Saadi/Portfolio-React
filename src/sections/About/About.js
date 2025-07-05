@@ -10,7 +10,7 @@ export default function About() {
     <div className="about_main">
       <h1>{aboutData.title}</h1>
       <h4>{aboutData.description}</h4>
-      <div className="skills-main-page">
+      <div className="skills-main-page" >
         <AboutContent />
         <SkillsList />
         <WorkExperience />

@@ -14,17 +14,22 @@ export const icons = {
 };
 
 // Utility to get the active link based on scroll position
-export const getActiveLinkOnScroll = () => {
-  const scrollPosition = window.scrollY + window.innerHeight / 2;
-  const currentSection = navItemsData.find((item) => {
-    const element = document.getElementById(item.elementId);
-    if (element) {
-      const offsetTop = element.offsetTop;
-      const offsetBottom = offsetTop + element.offsetHeight;
-      return scrollPosition >= offsetTop && scrollPosition < offsetBottom;
-    }
-    return false;
-  });
+// sidebarUtils.js
 
-  return currentSection ? `#${currentSection.elementId}` : null;
-};
+export function getActiveLinkOnScroll(offset = 100) {
+  const scrollY = window.pageYOffset;
+  const sections = document.querySelectorAll("section[id]");
+
+  for (const section of sections) {
+    const rect = section.getBoundingClientRect();
+    // page-relative top of section, minus a little offset for early activation:
+    const sectionTop = rect.top + window.scrollY - offset;
+    const sectionBottom = sectionTop + section.offsetHeight;
+
+    if (scrollY >= sectionTop && scrollY < sectionBottom) {
+      return `#${section.id}`;
+    }
+  }
+
+  return null;
+}

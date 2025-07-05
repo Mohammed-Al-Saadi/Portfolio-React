@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import ReactModal from "react-modal";
 import "./projects.css";
-import VideoPlayer from "../videoComponent/video";
-import Card from "../cardComponent/card";
+import VideoPlayer from "../../Components/videoComponent/video";
+import Card from "../../Components/cardComponent/card";
 import { projects } from "./projectData";
 import { IoClose } from "react-icons/io5";
 

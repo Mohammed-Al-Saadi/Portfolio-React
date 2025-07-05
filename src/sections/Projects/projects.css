@@ -73,7 +73,7 @@ body.modal-open {
   text-align: center;
   color: rgb(99, 99, 99);
   padding-top: 1rem;
-  padding-bottom: 4rem;
+  padding-bottom: 2rem;
 }
 
 .projects-container h1 {
@@ -84,6 +84,8 @@ body.modal-open {
 
 .projects-container {
   padding: 1rem 4rem;
+  max-width: 100rem;
+  margin: 0 auto;
 }
 
 /* Fade-in animation for the overlay */

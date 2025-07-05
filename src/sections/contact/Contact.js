@@ -5,9 +5,13 @@ import { MdEmail } from "react-icons/md";
 import { Link } from "react-router-dom";
 import { RiContactsFill } from "react-icons/ri";
 import { FaAddressBook } from "react-icons/fa6";
-import Rights from "../rightsComponent/rights";
+import Rights from "../../Components/rightsComponent/rights";
 import { sendEmail } from "./emailUtils";
-
+import { FaPhoneVolume } from "react-icons/fa6";
+import { MdMarkEmailRead } from "react-icons/md";
+import { MdAlternateEmail } from "react-icons/md";
+import ReactModal from "react-modal";
+ReactModal.setAppElement("#root");
 export default function ContactUs() {
   const form = useRef();
   const [loading, setLoading] = useState(false);
@@ -52,6 +56,11 @@ export default function ContactUs() {
             <Link to="">
               <MdEmail /> &nbsp;al-saadi.mohammed@outlook.com
             </Link>
+          </div>
+          <div className="contact_icon">
+            <FaPhoneVolume color="gray" size={35} />
+            <MdMarkEmailRead color="gray" size={40} />
+            <MdAlternateEmail color="gray" size={40} />
           </div>
         </div>
 

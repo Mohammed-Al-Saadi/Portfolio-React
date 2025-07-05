@@ -2,12 +2,12 @@ import "./App.css";
 import React from "react";
 import Sidebar from "./Components/sideBarComponent/sideBar.js";
 import FirstPage from "./sections/home/home.js";
-import Projects from "./Components/projectsComponent/projects.js";
-import ContactUs from "./Components/contactComponent/Contact.js";
+import ContactUs from "./sections/contact/Contact.js";
 import About from "./sections/About/About.js";
 import { motion } from "framer-motion";
 import { leftVariant, rightVariant } from "./animation/animations";
 import { useRepeatedInView } from "./animation/hook.js";
+import Projects from "./sections/Projects/projects.js";
 
 function App() {
   // Custom hook with `triggerOnce: false` for repeated animation on each scroll
@@ -53,7 +53,7 @@ function App() {
           <motion.div
             initial="hidden"
             animate={contactInView ? "visible" : "hidden"}
-            variants={rightVariant}
+            variants={leftVariant}
           >
             <ContactUs />
           </motion.div>
