@@ -1,0 +1,34 @@
+// src/components/WorkExperience/workExperienceData.js
+import calevalaLogo from "../../assets/images/calevalaLogo.png";
+import NoLogo from "../../assets/images/noLogo.png";
+
+const workExperienceData = [
+  {
+    logo: NoLogo,
+    title: "IT Specialist Trainee",
+    company: "Baqubah Municipality",
+    year: "2013",
+    duration: "5 months",
+    description:
+      "Spent 5 months as an IT Specialist trainee at Baqubah Municipality, diving into technical support, network management, and system optimization. This experience built a solid foundation in IT and sparked a real passion for tackling tech challenges head-on.",
+  },
+  {
+    logo: calevalaLogo,
+    title: "App Developer Trainee",
+    company: "Calevala Ltd",
+    year: "2023",
+    duration: "5 months",
+    description:
+      "In 2023, I joined Calevala as an Application Developer Trainee after first contributing to Kalibro through the HAMK ICT Project. During this phase, I helped plan the tool’s foundation and tested key ideas, which gave me early insight into how real-world projects are structured. As a trainee, I took on an active full-stack role, working closely with the team to design, build, and test both backend APIs (using Flask) and the frontend UI (using React). This hands-on involvement from planning to development sharpened my understanding of professional workflows and deepened my confidence in delivering production-level software.",
+  },
+  {
+    logo: calevalaLogo,
+    title: "Full-Stack Developer",
+    company: "Calevala Ltd",
+    year: "2024 – Present",
+    description:
+      "Now, as a Full-Stack Developer at Calevala, I lead the development of Kalibro.io—a comprehensive site audit tool built with Flask, React, and hosted on AWS. I’m responsible for the full product lifecycle, from designing backend APIs to building frontend components, deploying scalable systems, and setting project milestones. All of this is done in close collaboration with a dedicated and skilled development team.\n\nKey contributions include implementing both Google authentication and a custom JWT-based login system, developing core dashboard and management features, building secure signup and password recovery flows, and integrating third-party APIs. I also designed and implemented a robust role-based permission system to support scalable user access control.\n\nBeyond feature development, I’ve led the creation of in-app notification systems, team activity logs, and reusable React components using Redux. I introduced pagination, nested navigation, and a fully responsive UI. From a DevOps perspective, I manage CI/CD workflows via GitHub Actions and deploy microservices using AWS Lambda, API Gateway, and WebSocket Gateway. In addition to technical responsibilities, I mentor thesis students, supervise ICT project participants, and help guide our team’s direction to ensure alignment with real-world industry standards.",
+  },
+];
+
+export default workExperienceData;

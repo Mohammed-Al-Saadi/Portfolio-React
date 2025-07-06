@@ -2,8 +2,7 @@ import React, { useEffect, useState } from "react";
 import Modal from "react-modal";
 import "./WorkExperience.css";
 import { IoClose } from "react-icons/io5";
-import workExperienceData from "./workExperienceData.json";
-
+import workExperienceData from "./workExperienceData";
 Modal.setAppElement("#root");
 
 const WorkExperience = () => {
@@ -48,9 +47,20 @@ const WorkExperience = () => {
               <strong>{exp.company}</strong> - {exp.year}
             </p>
 
-            <button className="read-more-button" onClick={() => openModal(exp)}>
-              Read More
-            </button>
+            <hr></hr>
+            <div className="logo_read_more">
+              <button
+                className="read-more-button"
+                onClick={() => openModal(exp)}
+              >
+                Read More
+              </button>
+              <img
+                src={exp.logo}
+                alt={`${exp.company} logo`}
+                className="company_logo"
+              />
+            </div>
           </div>
         ))}
 
