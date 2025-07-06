@@ -8,6 +8,7 @@ import { motion } from "framer-motion";
 import { leftVariant, rightVariant } from "./animation/animations";
 import { useRepeatedInView } from "./animation/hook.js";
 import Projects from "./sections/Projects/projects.js";
+import OpenChat from "./Components/openChat/openChat.js";
 
 function App() {
   // Custom hook with `triggerOnce: false` for repeated animation on each scroll
@@ -58,6 +59,7 @@ function App() {
             <ContactUs />
           </motion.div>
         </section>
+        <OpenChat />
       </div>
     </div>
   );
