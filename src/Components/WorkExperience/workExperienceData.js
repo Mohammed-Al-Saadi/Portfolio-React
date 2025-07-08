@@ -4,30 +4,46 @@ import NoLogo from "../../assets/images/noLogo.png";
 
 const workExperienceData = [
   {
-    logo: NoLogo,
-    title: "IT Specialist Trainee",
-    company: "Baqubah Municipality",
-    year: "2013",
-    duration: "5 months",
+    logo: calevalaLogo,
+    title: "Full-Stack Developer",
+    company: "Calevala Ltd",
+    year: "01 Jun 2024 – Present",
     description:
-      "Spent 5 months as an IT Specialist trainee at Baqubah Municipality, diving into technical support, network management, and system optimization. This experience built a solid foundation in IT and sparked a real passion for tackling tech challenges head-on.",
+      "- Led complete project lifecycle for Kalibro.io, an AWS-hosted site audit tool.\n" +
+      "- Implemented secure authentication (OAuth, JWT & 2FA) and integrated Stripe payments.\n" +
+      "- Designed and built role-based access control and reusable React/Redux components.\n" +
+      "- Added nested navigation, dynamic pagination, and modular UI patterns.\n" +
+      "- Developed Flask REST APIs for front-end and third-party integrations.\n" +
+      "- Created customer and management dashboards with real-time notifications and activity logs to track team performance.\n" +
+      "- Established CI/CD pipelines with GitHub Actions for AWS Lambda deployments.\n" +
+      "- Supervised and mentored ICT interns and thesis students in agile workflows.",
   },
   {
     logo: calevalaLogo,
     title: "App Developer Trainee",
     company: "Calevala Ltd",
-    year: "2023",
+    year: "02 Jan 2024 - 30 May 2024",
     duration: "5 months",
     description:
-      "In 2023, I joined Calevala as an Application Developer Trainee after first contributing to Kalibro through the HAMK ICT Project. During this phase, I helped plan the tool’s foundation and tested key ideas, which gave me early insight into how real-world projects are structured. As a trainee, I took on an active full-stack role, working closely with the team to design, build, and test both backend APIs (using Flask) and the frontend UI (using React). This hands-on involvement from planning to development sharpened my understanding of professional workflows and deepened my confidence in delivering production-level software.",
+      "- Assisted in planning and implementing full-stack features for Kalibro using Flask and React.\n- Developed and tested backend APIs, ensuring secure data handling.\n- Built responsive user interfaces and improved UI/UX flows.\n- Performed code reviews and collaborated with senior developers to refine best practices.\n- Enhanced understanding of professional software development workflows.",
   },
   {
     logo: calevalaLogo,
-    title: "Full-Stack Developer",
+    title: "HAMK ICT Project",
     company: "Calevala Ltd",
-    year: "2024 – Present",
+    year: "24 Oct 2023 - 22 Dec 2023",
+    duration: "8 weeks",
     description:
-      "Now, as a Full-Stack Developer at Calevala, I lead the development of Kalibro.io—a comprehensive site audit tool built with Flask, React, and hosted on AWS. I’m responsible for the full product lifecycle, from designing backend APIs to building frontend components, deploying scalable systems, and setting project milestones. All of this is done in close collaboration with a dedicated and skilled development team.\n\nKey contributions include implementing both Google authentication and a custom JWT-based login system, developing core dashboard and management features, building secure signup and password recovery flows, and integrating third-party APIs. I also designed and implemented a robust role-based permission system to support scalable user access control.\n\nBeyond feature development, I’ve led the creation of in-app notification systems, team activity logs, and reusable React components using Redux. I introduced pagination, nested navigation, and a fully responsive UI. From a DevOps perspective, I manage CI/CD workflows via GitHub Actions and deploy microservices using AWS Lambda, API Gateway, and WebSocket Gateway. In addition to technical responsibilities, I mentor thesis students, supervise ICT project participants, and help guide our team’s direction to ensure alignment with real-world industry standards.",
+      "- Collaborated with project stakeholders to define user requirements and establish project milestones.\n- Outlined foundational architecture for the Kalibro site audit tool.\n- Created prototypes for core features to validate design concepts.\n- Documented project progress and provided regular updates to the team.",
+  },
+  {
+    logo: NoLogo,
+    title: "IT Specialist Trainee",
+    company: "Baqubah Municipality",
+    year: "06 Jun 2013 - 06 Nov 2013",
+    duration: "5 months",
+    description:
+      "- Provided technical support and troubleshooting for end-users, ensuring timely resolution of IT issues.\n- Assisted in network configuration and routine maintenance tasks.\n- Optimized system performance through software updates and hardware checks.\n- Gained hands-on experience in IT operations and developed a strong problem-solving mindset.",
   },
 ];
 

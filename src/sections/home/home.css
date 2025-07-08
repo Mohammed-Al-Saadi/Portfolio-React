@@ -1,42 +1,50 @@
 /* Improved Class Names */
-.home-first-page {
+.home-page {
   display: flex;
-  height: 50vh;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   width: 100%;
+  padding: 4.5rem 0rem;
   position: relative;
-  padding-top: 3rem;
 }
 
 * {
   margin: 0;
   box-sizing: border-box;
 }
-
-.home-left-section {
+.home-actions {
+  position: absolute;
+  bottom: -3rem;
+  background-color: rgb(53, 49, 49);
   width: 100%;
-  height: 100%;
-
-  /* combine gradient + image into one shorthand, centering and sizing it: */
-  background:
-    linear-gradient(
-      to right,
-      rgba(71, 71, 71, 0.098) 30%,
-      rgb(255, 255, 255) 100%
-    ),
-    url("../../assets/images/profile.webp") 25% center
-      /* ← 30% from left edge, vertically centered */ / contain no-repeat;
-
   display: flex;
+  flex-direction: row;
   justify-content: center;
+  padding: 1rem 0rem;
+  gap: 1rem;
   align-items: center;
-  position: relative;
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-  background-color: rgb(88, 88, 88);
 }
 
-.home-right-section {
-  position: absolute;
-  left: 60%;
+.home-actions button {
+  background-color: rgb(72, 72, 72);
+}
+.home-profile-image {
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 4px solid #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  margin: 0 auto;
+}
+
+.home-profile-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
 }
 
 /* Responsive Design */
@@ -74,15 +82,5 @@
     position: absolute;
     right: 3rem;
     bottom: 2rem;
-  }
-
-  .home-left-section {
-    position: relative;
-    background: unset, url("../../assets/images/profile.webp");
-    background-color: rgb(88, 88, 88);
-    background-size: cover;
-    background-position: top;
-    background-repeat: no-repeat;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
   }
 }

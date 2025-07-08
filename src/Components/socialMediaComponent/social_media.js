@@ -11,17 +11,17 @@ export default function Footer() {
         <div className="colz">
           <a href="https://www.instagram.com/mohammed.ali9o/?next=%2F">
             <i>
-              <GrInstagram size={28} color="black" />
+              <GrInstagram size={28} color="white" />
             </i>
           </a>
           <a href="https://www.linkedin.com/in/mohammed-al-saadi-08a502264/">
             <i>
-              <BsLinkedin size={28} color="black" />
+              <BsLinkedin size={28} color="white" />
             </i>
           </a>
           <a href="https://github.com/Mohammed-Al-Saadi">
             <i>
-              <AiFillGithub size={28} color="black" />
+              <AiFillGithub size={28} color="white" />
             </i>
           </a>
         </div>
