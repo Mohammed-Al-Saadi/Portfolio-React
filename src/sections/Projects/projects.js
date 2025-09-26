@@ -6,7 +6,7 @@ import Card from "../../Components/cardComponent/card";
 import { projects } from "./projectData";
 import { IoClose } from "react-icons/io5";
 
-ReactModal.setAppElement("#root"); // Set the root element for accessibility
+ReactModal.setAppElement("#root");
 
 const Projects = () => {
   const [modalIsOpen, setModalIsOpen] = useState(false);
@@ -57,7 +57,7 @@ const Projects = () => {
         contentLabel="Project Video Modal"
         className="project-modal-fullscreen"
         overlayClassName="project-modal-overlay-fullscreen"
-        shouldReturnFocusAfterClose={false} // ← add this
+        shouldReturnFocusAfterClose={false} 
       >
         {selectedProject && (
           <div>

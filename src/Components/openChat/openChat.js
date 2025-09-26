@@ -18,7 +18,6 @@ export default function MainView({ phoneNumber = "+358442417876" }) {
 
   return (
     <div className="mainview-container">
-      {/* Floating WhatsApp Icon */}
       <button
         className="whatsapp-button"
         onClick={() => setIsOpen(!isOpen)}
@@ -27,7 +26,6 @@ export default function MainView({ phoneNumber = "+358442417876" }) {
         <FaWhatsapp className="whatsapp-icon" />
       </button>
 
-      {/* Chat Popover positioned above the icon */}
       {isOpen && (
         <div className="chat-popover" onClick={() => setIsOpen(false)}>
           <div

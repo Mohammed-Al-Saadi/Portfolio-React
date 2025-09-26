@@ -7,16 +7,16 @@ const workExperienceData = [
     logo: calevalaLogo,
     title: "Full-Stack Developer",
     company: "Calevala Ltd",
-    year: "01 Jun 2024 – Present",
+    year: "01 Jun 2024 – 30 Sep 2025",
     description:
-      "- Led complete project lifecycle for Kalibro.io, an AWS-hosted site audit tool.\n" +
-      "- Implemented secure authentication (OAuth, JWT & 2FA) and integrated Stripe payments.\n" +
-      "- Designed and built role-based access control and reusable React/Redux components.\n" +
-      "- Added nested navigation, dynamic pagination, and modular UI patterns.\n" +
-      "- Developed Flask REST APIs for front-end and third-party integrations.\n" +
-      "- Created customer and management dashboards with real-time notifications and activity logs to track team performance.\n" +
-      "- Established CI/CD pipelines with GitHub Actions for AWS Lambda deployments.\n" +
-      "- Supervised and mentored ICT interns and thesis students in agile workflows.",
+    "- Led end-to-end delivery of Kalibro v1.0 on AWS (ECS & Lambda), PostgreSQL data layer, deployment strategy.\n" +
+    "- Implemented secure authentication and account controls: OAuth (Google), JWT, 2FA, and session management with remote logout; designed RBAC across seven roles with plan-based permissions.\n" +
+    "- Built subscriptions & billing with Stripe (checkout, upgrades/downgrades, invoices/PDFs, card updates) and webhook-driven sync; enforced per-plan refresh limits (72h/24h/3h).\n" +
+    "- Delivered core audits: Lighthouse Web Diagnostic Hub (Performance/Accessibility/Best Practices/SEO), Technical & Security (WHOIS, IP geolocation + map, DNS, SSL, tech stack), UI/UX screenshot analysis; designed the unified Kalibro Score and Audit Report with email delivery.\n" +
+    "- Created customer & management dashboards with real-time logs via WebSockets, in-app notifications, activity emails, nested navigation, dynamic pagination, filtering, and a guided dashboard tour.\n" +
+    "- Built the Management suite: team users & roles, customers & associated accounts, help/messages inbox, campaign emailer, Stripe statistics, and a Team Activity Log with filters & pagination.\n" +
+    "- Established CI/CD with GitHub Actions (containers and Lambda deployments), set coding standards and modular API patterns, and mentored ICT interns and thesis students in agile workflows.",
+  
   },
   {
     logo: calevalaLogo,

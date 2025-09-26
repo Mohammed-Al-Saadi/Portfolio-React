@@ -8,23 +8,18 @@ import "./sideBar.css";
 
 export default function Sidebar() {
   const [isOpen, setIsOpen] = useState(false);
-  // start with whatever hash is in the URL, or default to first nav
   const [activeLink, setActiveLink] = useState(
     window.location.hash || navItemsData[0].path
   );
 
   useEffect(() => {
-    // sync on hash clicks
     const onHashChange = () => setActiveLink(window.location.hash);
     window.addEventListener("hashchange", onHashChange);
 
-    // observe sections and pick the one that's most visible
     const observer = new IntersectionObserver(
       (entries) => {
-        // filter for ones actually in view
         const visible = entries.filter((e) => e.isIntersecting);
         if (visible.length > 0) {
-          // pick whichever has the largest visible area
           const mostVisible = visible.reduce((best, e) =>
             e.intersectionRatio > best.intersectionRatio ? e : best
           );
@@ -34,12 +29,10 @@ export default function Sidebar() {
       {
         root: null,
         rootMargin: "0px",
-        // trigger whenever visibility crosses any of these ratios
         threshold: Array.from({ length: 101 }, (_, i) => i / 100),
       }
     );
 
-    // observe each section by its elementId
     navItemsData.forEach((item) => {
       const el = document.getElementById(item.elementId);
       if (el) observer.observe(el);

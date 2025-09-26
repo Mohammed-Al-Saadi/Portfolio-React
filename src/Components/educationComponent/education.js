@@ -1,10 +1,8 @@
 import React from "react";
 import "./education.css";
-import { BsCheckCircle } from "react-icons/bs";
 import { FaUniversity } from "react-icons/fa";
 import { FaUserGraduate } from "react-icons/fa6";
 import { EducationData, CertificationsData } from "./educationData.js";
-import { MdOutlineCastForEducation } from "react-icons/md";
 
 export default function Education() {
   const handleOpenCertificate = (certificateUrl) => {

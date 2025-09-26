@@ -1,7 +1,6 @@
 /* Default Navbar Styling (Large Screens) */
 .navbar {
   display: flex;
-  justify-content: center;
   background-color: #333333f6;
   padding: 1rem;
   position: fixed;
