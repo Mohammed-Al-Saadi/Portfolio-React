@@ -30,7 +30,7 @@ export const projects = [
         url: "https://www.kalibro.io",
       },
     ],
-    shortTitle: "Kalibro - Audit Tool",
+    shortTitle: "Kalibro -  Calevala OY",
     title: "Kalibro - Audit Tool for Calevala Interactive OY",
     content: "Kalibro is a robust website audit and optimization platform...",
     fullText:
