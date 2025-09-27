@@ -37,6 +37,27 @@ export const projects = [
       "Kalibro (v1.0, 2025) — A full-stack website audit and optimization platform developed for Calevala Interactive to improve websites’ online presence. It combines technical diagnostics with a role-based business dashboard, performing multi-dimensional audits across WHOIS, IP geolocation, DNS, SSL, technology stack, and Lighthouse metrics (Performance, Accessibility, Best Practices, SEO), along with UI/UX analysis from screenshots (colors, styles, mood). The platform includes subscription tiers (Free, Small, Medium, Large), customer roles (Admin & View-only), and internal team roles. Features include real-time logs via WebSockets, in-app notifications and activity emails, 2FA, Stripe billing (plans, invoices, card updates), team/associated accounts, audit reports with a unified Kalibro Score, and a management area for users, campaigns, messages, and analytics. The current version (v1.0) is under testing.",
   },
   {
+    tech: ["Angular"],
+    imageUrl: require("../../assets/images/angular.png"),
+    links: [
+      {
+        label: "Live demo",
+        url: "https://gleaming-liger-62ffa9.netlify.app",
+      },
+      {
+        label: "Frontend Code",
+        url: "https://github.com/Mohammed-Al-Saadi/starting-project-angular/tree/main/src",
+      },
+    ],
+    shortTitle: "Get Started with Angular",
+    title: "Get Started with Angular",
+    content:
+      "A beginner-friendly Angular project built while learning the core ...",
+    fullText:
+      "Get Started with Angular (2025) — This project was the very first step in my Angular journey. While working through my first Angular course, I built this app to put the core concepts into practice. It gave me a solid foundation and the confidence to explore Angular further.\n\nAlong the way, I learned how to build and connect components, pass data between them, and use different binding techniques like interpolation, property, event, and two-way binding. I also got hands-on experience with Angular’s change detection and Signals for managing state.\n\nI practiced rendering data with conditionals and loops, adding dynamic styles and classes, and storing information in localStorage. I also explored ng-content for content projection, applied pipes for formatting, and worked with forms using ngModel and (ngSubmit). Finally, I learned how to organize app logic with services and dependency injection.\n\nThis project might have been simple, but it marked the beginning of my Angular learning path and opened the door to building more advanced applications.",
+  },
+
+  {
     tech: ["K6"],
     imageUrl: require("../../assets/images/thesis.png"),
     links: [
