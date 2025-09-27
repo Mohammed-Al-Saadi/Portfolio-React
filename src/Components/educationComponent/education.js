@@ -38,7 +38,7 @@ export default function Education() {
                     {item.completed}
                   </span>
                   {/* Text to open the certificate */}
-                  <span>GPA: 4.3/5.</span>
+                  <span>{item.gpa}</span>
                   <hr></hr>
 
                   <div className="certificate_logo">

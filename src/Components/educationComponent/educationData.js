@@ -22,7 +22,7 @@ export const EducationData = [
 
     image: yarmoukUniversityImage,
     completed: "2010 - 2014",
-    gpa: "61/100",
+    gpa: "60.8/100",
     logoClassName: "education-card-image-yarmouk",
     certificate: yarmoukUniversityImage2,
     uniLink: "https://al-yarmok.edu.iq/en/",
