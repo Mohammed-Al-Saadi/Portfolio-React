@@ -54,7 +54,7 @@ export const projects = [
     content:
       "A beginner-friendly Angular project built while learning the core ...",
     fullText:
-      "Get Started with Angular (2025) — This project was the very first step in my Angular journey. While working through my first Angular course, I built this app to put the core concepts into practice. It gave me a solid foundation and the confidence to explore Angular further.\n\nAlong the way, I learned how to build and connect components, pass data between them, and use different binding techniques like interpolation, property, event, and two-way binding. I also got hands-on experience with Angular’s change detection and Signals for managing state.\n\nI practiced rendering data with conditionals and loops, adding dynamic styles and classes, and storing information in localStorage. I also explored ng-content for content projection, applied pipes for formatting, and worked with forms using ngModel and (ngSubmit). Finally, I learned how to organize app logic with services and dependency injection.\n\nThis project might have been simple, but it marked the beginning of my Angular learning path and opened the door to building more advanced applications.",
+      "Get Started with Angular (2025) — My first Angular project where I practiced core concepts like components, bindings, state with Signals, and dynamic rendering. I also explored advanced features such as host bindings, Inputs/Outputs, content projection, lifecycle hooks, and Angular 17’s new rendering utilities.",
   },
 
   {
