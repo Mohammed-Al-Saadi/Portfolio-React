@@ -10,12 +10,15 @@ import { DiDocker } from "react-icons/di";
 import { SiRobotframework } from "react-icons/si";
 import { FaAws } from "react-icons/fa";
 import { FiTrello } from "react-icons/fi";
+import { SiAngular } from "react-icons/si";
 
 export const skills = [
   { name: "HTML", icon: <PiFileHtmlLight size={22} /> },
   { name: "CSS", icon: <PiFileCssLight size={22} /> },
   { name: "JavaScript", icon: <DiJavascript1 size={22} /> },
   { name: "React.js", icon: <FaReact size={22} /> },
+  { name: "Angular", icon: <SiAngular size={22} /> },
+
   { name: "React Native", icon: <FaReact size={22} /> },
   { name: "Python", icon: <SiPython size={22} /> },
   { name: "Databases", icon: <GoDatabase size={22} /> },

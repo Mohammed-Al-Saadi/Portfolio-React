@@ -5,8 +5,32 @@ import Kalibro from "../../assets/video/kalibro.mp4";
 import Booking from "../../assets/video/booking.mp4";
 import Portfolio from "../../assets/video/portfolio.mp4";
 import VkTesting from "../../assets/video/vk_testing.mp4";
+import SrpAuth from "../../assets/video/srpAuth.mp4";
 
 export const projects = [
+  {
+    videoUrl: SrpAuth,
+
+    tech: ["Python", "Flask", "PostgreSQL", "Angular", "CSS"],
+    imageUrl: require("../../assets/images/srp.png"),
+    links: [
+      {
+        label: "Frontend Code",
+        url: "https://github.com/Mohammed-Al-Saadi/Angular-srp",
+      },
+      {
+        label: "Backend Code",
+        url: "https://github.com/Mohammed-Al-Saadi/python-srp",
+      },
+    ],
+    shortTitle: "SRP Authentication",
+    title: "SRP-6a Authentication Platform – Secure Remote Password Protocol",
+    content:
+      "A secure full-stack authentication system built with Angular and Flask...",
+    fullText:
+      "The SRP-6a Authentication Platform is a full-stack project that implements the Secure Remote Password (SRP-6a) protocol as defined in RFC 5054, using Angular for the frontend and Flask for the backend. It provides a secure, privacy-focused authentication system that allows users to register and log in without ever sending or storing their actual passwords. The protocol uses cryptographic verifiers, salts, and mathematical proofs to ensure both the client and server can independently confirm the user’s identity without exposing sensitive information. The backend, built with Flask and PostgreSQL, manages SRP endpoints such as `/srp-register`, `/srp-login/start`, and `/srp-login/verify`, handling salt storage, verifier management, and proof validation. The Angular frontend performs all SRP computations locally in the browser, generating keys, proofs, and verifications in real time. Once both sides complete mutual verification, a shared session key is established, ensuring a secure communication channel. While this implementation is based on the core principles and documentation of the Nimbus SRP and Thinbus SRP libraries, it has been adapted and simplified for educational clarity and modern framework integration, making it not binary compatible with those libraries.",
+  },
+
   {
     videoUrl: Kalibro,
     tech: [
