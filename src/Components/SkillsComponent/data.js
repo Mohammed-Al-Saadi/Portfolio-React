@@ -18,7 +18,6 @@ export const skills = [
   { name: "JavaScript", icon: <DiJavascript1 size={22} /> },
   { name: "React.js", icon: <FaReact size={22} /> },
   { name: "Angular", icon: <SiAngular size={22} /> },
-
   { name: "React Native", icon: <FaReact size={22} /> },
   { name: "Python", icon: <SiPython size={22} /> },
   { name: "Databases", icon: <GoDatabase size={22} /> },

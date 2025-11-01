@@ -15,12 +15,8 @@ export const projects = [
     imageUrl: require("../../assets/images/srp.png"),
     links: [
       {
-        label: "Frontend Code",
-        url: "https://github.com/Mohammed-Al-Saadi/Angular-srp",
-      },
-      {
-        label: "Backend Code",
-        url: "https://github.com/Mohammed-Al-Saadi/python-srp",
+        label: "Repositories",
+        url: "https://github.com/Mohammed-Al-Saadi/SRP-Auth",
       },
     ],
     shortTitle: "SRP Authentication",
