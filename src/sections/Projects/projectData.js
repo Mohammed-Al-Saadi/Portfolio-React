@@ -9,6 +9,30 @@ import SrpAuth from "../../assets/video/srpAuth.mp4";
 
 export const projects = [
   {
+    tech: [
+      "Python",
+      "Flask",
+      "PostgreSQL",
+      "Angular",
+      "CSS",
+      "Netlify",
+      "Render",
+    ],
+    imageUrl: require("../../assets/images/tavolopro.png"),
+    links: [
+      {
+        label: "Live demo",
+        url: "https://www.tavolopro.live",
+      },
+    ],
+    shortTitle: "TavoloPro - Ongoing",
+    title: "TavoloPro - Agile Project & Team Tracking Platform",
+    content:
+      "TavoloPro is a web-based Agile tool that helps teams manage projects...",
+    fullText:
+      "TavoloPro (v1.0, 2025) — A full-stack Agile project tracking platform built with an Angular frontend and a Flask (Python) backend using PostgreSQL. TavoloPro enables teams to create and manage projects, organize work items, and track progress through clear status-based workflows. The platform supports team-oriented project visibility and structured task management to help teams plan, execute, and monitor work efficiently. TavoloPro is a hobby project and is hosted on free tiers (Netlify for the frontend and Render for the backend/database), so the first login/register request may take up to ~50 seconds if the service is sleeping due to inactivity. The project is still under active development, with features and improvements being added continuously.",
+  },
+  {
     videoUrl: SrpAuth,
 
     tech: ["Python", "Flask", "PostgreSQL", "Angular", "CSS"],
