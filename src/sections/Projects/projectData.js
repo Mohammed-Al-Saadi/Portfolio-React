@@ -24,6 +24,10 @@ export const projects = [
         label: "Live demo",
         url: "https://www.tavolopro.live",
       },
+      {
+        label: "Backend Code",
+        url: "https://github.com/Mohammed-Al-Saadi/tavolo-server",
+      },
     ],
     shortTitle: "TavoloPro - Ongoing",
     title: "TavoloPro - Agile Project & Team Tracking Platform",
@@ -68,12 +72,7 @@ export const projects = [
       "Google Analytics",
     ],
     imageUrl: require("../../assets/images/card_kalibro.png"),
-    links: [
-      {
-        label: "View Project",
-        url: "https://www.kalibro.io",
-      },
-    ],
+    links: [],
     shortTitle: "Kalibro -  Calevala OY",
     title: "Kalibro - Audit Tool for Calevala Interactive OY",
     content: "Kalibro is a robust website audit and optimization platform...",
