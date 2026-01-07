@@ -17,6 +17,7 @@ export const projects = [
       "CSS",
       "Netlify",
       "Render",
+      "Secure Remote Password",
     ],
     imageUrl: require("../../assets/images/tavolopro.png"),
     links: [
