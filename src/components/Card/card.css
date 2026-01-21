@@ -2,7 +2,7 @@
   border: 1px solid #ddd;
   border-radius: 8px;
   padding: 10px;
-  max-width: 350px;
+  max-width: 300px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
   display: flex;
@@ -22,7 +22,6 @@
   width: 100%;
   max-height: 16vh;
   aspect-ratio: 1.4 / 1;
-  object-fit: contain;
   object-position: center;
   border-radius: 8px;
   margin-bottom: 10px;
@@ -80,7 +79,7 @@
   width: 100%;
   max-height: 16vh;
   aspect-ratio: 1.4 / 1;
-  object-fit: contain;
+  object-fit: cover;
   object-position: center;
   display: block;
   background: #fff;
@@ -151,17 +150,6 @@
 .img_link_btn:hover {
   transform: translateY(-2px);
   opacity: 0.92;
-}
-
-@media (max-width: 863px) {
-  .card {
-    max-width: 18rem;
-  }
-}
-@media (max-width: 740px) {
-  .card {
-    max-width: 21rem;
-  }
 }
 
 @media (max-width: 500px) {
