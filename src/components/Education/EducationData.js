@@ -1,6 +1,5 @@
 import hameUniversityImage from "../../assets/images/logo_hamk.png";
 import yarmoukUniversityImage from "../../assets/images/logo_yuc.png";
-import yarmoukUniversityImage2 from "../../assets/images/yar_degree.png";
 import { FcGoogle } from "react-icons/fc";
 import kamk from "../../assets/images/kamk.jpg";
 export const EducationData = [

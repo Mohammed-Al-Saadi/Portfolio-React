@@ -29,8 +29,8 @@ export const projects = [
         url: "https://github.com/Mohammed-Al-Saadi/tavolo-server",
       },
     ],
-    shortTitle: "TavoloPro - Ongoing",
-    title: "TavoloPro - Agile Project & Team Tracking Platform",
+    shortTitle: "TavoloPro – Agile Project Tool",
+    title: "TavoloPro – Agile Project & Team Tracking Platform (Hobby Project)",
     content:
       "TavoloPro is a web-based Agile tool that helps teams manage projects...",
     fullText:
@@ -47,7 +47,7 @@ export const projects = [
         url: "https://github.com/Mohammed-Al-Saadi/SRP-Auth",
       },
     ],
-    shortTitle: "SRP Authentication",
+    shortTitle: "SRP Authentication System",
     title: "SRP-6a Authentication Platform – Secure Remote Password Protocol",
     content:
       "A secure full-stack authentication system built with Angular and Flask...",
@@ -73,47 +73,11 @@ export const projects = [
     ],
     imageUrl: require("../../assets/images/card_kalibro.png"),
     links: [],
-    shortTitle: "Kalibro -  Calevala OY",
+    shortTitle: "Kalibro - Calevala OY",
     title: "Kalibro - Audit Tool for Calevala Interactive OY",
     content: "Kalibro is a robust website audit and optimization platform...",
     fullText:
       "Kalibro (v1.0, 2025) — A full-stack website audit and optimization platform developed for Calevala Interactive to improve websites’ online presence. It combines technical diagnostics with a role-based business dashboard, performing multi-dimensional audits across WHOIS, IP geolocation, DNS, SSL, technology stack, and Lighthouse metrics (Performance, Accessibility, Best Practices, SEO), along with UI/UX analysis from screenshots (colors, styles, mood). The platform includes subscription tiers (Free, Small, Medium, Large), customer roles (Admin & View-only), and internal team roles. Features include real-time logs via WebSockets, in-app notifications and activity emails, 2FA, Stripe billing (plans, invoices, card updates), team/associated accounts, audit reports with a unified Kalibro Score, and a management area for users, campaigns, messages, and analytics. The current version (v1.0) is under testing.",
-  },
-  {
-    tech: ["Angular"],
-    imageUrl: require("../../assets/images/angular.png"),
-    links: [
-      {
-        label: "Live demo",
-        url: "https://gleaming-liger-62ffa9.netlify.app",
-      },
-      {
-        label: "Frontend Code",
-        url: "https://github.com/Mohammed-Al-Saadi/starting-project-angular/tree/main/src",
-      },
-    ],
-    shortTitle: "Get Started with Angular",
-    title: "Get Started with Angular",
-    content:
-      "A beginner-friendly Angular project built while learning the core ...",
-    fullText:
-      "Get Started with Angular (2025) — My first Angular project where I practiced core concepts like components, bindings, state with Signals, and dynamic rendering. I also explored advanced features such as host bindings, Inputs/Outputs, content projection, lifecycle hooks, and Angular 17’s new rendering utilities.",
-  },
-
-  {
-    tech: ["K6"],
-    imageUrl: require("../../assets/images/thesis.png"),
-    links: [
-      {
-        label: "Thesis",
-        url: "https://www.theseus.fi/handle/10024/862076",
-      },
-    ],
-    shortTitle: "Performance Testing with K6",
-    title: "Enhancing API reliability in Kalibro.io (Calevala Ltd)",
-    content: "This thesis focuses on executing performance testing for...",
-    fullText:
-      "This thesis focuses on executing performance testing for the Kalibro.io tool, developed by Calevala Interactive Ltd., using the K6 performance testing tool. The study covers various tests, including load, stress, spike, and soak, to ensure system stability under different user loads. The testing results highlighted solid performance, with recommendations for further optimization in HTTP duration times. The thesis serves as a practical guide for implementing K6-based performance testing.",
   },
   {
     videoUrl: Booking,
@@ -129,13 +93,29 @@ export const projects = [
         url: "https://github.com/Mohammed-Al-Saadi/Barber_Booking_server",
       },
     ],
-    shortTitle: "Booking System",
+    shortTitle: "Barbershop Booking",
     title: "Barber Booking System – Web App (Hobby project)",
     content:
       "This full-stack web application,  provides a comprehensive booking...",
     fullText:
       "This full-stack web application, provides a comprehensive booking platform for barbershops. Users can choose from various services, select barbers, and book appointments. The business dashboard enables barbers to manage bookings, set their opening hours, breaks, and mark custom schedules like days off or adjusted working hours. The system is designed to allow certain services to be performed by specific barbers, offering flexible management for both customers and barbers.",
   },
+  {
+    tech: ["K6"],
+    imageUrl: require("../../assets/images/thesis.png"),
+    links: [
+      {
+        label: "Thesis",
+        url: "https://www.theseus.fi/handle/10024/862076",
+      },
+    ],
+    shortTitle: "Performance Testing with K6",
+    title: "Enhancing API reliability in Kalibro.io (Calevala Ltd)",
+    content: "This thesis focuses on executing performance testing for...",
+    fullText:
+      "This thesis focuses on executing performance testing for the Kalibro.io tool, developed by Calevala Interactive Ltd., using the K6 performance testing tool. The study covers various tests, including load, stress, spike, and soak, to ensure system stability under different user loads. The testing results highlighted solid performance, with recommendations for further optimization in HTTP duration times. The thesis serves as a practical guide for implementing K6-based performance testing.",
+  },
+
   {
     videoUrl: MobileApp,
     tech: [
@@ -155,8 +135,8 @@ export const projects = [
         url: "https://github.com/Mohammed-Al-Saadi/react-native-moblie-app",
       },
     ],
-    shortTitle: "Mobile App",
-    title: "Horizon – Mobile Flight Search Engine (Hobby project)",
+    shortTitle: "Horizon Mobile App",
+    title: "Horizon – Mobile Flight Search & Booking App (Hobby Project)",
     content:
       "Horizon is a full-stack mobile app built using React Native and Node.js...",
     fullText:
@@ -172,8 +152,8 @@ export const projects = [
         url: "https://bubasalon.com",
       },
     ],
-    shortTitle: "Static Website",
-    title: "Responsive static website - Buba Salon",
+    shortTitle: "Buba Salon Website",
+    title: "Buba Salon – Responsive Business Website",
     content:
       "Buba Salon: The static website for Buba Salon  provides a seamless user...",
     fullText:
@@ -189,8 +169,8 @@ export const projects = [
         url: "https://www.omarparturi.fi/",
       },
     ],
-    shortTitle: "Static Website",
-    title: "Responsive static website - Omar Parturi",
+    shortTitle: "Omar Parturi Website",
+    title: "Omar Parturi – Responsive Barbershop Website",
     content: "The static website for Omar Parturi provides a seamless user....",
     fullText:
       "The static website for Omar Parturi provides a seamless user experience. It features essential information such as contact details, location, and a comprehensive list of services. With a clean, modern design, the site ensures easy navigation, allowing visitors to quickly find the details they need.",
@@ -204,8 +184,8 @@ export const projects = [
         url: "https://github.com/Mohammed-Al-Saadi/Portfolio-React",
       },
     ],
-    shortTitle: "Static Portfolio",
-    title: "Responsive Static Website - Portfolio",
+    shortTitle: "Developer Portfolio",
+    title: "Personal Developer Portfolio Website",
     content: "Developed a responsive static website for my portfolio...",
     fullText:
       "This responsive portfolio website, provides a comprehensive overview of my professional journey, including my skills, experience, and a selection of my key projects. Designed with a clean, modern layout, the site allows for easy navigation and offers visitors an engaging experience. It also features essential information, such as my contact details and links to my social profiles, making it easy to connect and learn more about my work.",
@@ -224,8 +204,8 @@ export const projects = [
         url: "https://github.com/Mohammed-Al-Saadi/ROBOT-FRAMEWORK",
       },
     ],
-    shortTitle: "Automated Testing",
-    title: "Testing Verkkokauppa.com (Hobby project)",
+    shortTitle: "Automated UI Testing",
+    title: "Automated UI Testing Suite for Verkkokauppa.com (Hobby Project)",
     content: "This project is an automation testing suite for Verkkokauppa.com",
     fullText:
       "This project is an automation testing suite for Verkkokauppa.com, built using Robot Framework with SeleniumLibrary. It automates key user interactions such as account creation, login, product search, filtering, and adding items to the cart or favorites. The tests also validate product page elements, category icons, and sorting features. The suite ensures smooth functionality across the website by simulating real user workflows. It utilizes Selenium WebDriver for browser automation and Chrome for executing tests.",
@@ -246,4 +226,25 @@ export const projects = [
   //   fullText:
   //     "This User Management System project is built with Node.js and PostgreSQL, featuring user registration, login, and profile management. It includes role-based access control (RBAC) for admin features such as updating user roles and deactivating accounts. Authentication is handled using JSON Web Tokens (JWT), and email notifications are sent via Nodemailer for password resets. The system ensures security with bcrypt password hashing and supports both access and refresh tokens for session management.",
   // },
+
+  {
+    tech: ["Angular"],
+    imageUrl: require("../../assets/images/angular.png"),
+    links: [
+      {
+        label: "Live demo",
+        url: "https://gleaming-liger-62ffa9.netlify.app",
+      },
+      {
+        label: "Frontend Code",
+        url: "https://github.com/Mohammed-Al-Saadi/starting-project-angular/tree/main/src",
+      },
+    ],
+    shortTitle: "Get Started with Angular",
+    title: "Get Started with Angular",
+    content:
+      "A beginner-friendly Angular project built while learning the core ...",
+    fullText:
+      "Get Started with Angular (2025) — My first Angular project where I practiced core concepts like components, bindings, state with Signals, and dynamic rendering. I also explored advanced features such as host bindings, Inputs/Outputs, content projection, lifecycle hooks, and Angular 17’s new rendering utilities.",
+  },
 ];

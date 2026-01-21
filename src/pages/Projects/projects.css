@@ -47,6 +47,7 @@ body.modal-open {
 .project-modal-fullscreen h2 {
   text-align: center;
   margin-top: 2rem;
+  font-size: 1.3rem;
 }
 
 .tryout {
