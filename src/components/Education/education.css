@@ -23,10 +23,6 @@
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.08);
 }
 
-.edu-card-body {
-  padding-right: 4rem;
-}
-
 .edu-degree {
   font-size: 1.15rem;
   font-weight: 600;
@@ -64,19 +60,21 @@
 
 .edu-footer {
   display: flex;
-  justify-content: space-between;
   font-size: 0.9rem;
   color: #374151;
+  gap: 1rem;
+  align-items: center;
+  padding-top: 1rem;
 }
 
 .edu-logo {
   position: absolute;
-  top: 0.5rem;
-  right: 0.5rem;
+  bottom: 0.5rem;
+  right: 0rem;
 }
 
 .edu-logo img {
   width: 86px;
-  height: 56px;
+  height: 46px;
   object-fit: contain;
 }

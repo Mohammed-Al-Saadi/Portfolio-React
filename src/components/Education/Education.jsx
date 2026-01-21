@@ -21,7 +21,7 @@ export default function Education() {
 
               {/* University */}
               <p className="edu-university">
-                <FaUniversity /> {edu.university}, {edu.country}
+                {edu.university}, {edu.country}
               </p>
 
               {/* Qualification */}

@@ -4,8 +4,7 @@ import { skillsByCategory } from "./Data.js";
 export default function SkillsList() {
   return (
     <section className="skills_section">
-      <h2 className="skills_title">Tech Stack</h2>
-
+      <label className="skills-main-page">Tech Stack</label>
       <div className="skills_grid">
         {skillsByCategory.map((group) => (
           <div key={group.category} className="skills_card">
