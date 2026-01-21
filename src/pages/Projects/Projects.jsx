@@ -5,6 +5,7 @@ import VideoPlayer from "../../components/Video/Video.jsx";
 import Card from "../../components/Card/Card.jsx";
 import { projects } from "./ProjectData.js";
 import { IoClose } from "react-icons/io5";
+import { FiChevronDown, FiChevronUp } from "react-icons/fi";
 
 ReactModal.setAppElement("#root");
 
@@ -12,7 +13,6 @@ const Projects = () => {
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const [selectedProject, setSelectedProject] = useState(null);
 
-  // NEW: show more/less state
   const [showAll, setShowAll] = useState(false);
 
   const visibleProjects = useMemo(() => {
@@ -49,18 +49,24 @@ const Projects = () => {
             imageUrl={project.imageUrl}
             title={project.shortTitle}
             content={project.content}
+            tech={project.tech}
+            links={project.links}
             onReadMore={() => openModal(project)}
           />
         ))}
       </div>
-
       {projects.length > 4 && (
         <div className="projects-actions">
           <button
             className="projects-toggle-btn"
             onClick={() => setShowAll((prev) => !prev)}
           >
-            {showAll ? "Show Less" : "Show More Projects"}
+            <span>{showAll ? "Show Less" : "Show More Projects"}</span>
+            {showAll ? (
+              <FiChevronUp size={18} className="toggle-icon" />
+            ) : (
+              <FiChevronDown size={18} className="toggle-icon" />
+            )}
           </button>
         </div>
       )}

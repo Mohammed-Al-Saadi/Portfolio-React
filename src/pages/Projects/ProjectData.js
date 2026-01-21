@@ -10,9 +10,10 @@ export const projects = [
   {
     tech: [
       "Python",
-      "Flask",
+      "Supabase db",
       "PostgreSQL",
       "Angular",
+      "WebSocket",
       "CSS",
       "Netlify",
       "Render",
@@ -21,12 +22,16 @@ export const projects = [
     imageUrl: require("../../assets/images/tavolopro.png"),
     links: [
       {
-        label: "Live demo",
+        label: "Live Demo",
         url: "https://www.tavolopro.live",
       },
       {
         label: "Backend Code",
         url: "https://github.com/Mohammed-Al-Saadi/tavolo-server",
+      },
+      {
+        label: "Frontend Code",
+        url: "https://github.com/Mohammed-Al-Saadi/tavolo-client",
       },
     ],
     shortTitle: "TavoloPro – Agile Project Tool",
@@ -43,7 +48,7 @@ export const projects = [
     imageUrl: require("../../assets/images/srp.png"),
     links: [
       {
-        label: "Repositories",
+        label: "Code",
         url: "https://github.com/Mohammed-Al-Saadi/SRP-Auth",
       },
     ],
@@ -59,7 +64,6 @@ export const projects = [
     videoUrl: Kalibro,
     tech: [
       "Python",
-      "Flask",
       "React",
       "AWS",
       "CSS",
@@ -72,7 +76,12 @@ export const projects = [
       "Google Analytics",
     ],
     imageUrl: require("../../assets/images/card_kalibro.png"),
-    links: [],
+    links: [
+      {
+        label: "Private",
+        url: "",
+      },
+    ],
     shortTitle: "Kalibro - Calevala OY",
     title: "Kalibro - Audit Tool for Calevala Interactive OY",
     content: "Kalibro is a robust website audit and optimization platform...",
@@ -81,7 +90,7 @@ export const projects = [
   },
   {
     videoUrl: Booking,
-    tech: ["Python", "Flask", "React", "PostgreSQL", "JWT", "CSS", "Redux"],
+    tech: ["Python", "React", "PostgreSQL", "JWT", "CSS", "Redux"],
     imageUrl: require("../../assets/images/card_booking.png"),
     links: [
       {
@@ -131,7 +140,7 @@ export const projects = [
 
     links: [
       {
-        label: "GitHub Repo",
+        label: "Code",
         url: "https://github.com/Mohammed-Al-Saadi/react-native-moblie-app",
       },
     ],
@@ -144,11 +153,11 @@ export const projects = [
   },
   {
     videoUrl: Buba,
-    tech: ["React JS", "CSS", "Javascript"],
+    tech: ["React JS", "CSS"],
     imageUrl: require("../../assets/images/card_buba.png"),
     links: [
       {
-        label: "View Project",
+        label: "Live Demo",
         url: "https://bubasalon.com",
       },
     ],
@@ -161,11 +170,11 @@ export const projects = [
   },
   {
     videoUrl: Omar,
-    tech: ["React JS", "CSS", "Javascript", "EmailJS"],
+    tech: ["React JS", "CSS", "EmailJS"],
     imageUrl: require("../../assets/images/card_omar.png"),
     links: [
       {
-        label: "View Project",
+        label: "Live Demo",
         url: "https://www.omarparturi.fi/",
       },
     ],
@@ -176,11 +185,11 @@ export const projects = [
       "The static website for Omar Parturi provides a seamless user experience. It features essential information such as contact details, location, and a comprehensive list of services. With a clean, modern design, the site ensures easy navigation, allowing visitors to quickly find the details they need.",
   },
   {
-    tech: ["React JS", "CSS", "Javascript", "EmailJS", "Google Analytics"],
+    tech: ["React JS", "CSS", "EmailJS", "Google Analytics"],
     imageUrl: require("../../assets/images/card_portfolio.png"),
     links: [
       {
-        label: "GitHub Repo",
+        label: "Code",
         url: "https://github.com/Mohammed-Al-Saadi/Portfolio-React",
       },
     ],
@@ -196,7 +205,7 @@ export const projects = [
     imageUrl: require("../../assets/images/testing.png"),
     links: [
       {
-        label: "GitHub Repo",
+        label: "Code",
         url: "https://github.com/Mohammed-Al-Saadi/ROBOT-FRAMEWORK/blob/main/UI%20test%20project%20RF/software_testing_project-final.robot",
       },
       {
@@ -232,7 +241,7 @@ export const projects = [
     imageUrl: require("../../assets/images/angular.png"),
     links: [
       {
-        label: "Live demo",
+        label: "Live Demo",
         url: "https://gleaming-liger-62ffa9.netlify.app",
       },
       {

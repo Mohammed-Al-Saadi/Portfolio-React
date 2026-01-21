@@ -1,7 +1,7 @@
 .card {
   border: 1px solid #ddd;
   border-radius: 8px;
-  padding: 16px;
+  padding: 10px;
   max-width: 350px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
@@ -20,19 +20,19 @@
 }
 .card img {
   width: 100%;
+  max-height: 16vh;
   aspect-ratio: 1.4 / 1;
   object-fit: contain;
   object-position: center;
   border-radius: 8px;
-  margin-bottom: 16px;
+  margin-bottom: 10px;
   display: block;
-
   background: #fff;
   image-rendering: auto;
 }
 
 .card h2 {
-  font-size: 1.3em;
+  font-size: 1.2em;
   margin: 0 0 10px;
   text-align: left;
 }
@@ -40,24 +40,119 @@
 .card p {
   font-size: 1em;
   color: #555;
-  margin-bottom: 16px;
+  margin-bottom: 3px;
   text-align: left;
 }
-
-.card button {
-  background-color: #6b6b6b;
-  color: #fff;
-  padding: 10px 16px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+.read_more {
+  display: flex;
+  align-items: center;
+  gap: 5px;
   font-size: 1em;
-  transition: background-color 0.3s ease;
+  font-weight: 600;
+  color: #111;
+  cursor: pointer;
+  width: fit-content;
+  margin-top: 8px;
+  user-select: none;
+  transition:
+    opacity 0.2s ease,
+    transform 0.2s ease;
+}
+.read_more_arrow {
+  font-size: 1.4rem;
+  line-height: 1;
+  transition: transform 0.2s ease;
+  margin-top: -0.02rem;
 }
 
-.card button:hover {
-  background-color: #3d3d3d;
+.read_more:hover .read_more_arrow {
+  transform: translateX(3px);
 }
+
+.card_img_wrap {
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* image */
+.card_img_wrap img {
+  width: 100%;
+  max-height: 16vh;
+  aspect-ratio: 1.4 / 1;
+  object-fit: contain;
+  object-position: center;
+  display: block;
+  background: #fff;
+  transition: opacity 0.25s ease;
+}
+
+/* dark fade layer (only on hover) */
+.card_img_wrap::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  opacity: 0;
+  transition: opacity 0.25s ease;
+  pointer-events: none;
+}
+
+/* hover effect: fade image a bit + show gradient */
+.card:hover .card_img_wrap img {
+  opacity: 0.75;
+}
+
+.card:hover .card_img_wrap::after {
+  opacity: 1;
+}
+
+/* links bottom-left */
+.img_links {
+  position: absolute;
+  left: 0px;
+  bottom: 10px;
+  font-weight: 600;
+
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+
+  opacity: 0;
+  transform: translateY(6px);
+  pointer-events: none;
+  transition:
+    opacity 0.22s ease,
+    transform 0.22s ease;
+}
+
+/* show buttons on hover */
+.card:hover .img_links {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+/* button style */
+.img_link_btn {
+  background: rgba(17, 24, 39, 0.92);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 10px;
+  padding: 8px 10px;
+  font-size: 0.85em;
+  cursor: pointer;
+  backdrop-filter: blur(8px);
+  transition:
+    transform 0.2s ease,
+    opacity 0.2s ease;
+}
+
+.img_link_btn:hover {
+  transform: translateY(-2px);
+  opacity: 0.92;
+}
+
 @media (max-width: 863px) {
   .card {
     max-width: 18rem;
@@ -65,7 +160,7 @@
 }
 @media (max-width: 740px) {
   .card {
-    max-width: 26rem;
+    max-width: 21rem;
   }
 }
 

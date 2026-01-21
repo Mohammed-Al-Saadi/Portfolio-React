@@ -23,6 +23,7 @@
 /* CATEGORY CARD */
 .skills_card {
   min-width: 300px;
+
   padding: 1.5rem 1.4rem;
   border-radius: 18px;
   background: #f5f5f5ee;
@@ -116,7 +117,7 @@
     padding: 2.2rem 1rem;
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   .skills_card {
     width: 100%;
     min-width: unset;

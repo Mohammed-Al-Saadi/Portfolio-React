@@ -84,6 +84,46 @@ body.modal-open {
   justify-content: center;
   margin-top: 1.5rem;
 }
+.tech_stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 6px;
+  margin-bottom: 10px;
+  justify-content: flex-start;
+}
+
+.tech_tag {
+  font-size: 0.85em;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: #f3f4f6;
+  color: #374151;
+  border: 1px solid #e5e7eb;
+  line-height: 1;
+}
+
+.tech_more {
+  font-size: 0.85em;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: #dbdbdb;
+  color: #000000;
+  line-height: 1;
+}
+.projects-toggle-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.toggle-icon {
+  transition: transform 0.2s ease;
+}
+
+.projects-toggle-btn:hover .toggle-icon {
+  transform: translateY(2px);
+}
 
 .projects-toggle-btn {
   padding: 0.7rem 1.2rem;
@@ -92,6 +132,8 @@ body.modal-open {
   background: #fff;
   cursor: pointer;
   font-weight: 600;
+  font-size: 1rem;
+  color: black;
   transition:
     transform 0.2s ease,
     box-shadow 0.2s ease;
