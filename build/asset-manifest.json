@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8e76b6ef.css",
+    "main.js": "/static/js/main.d99bbb63.js",
+    "static/media/kalibro.mp4": "/static/media/kalibro.3352c9d15a87696ad28c.mp4",
+    "static/media/buba.mp4": "/static/media/buba.1935f8afcc0bc0c3e95f.mp4",
+    "static/media/vk_testing.mp4": "/static/media/vk_testing.c98b07620455e1ece086.mp4",
+    "static/media/omar.mp4": "/static/media/omar.8afd77eaee41a4e38675.mp4",
+    "static/media/yar_degree.png": "/static/media/yar_degree.4bceb2075afdce026a7b.png",
+    "static/media/mobileApp.mp4": "/static/media/mobileApp.a45c3cd4d3700eb9cef9.mp4",
+    "static/media/portfolio.mp4": "/static/media/portfolio.7345c60fe31a81614642.mp4",
+    "static/media/card_buba.png": "/static/media/card_buba.19c3b8315fda08b0244f.png",
+    "static/media/srpAuth.mp4": "/static/media/srpAuth.b5e1029b4cd7ad661762.mp4",
+    "static/media/booking.mp4": "/static/media/booking.ad3a21a63c9619e77f3f.mp4",
+    "static/media/card_omar.png": "/static/media/card_omar.8e312d0b12b722dba21d.png",
+    "static/media/card_kalibro.png": "/static/media/card_kalibro.b6cd58a7d7be4675b2f6.png",
+    "static/media/testing.png": "/static/media/testing.e494a7cba9b1e445c9e6.png",
+    "static/media/noLogo.png": "/static/media/noLogo.e8ea8f66786757b655e9.png",
+    "static/media/angular.png": "/static/media/angular.5a0dfa884e2c6d6918ab.png",
+    "static/media/tavolopro.png": "/static/media/tavolopro.0e2b13dd03e03f001c43.png",
+    "static/media/hamk_degree.pdf": "/static/media/hamk_degree.2377506e8f6caf909534.pdf",
+    "static/media/card_booking.png": "/static/media/card_booking.16b2061558194661877a.png",
+    "static/media/mobile_app.png": "/static/media/mobile_app.ae7da6c2970a1ab2d5c9.png",
+    "static/media/card_portfolio.png": "/static/media/card_portfolio.949f7e73eb034371f947.png",
+    "static/media/kamk.jpg": "/static/media/kamk.be6eb07cd453ec09ee2b.jpg",
+    "static/media/thesis.png": "/static/media/thesis.3abb4b5768655a43a550.png",
+    "static/media/logo_yuc.png": "/static/media/logo_yuc.437f1d51717501a412a9.png",
+    "static/media/profile.webp": "/static/media/profile.5c7d31a700c4f53bc4d4.webp",
+    "static/media/calevalaLogo.png": "/static/media/calevalaLogo.793294b809457847b669.png",
+    "static/media/srp.png": "/static/media/srp.9ed069b40708e5c15ad9.png",
+    "static/media/logo_hamk.png": "/static/media/logo_hamk.f3d7e018ccdaf904d66b.png",
+    "index.html": "/index.html",
+    "main.8e76b6ef.css.map": "/static/css/main.8e76b6ef.css.map",
+    "main.d99bbb63.js.map": "/static/js/main.d99bbb63.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8e76b6ef.css",
+    "static/js/main.d99bbb63.js"
+  ]
+}

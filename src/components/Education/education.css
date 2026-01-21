@@ -1,0 +1,82 @@
+.edu-grid {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.edu-card {
+  position: relative;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.75rem;
+  padding: 1.5rem 1.75rem;
+
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.edu-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.08);
+}
+
+.edu-card-body {
+  padding-right: 4rem;
+}
+
+.edu-degree {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  line-height: 1.35;
+}
+
+.edu-field {
+  display: block;
+  font-weight: 500;
+  color: #374151;
+  margin-top: 0.15rem;
+}
+
+.edu-university {
+  margin-top: 0.6rem;
+  font-size: 0.95rem;
+  color: #4b5563;
+  display: flex;
+  gap: 0.45rem;
+  align-items: center;
+}
+
+.edu-qualification {
+  margin-top: 0.25rem;
+  font-size: 0.9rem;
+  color: #6b7280;
+}
+
+.edu-divider {
+  height: 1px;
+  background: linear-gradient(to right, #e5e7eb, transparent);
+  margin: 1rem 0 0.75rem;
+}
+
+.edu-footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  color: #374151;
+}
+
+.edu-logo {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+}
+
+.edu-logo img {
+  width: 86px;
+  height: 56px;
+  object-fit: contain;
+}

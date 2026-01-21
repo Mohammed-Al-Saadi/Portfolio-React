@@ -1,0 +1,113 @@
+
+.video-content {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 0.4rem;
+  max-height: 400px;
+  min-width: 400px;
+}
+
+.video-description-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 1rem;
+  height: fit-content;
+  padding: 3rem 0rem;
+  background-color: rgb(255, 255, 255);
+  border-radius: 2rem;
+  margin-top: 1.5rem;
+}
+
+.video-description {
+  max-width: 30rem;
+  margin-bottom: 20px;
+}
+
+.video-description-text {
+  color: rgb(99, 99, 99);
+  font-size: 1.111rem;
+  letter-spacing: 0.3px;
+}
+
+.tech-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 10px 0;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+}
+
+.tech-badge {
+  background-color: #39393997;
+  color: #fbfbfb;
+  padding: 5px 10px;
+  border-radius: 0.4rem;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.tech-badge:hover {
+  background-color: #c3c3c397;
+  color: #232323;
+  font-weight: bold;
+}
+
+.project-link-container {
+  padding-bottom: 0.8rem;
+}
+
+.project-link {
+  text-decoration: none;
+  color: rgb(99, 99, 99);
+  font-weight: bold;
+  font-size: 14px;
+  background-color: #e3e3e3d8;
+  padding: 5px 10px;
+  border-radius: 0.4rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.project-link:hover {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  background-color: #6a6969;
+}
+
+@media (max-width: 450px) {
+  .video-content {
+    max-height: 400px;
+    min-width: 100%;
+  }
+}
+.project-links-container {
+  display: flex;
+  gap: 0.5rem;
+  padding-bottom: 0.8rem;
+}
+
+.project-link {
+  text-decoration: none;
+  color: rgb(99, 99, 99);
+  font-weight: bold;
+  font-size: 14px;
+  background-color: #e3e3e3d8;
+  padding: 5px 10px;
+  border-radius: 0.4rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.project-link:hover {
+  color: rgb(255, 255, 255);
+  background-color: #6a6969;
+}
+@media (max-width: 648px) {
+  .video-description-container {
+    margin-top: unset;
+  }
+}

@@ -2,6 +2,7 @@ html,
 body {
   overflow-x: hidden;
   background-color: rgb(39, 39, 39);
+  
 }
 
 /* General Section Styling */
@@ -110,12 +111,7 @@ body {
 #contact .contact-form button:hover {
   background-color: #0056b3;
 }
-@media (min-width: 1800px) {
-  body,
-  html {
-    padding: 0rem 10rem;
-  }
-}
+
 @media (max-width: 500px) {
   #education h1 {
     font-size: 1.5rem;

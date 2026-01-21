@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Home",
+    "path": "#home",
+    "elementId": "home",
+    "icon": "IoHomeOutline"
+  },
+  {
+    "id": 2,
+    "name": "About",
+    "path": "#education",
+    "elementId": "education",
+    "icon": "MdCastForEducation"
+  },
+  {
+    "id": 3,
+    "name": "Projects",
+    "path": "#projects",
+    "elementId": "projects",
+    "icon": "LiaProjectDiagramSolid"
+  },
+  {
+    "id": 5,
+    "name": "Contact",
+    "path": "#contact",
+    "elementId": "contact",
+    "icon": "TiMessages"
+  }
+]
