@@ -97,7 +97,7 @@ const VideoPlayer = ({
                   onClick={() => setOpenVideo(true)}
                 >
                   <span className="vp-watchIcon" aria-hidden="true">
-                    ▶
+                    <FaPlay size={10} color="white" />
                   </span>
                   Watch Video
                 </button>

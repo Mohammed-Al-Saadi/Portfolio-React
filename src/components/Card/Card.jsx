@@ -3,6 +3,7 @@ import React from "react";
 import "./card.css";
 import { FiGithub, FiExternalLink } from "react-icons/fi";
 import { FaGlobe } from "react-icons/fa";
+import { FaPlay } from "react-icons/fa";
 
 const Card = ({
   imageUrl,
@@ -71,7 +72,7 @@ const Card = ({
                 }}
               >
                 <span className="vp-watchIcon" aria-hidden="true">
-                  ▶
+                  <FaPlay size={10} color="white" />
                 </span>
                 Watch Video
               </button>
