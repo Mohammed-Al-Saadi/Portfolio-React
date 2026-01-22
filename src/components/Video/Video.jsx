@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import "./video.css";
-
+import { FiGithub, FiExternalLink } from "react-icons/fi";
+import { FaGlobe } from "react-icons/fa";
+import { FaPlay } from "react-icons/fa6";
 const VideoPlayer = ({
   videoUrl,
   imgUrl,
@@ -64,17 +66,29 @@ const VideoPlayer = ({
           )}
           {(links.length > 0 || videoUrl) && (
             <div className="vp-links vp-actions">
-              {links.map(({ label, url }) => (
-                <a
-                  key={url || label}
-                  href={url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="vp-link"
-                >
-                  {label}
-                </a>
-              ))}
+              {links.map(({ label, url }) => {
+                const l = (label || "").toLowerCase();
+                const Icon = l.includes("live")
+                  ? FaGlobe
+                  : l.includes("code") ||
+                      l.includes("frontend") ||
+                      l.includes("backend")
+                    ? FiGithub
+                    : FiExternalLink;
+
+                return (
+                  <a
+                    key={url || label}
+                    href={url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="vp-link"
+                  >
+                    <Icon size={16} style={{ marginRight: 6 }} />
+                    {label}
+                  </a>
+                );
+              })}
 
               {videoUrl && (
                 <button

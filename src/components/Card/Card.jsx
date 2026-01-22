@@ -1,6 +1,8 @@
 // Card.js
 import React from "react";
 import "./card.css";
+import { FiGithub, FiExternalLink } from "react-icons/fi";
+import { FaGlobe } from "react-icons/fa";
 
 const Card = ({
   imageUrl,
@@ -46,7 +48,16 @@ const Card = ({
                   aria-disabled={disabled}
                   title={disabled ? "Private repository" : link.label}
                 >
-                  {link.label} »
+                  {link.label?.toLowerCase().includes("live") ? (
+                    <FaGlobe size={16} />
+                  ) : link.label?.toLowerCase().includes("code") ||
+                    link.label?.toLowerCase().includes("frontend") ||
+                    link.label?.toLowerCase().includes("backend") ? (
+                    <FiGithub size={16} />
+                  ) : (
+                    <FiExternalLink size={16} />
+                  )}
+                  <span style={{ marginLeft: 6 }}>{link.label}</span>
                 </button>
               );
             })}
