@@ -16,12 +16,12 @@ const WorkExperience = () => {
                 <strong>{exp.title}</strong>
                 <span className="year">{exp.year}</span>
                 <strong className="logo-name">
-                  {exp.company}{" "}
                   <img
                     src={exp.logo}
                     alt={`${exp.company} logo`}
                     className="company-logo"
                   />{" "}
+                  {exp.company}{" "}
                 </strong>
               </div>
               <div className="item-body">

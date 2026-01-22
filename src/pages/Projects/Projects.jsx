@@ -78,6 +78,8 @@ const Projects = () => {
         className="project-modal-fullscreen"
         overlayClassName="project-modal-overlay-fullscreen"
         shouldReturnFocusAfterClose={false}
+        bodyOpenClassName="modal-open"
+        htmlOpenClassName="modal-open"
       >
         {selectedProject && (
           <div>
@@ -91,13 +93,15 @@ const Projects = () => {
             </div>
 
             <h2>{selectedProject.title}</h2>
-
             <VideoPlayer
               videoUrl={selectedProject.videoUrl}
+              imgUrl={selectedProject.imageUrl}
               text={selectedProject.fullText}
-              p={selectedProject.title}
               tech={selectedProject.tech}
               links={selectedProject.links}
+              keyFeatures={selectedProject.keyFeatures}
+              challenges={selectedProject.challenges}
+              solutions={selectedProject.solutions}
             />
           </div>
         )}

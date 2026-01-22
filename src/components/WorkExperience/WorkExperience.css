@@ -31,13 +31,13 @@
 }
 
 .company-logo {
-  width: 60px;
-  height: 50px;
+  width: 35px;
+  height: 30px;
   object-fit: contain;
 }
 .timeline-item {
   position: relative;
-  padding-bottom: 3rem;
+  padding-bottom: 1.5rem;
   font-size: 1.2rem;
 }
 
@@ -53,7 +53,20 @@
 
 .timeline-content {
   border-radius: 8px;
-  padding: 0px 16px;
+  padding: 16px;
+  background: #ffffff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border: 1px solid transparent;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.25s ease,
+    border-color 0.25s ease;
+}
+
+.timeline-content:hover {
+  transform: translateY(-3px);
+  box-shadow: rgba(100, 100, 111, 0.28) 0px 12px 34px 0px;
+  border-color: rgba(0, 0, 0, 0.08);
 }
 
 .item-header {
@@ -88,9 +101,7 @@
   .section-label {
     font-size: 1.5rem;
   }
-  .timeline-content {
-    padding: 0px 10px;
-  }
+
   .timeline {
     position: relative;
     padding-left: 22px;
