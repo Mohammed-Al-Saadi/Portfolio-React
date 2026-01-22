@@ -12,6 +12,7 @@ ReactModal.setAppElement("#root");
 const Projects = () => {
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const [selectedProject, setSelectedProject] = useState(null);
+  const [autoPlayVideo, setAutoPlayVideo] = useState(false);
 
   const [showAll, setShowAll] = useState(false);
 
@@ -19,14 +20,15 @@ const Projects = () => {
     return showAll ? projects : projects.slice(0, 4);
   }, [showAll]);
 
-  const openModal = (project) => {
+  const openModal = (project, playVideo = false) => {
     setSelectedProject(project);
+    setAutoPlayVideo(playVideo);
     setModalIsOpen(true);
   };
-
   const closeModal = () => {
     setModalIsOpen(false);
     setSelectedProject(null);
+    setAutoPlayVideo(false);
   };
 
   useEffect(() => {
@@ -51,7 +53,8 @@ const Projects = () => {
             content={project.content}
             tech={project.tech}
             links={project.links}
-            onReadMore={() => openModal(project)}
+            onReadMore={(playVideo) => openModal(project, playVideo)}
+            videoUrl={project.videoUrl}
           />
         ))}
       </div>
@@ -102,6 +105,7 @@ const Projects = () => {
               keyFeatures={selectedProject.keyFeatures}
               challenges={selectedProject.challenges}
               solutions={selectedProject.solutions}
+              autoOpen={autoPlayVideo}
             />
           </div>
         )}

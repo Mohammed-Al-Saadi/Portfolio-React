@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./video.css";
 
 const VideoPlayer = ({
@@ -10,16 +10,49 @@ const VideoPlayer = ({
   keyFeatures = [],
   challenges = [],
   solutions = [],
+  autoOpen = false,
 }) => {
+  const [openVideo, setOpenVideo] = useState(false);
+
   const showBoxes =
     keyFeatures.length > 0 || challenges.length > 0 || solutions.length > 0;
+  useEffect(() => {
+    if (!autoOpen) {
+      setOpenVideo(false);
+    }
+  }, [autoOpen]);
+  useEffect(() => {
+    if (autoOpen === true && videoUrl) {
+      setOpenVideo(true);
+    }
+  }, [autoOpen, videoUrl]);
+
+  useEffect(() => {
+    if (!openVideo) return;
+
+    const prevOverflow = document.body.style.overflow;
+    const prevPaddingRight = document.body.style.paddingRight;
+
+    const scrollbarWidth =
+      window.innerWidth - document.documentElement.clientWidth;
+
+    document.body.style.overflow = "hidden";
+    if (scrollbarWidth > 0) {
+      document.body.style.paddingRight = `${scrollbarWidth}px`;
+    }
+
+    return () => {
+      document.body.style.overflow = prevOverflow;
+      document.body.style.paddingRight = prevPaddingRight;
+    };
+  }, [openVideo]);
 
   return (
     <section className="vp-card">
       <div className="vp-grid">
+        {/* Content */}
         <div>
           <h3 className="vp-title">Technologies Used</h3>
-
           {tech.length > 0 && (
             <div className="vp-tech">
               {tech.map((item) => (
@@ -29,12 +62,11 @@ const VideoPlayer = ({
               ))}
             </div>
           )}
-
-          {links.length > 0 && (
-            <div className="vp-links">
+          {(links.length > 0 || videoUrl) && (
+            <div className="vp-links vp-actions">
               {links.map(({ label, url }) => (
                 <a
-                  key={url}
+                  key={url || label}
                   href={url}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -43,11 +75,23 @@ const VideoPlayer = ({
                   {label}
                 </a>
               ))}
+
+              {videoUrl && (
+                <button
+                  type="button"
+                  className="vp-watchBtn"
+                  onClick={() => setOpenVideo(true)}
+                >
+                  <span className="vp-watchIcon" aria-hidden="true">
+                    ▶
+                  </span>
+                  Watch Video
+                </button>
+              )}
             </div>
           )}
 
           {text && <p className="vp-text">{text}</p>}
-
           {showBoxes && (
             <div className="vp-boxGrid">
               {keyFeatures.length > 0 && (
@@ -85,19 +129,22 @@ const VideoPlayer = ({
             </div>
           )}
         </div>
-
-        {(videoUrl || imgUrl) && (
-          <div className="vp-media">
-            <div className="vp-mediaFrame">
-              {videoUrl ? (
-                <video className="vp-video" controls>
-                  <source src={videoUrl} type="video/mp4" />
-                </video>
-              ) : imgUrl ? null : null}
-            </div>
-          </div>
-        )}
       </div>
+
+      {openVideo && (
+        <div
+          className="vp-modalOverlay"
+          onClick={() => setOpenVideo(false)}
+          role="dialog"
+          aria-modal="true"
+        >
+          <div className="vp-modal" onClick={(e) => e.stopPropagation()}>
+            <video className="vp-modalVideo" controls autoPlay>
+              <source src={videoUrl} type="video/mp4" />
+            </video>
+          </div>
+        </div>
+      )}
     </section>
   );
 };

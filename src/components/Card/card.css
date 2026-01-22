@@ -131,6 +131,14 @@
   transform: translateY(0);
   pointer-events: auto;
 }
+.watch_video_btn {
+  background: rgba(37, 99, 235, 0.95);
+}
+
+.watch_video_btn:hover {
+  opacity: 1;
+  transform: translateY(-2px) scale(1.02);
+}
 
 /* button style */
 .img_link_btn {

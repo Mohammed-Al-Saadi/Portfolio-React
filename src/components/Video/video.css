@@ -18,6 +18,69 @@
   gap: 0.55rem;
   margin-bottom: 0.85rem;
 }
+body {
+  position: relative;
+}
+.vp-watchBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-size: 1rem;
+  padding: 0.2rem;
+
+  border-radius: 999px;
+  border: 1px solid rgba(17, 24, 39, 0);
+  background: #9e9e9e;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+
+  transition:
+    transform 160ms ease,
+    opacity 160ms ease,
+    box-shadow 160ms ease;
+  box-shadow: 0 10px 20px rgba(17, 24, 39, 0.18);
+}
+.vp-modalVideo {
+  width: 90%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.vp-modalOverlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+  padding-top: 4rem;
+  text-align: center;
+}
+.vp-watchIcon {
+  width: 20px;
+  height: 20px;
+  border-radius: 999px;
+  display: grid;
+  place-items: center;
+  background: rgba(216, 62, 62, 0.993);
+  font-size: 12px;
+  line-height: 1;
+  transform: translateX(0.5px);
+}
+
+.vp-watchBtn:hover {
+  transform: translateY(-1px);
+  opacity: 0.95;
+  box-shadow: 0 14px 28px rgba(17, 24, 39, 0.22);
+}
+
+.vp-watchBtn:active {
+  transform: translateY(0px);
+}
 
 .vp-badge {
   font-size: 0.82rem;

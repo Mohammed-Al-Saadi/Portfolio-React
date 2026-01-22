@@ -8,6 +8,7 @@ const Card = ({
   content,
   tech = [],
   links = [],
+  videoUrl,
   onReadMore,
 }) => {
   const MAX_TECH = 4;
@@ -30,7 +31,7 @@ const Card = ({
       <div className="card_img_wrap">
         <img src={imageUrl} alt={title} />
 
-        {links.length > 0 && (
+        {(links.length > 0 || videoUrl) && (
           <div className="img_links">
             {links.map((link) => {
               const disabled = isPrivateLink(link);
@@ -49,6 +50,21 @@ const Card = ({
                 </button>
               );
             })}
+            {videoUrl && (
+              <button
+                type="button"
+                className="vp-watchBtn"
+                onClick={(e) => {
+                  e.stopPropagation();
+                  onReadMore(true);
+                }}
+              >
+                <span className="vp-watchIcon" aria-hidden="true">
+                  ▶
+                </span>
+                Watch Video
+              </button>
+            )}
           </div>
         )}
       </div>

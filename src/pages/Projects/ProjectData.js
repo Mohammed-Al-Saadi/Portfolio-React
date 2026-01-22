@@ -128,12 +128,7 @@ export const projects = [
       "ML",
     ],
     imageUrl: require("../../assets/images/card_kalibro.png"),
-    links: [
-      {
-        label: "Private",
-        url: "",
-      },
-    ],
+    links: [],
     keyFeatures: [
       "Technical audits: WHOIS, DNS, IP geolocation, SSL/TLS, server and tech stack detection",
       "Lighthouse integration: Performance, Accessibility, Best Practices, SEO metrics + explanations",
