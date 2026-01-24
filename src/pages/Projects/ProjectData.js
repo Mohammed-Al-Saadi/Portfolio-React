@@ -300,7 +300,6 @@ export const projects = [
       "Horizon is a full-stack mobile app that enables users to search for one-way and two-way flights, create accounts, update profiles, and book flights. The app dynamically generates flights based on user input through a custom backend, ensuring a tailored search experience without relying on third-party APIs. The app also includes features like user authentication, profile management, and flight booking, making it a comprehensive solution for flight search and booking.",
   },
   {
-    videoUrl: Buba,
     tech: ["React JS", "CSS"],
     imageUrl: require("../../assets/images/card_buba.png"),
     links: [
@@ -333,7 +332,6 @@ export const projects = [
       "The static website for Buba Salon provides a seamless user experience. It features essential information such as contact details, location, and a comprehensive list of services. With a clean, modern design, the site ensures easy navigation, allowing visitors to quickly find the details they need.",
   },
   {
-    videoUrl: Omar,
     tech: ["React JS", "CSS", "EmailJS"],
     imageUrl: require("../../assets/images/card_omar.png"),
     links: [
