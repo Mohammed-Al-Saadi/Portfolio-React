@@ -171,7 +171,38 @@ export const projects = [
     fullText:
       "The product reached a functional internal release and was later discontinued due to business reasons; the walkthrough video below demonstrates its full capabilities. Kalibro (v1.0, 2025) — A full-stack website audit and optimization platform developed for Calevala Interactive to improve websites’ online presence. It combines technical diagnostics with a role-based business dashboard, performing multi-dimensional audits across WHOIS, IP geolocation, DNS, SSL, technology stack, and Lighthouse metrics (Performance, Accessibility, Best Practices, SEO), along with UI/UX analysis from screenshots (colors, styles, mood). The platform includes subscription tiers (Free, Small, Medium, Large), customer roles (Admin & View-only), and internal team roles. Features include real-time logs via WebSockets, in-app notifications and activity emails, 2FA, Stripe billing (plans, invoices, card updates), team/associated accounts, audit reports with a unified Kalibro Score, and a management area for users, campaigns, messages, and analytics.",
   },
+  {
+    tech: ["React JS", "CSS"],
+    imageUrl: require("../../assets/images/card_buba.png"),
+    links: [
+      {
+        label: "Live Demo",
+        url: "https://bubasalon.com",
+      },
+    ],
+    keyFeatures: [
+      "Responsive layout for mobile, tablet, and desktop",
+      "Service list and business information (contact + location)",
+      "Clean UI structure and easy navigation",
+      "Fast-loading static site",
+    ],
 
+    challenges: [
+      "Creating a clean layout that works well on all screen sizes",
+      "Balancing visual design with readability and quick access to info",
+    ],
+
+    solutions: [
+      "Used responsive CSS and flexible layouts for consistent UI across devices",
+      "Structured sections and typography for clear content hierarchy",
+    ],
+    shortTitle: "Buba Salon Website",
+    title: "Buba Salon – Responsive Business Website",
+    content:
+      "Buba Salon: The static website for Buba Salon  provides a seamless user...",
+    fullText:
+      "The static website for Buba Salon provides a seamless user experience. It features essential information such as contact details, location, and a comprehensive list of services. With a clean, modern design, the site ensures easy navigation, allowing visitors to quickly find the details they need.",
+  },
   {
     videoUrl: Booking,
     tech: ["Python", "React", "PostgreSQL", "JWT", "CSS", "Redux"],
@@ -299,38 +330,7 @@ export const projects = [
     fullText:
       "Horizon is a full-stack mobile app that enables users to search for one-way and two-way flights, create accounts, update profiles, and book flights. The app dynamically generates flights based on user input through a custom backend, ensuring a tailored search experience without relying on third-party APIs. The app also includes features like user authentication, profile management, and flight booking, making it a comprehensive solution for flight search and booking.",
   },
-  {
-    tech: ["React JS", "CSS"],
-    imageUrl: require("../../assets/images/card_buba.png"),
-    links: [
-      {
-        label: "Live Demo",
-        url: "https://bubasalon.com",
-      },
-    ],
-    keyFeatures: [
-      "Responsive layout for mobile, tablet, and desktop",
-      "Service list and business information (contact + location)",
-      "Clean UI structure and easy navigation",
-      "Fast-loading static site",
-    ],
 
-    challenges: [
-      "Creating a clean layout that works well on all screen sizes",
-      "Balancing visual design with readability and quick access to info",
-    ],
-
-    solutions: [
-      "Used responsive CSS and flexible layouts for consistent UI across devices",
-      "Structured sections and typography for clear content hierarchy",
-    ],
-    shortTitle: "Buba Salon Website",
-    title: "Buba Salon – Responsive Business Website",
-    content:
-      "Buba Salon: The static website for Buba Salon  provides a seamless user...",
-    fullText:
-      "The static website for Buba Salon provides a seamless user experience. It features essential information such as contact details, location, and a comprehensive list of services. With a clean, modern design, the site ensures easy navigation, allowing visitors to quickly find the details they need.",
-  },
   {
     tech: ["React JS", "CSS", "EmailJS"],
     imageUrl: require("../../assets/images/card_omar.png"),
