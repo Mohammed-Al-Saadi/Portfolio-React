@@ -8,6 +8,80 @@ import SrpAuth from "../../assets/video/srpAuth.mp4";
 
 export const projects = [
   {
+
+  tech: [
+    "React Native",
+    "Expo",
+    "Python",
+    "Flask",
+    "Supabase",
+    "PostgreSQL",
+    "JWT",
+    "Firebase App Check",
+    "Push Notifications",
+    "i18n",
+    "SecureStore",
+    "AsyncStorage",
+  ],
+
+    imageUrl: require("../../assets/images/qassimha.png"),
+
+  links: [
+    {
+      label: "Website",
+      url: "https://qassimha.app",
+    },
+    {
+      label: "Google Play",
+      url: "https://play.google.com/store/apps/details?id=com.mohammedalsaadi.qassimha",
+    },
+    {
+      label: "App Store",
+      url: "https://apps.apple.com/app/id6761318363",
+    },
+  ],
+
+  keyFeatures: [
+    "Create groups for trips, family expenses, friends, and shared activities",
+    "Add expenses and split costs between group members",
+    "Calculate balances automatically and show who owes whom",
+    "Settlement flow for marking payments and confirming received amounts",
+    "Friend system with friend requests and accepted friends",
+    "Push notifications for friend requests, group updates, expenses, and payments",
+    "Offline-friendly experience using local cached data",
+    "Multi-language support with RTL layout for Arabic",
+    "Secure authentication with Google, Apple, and Facebook login",
+    "Account management including profile updates and account deletion flow",
+  ],
+
+  challenges: [
+    "Designing a simple UX for expense splitting while keeping calculations accurate",
+    "Handling group balances, settlements, and payment confirmations correctly",
+    "Supporting offline usage without breaking the user experience",
+    "Implementing social login securely across Android and iOS",
+    "Managing push notification navigation to the correct screen and tab",
+    "Supporting multiple languages and RTL layout in a React Native app",
+    "Preparing the app for App Store and Google Play release requirements",
+  ],
+
+  solutions: [
+    "Built reusable balance and settlement logic to calculate debts clearly",
+    "Created structured group, expense, payment, and friend flows using Supabase RPC functions",
+    "Used AsyncStorage and SecureStore for cached data, sessions, and offline fallback",
+    "Integrated Google, Apple, and Facebook authentication with a Flask backend",
+    "Added notification payload routing to open the correct app screen from push notifications",
+    "Implemented i18n language handling with RTL support for Arabic users",
+    "Added production-ready account deletion, release notes, and platform-specific fixes",
+  ],
+
+  shortTitle: "Qassimha – Mobile App",
+  title: "Qassimha – Mobile App for Splitting Shared Expenses",
+  content:
+    "Qassimha is a mobile app that helps friends and families split shared expenses...",
+  fullText:
+    "Qassimha is a full-stack mobile application built to help friends, families, and groups split shared expenses in a simple and organized way. Users can create groups for trips or shared activities, add expenses, calculate balances automatically, and see clearly who owes whom. The app also supports settlements, payment confirmations, friend requests, push notifications, offline-friendly cached data, and multi-language support with RTL layout for Arabic users. Qassimha was built with React Native and Expo on the frontend, a Flask backend, and Supabase/PostgreSQL for database logic. The app is published on both Google Play and the App Store, with a public website available at qassimha.app.",
+},
+  {
     tech: [
       "Python",
       "Supabase db",

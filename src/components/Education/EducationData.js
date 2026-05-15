@@ -2,7 +2,21 @@ import hameUniversityImage from "../../assets/images/logo_hamk.png";
 import yarmoukUniversityImage from "../../assets/images/logo_yuc.png";
 import { FcGoogle } from "react-icons/fc";
 import kamk from "../../assets/images/kamk.jpg";
-export const EducationData = [
+import tampereUniversityImage from "../../assets/images/tampere.jpeg";
+
+export const EducationData = [ 
+   {
+    degree: "Master of Science (Technology)",
+    field: "Computing Sciences and Electrical Engineering, Software, Web & Cloud",
+    university: "Tampere University",
+    country: "Finland",
+    qualification: "Master’s Degree Programme",
+    period: "2026 – Present",
+    gpa: "Starting Autumn 2026",
+    image: tampereUniversityImage,
+    uniLink: "https://www.tuni.fi/",
+    status: "Accepted",
+  },
   {
     degree: "Bachelor of Business Administration (BBA)",
     field: "Computer Applications",
